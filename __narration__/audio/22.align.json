@@ -1,0 +1,751 @@
+{
+  "schema": "spatialtimber.align/1",
+  "slide": 22,
+  "audio": "22.mp3",
+  "cut": "long_15min_v3",
+  "duration": 43.939,
+  "engine": "elevenlabs-forced-alignment",
+  "loss": 0.0789,
+  "language": "en",
+  "generatedAt": "2026-06-23T15:45:13",
+  "text": "Now the structural side the second thing we think will outlive the project. To train the model, we needed structural feedback, and we needed it fast. The proper way to work out how a building carries its loads is finite-element analysis very accurate, but about a minute per design. Way too slow for a loop that runs millions of times. So Patrick trained an AI model to just predict the same result. It's got a technical name a U-Net but the name, and all the talk of channels and parameters, that's just the dials on the model. Doesn't matter here. What matters is this: it tells you how structural element behave and it does it in about thirty milliseconds instead of a minute. Roughly TWO THOUSAND times faster and accurate enough that you can actually train on it.",
+  "words": [
+    {
+      "w": "Now",
+      "start": 0.079,
+      "end": 0.239
+    },
+    {
+      "w": "the",
+      "start": 0.259,
+      "end": 0.34
+    },
+    {
+      "w": "structural",
+      "start": 0.419,
+      "end": 0.799
+    },
+    {
+      "w": "side",
+      "start": 0.939,
+      "end": 1.22
+    },
+    {
+      "w": "the",
+      "start": 1.399,
+      "end": 1.519
+    },
+    {
+      "w": "second",
+      "start": 1.559,
+      "end": 1.799
+    },
+    {
+      "w": "thing",
+      "start": 1.899,
+      "end": 2.039
+    },
+    {
+      "w": "we",
+      "start": 2.079,
+      "end": 2.139
+    },
+    {
+      "w": "think",
+      "start": 2.259,
+      "end": 2.44
+    },
+    {
+      "w": "will",
+      "start": 2.46,
+      "end": 2.559
+    },
+    {
+      "w": "outlive",
+      "start": 2.659,
+      "end": 2.939
+    },
+    {
+      "w": "the",
+      "start": 2.98,
+      "end": 3.059
+    },
+    {
+      "w": "project.",
+      "start": 3.119,
+      "end": 3.639
+    },
+    {
+      "w": "To",
+      "start": 5.099,
+      "end": 5.219
+    },
+    {
+      "w": "train",
+      "start": 5.299,
+      "end": 5.48
+    },
+    {
+      "w": "the",
+      "start": 5.519,
+      "end": 5.599
+    },
+    {
+      "w": "model,",
+      "start": 5.659,
+      "end": 5.94
+    },
+    {
+      "w": "we",
+      "start": 6.179,
+      "end": 6.299
+    },
+    {
+      "w": "needed",
+      "start": 6.339,
+      "end": 6.579
+    },
+    {
+      "w": "structural",
+      "start": 6.639,
+      "end": 7.0
+    },
+    {
+      "w": "feedback,",
+      "start": 7.119,
+      "end": 7.599
+    },
+    {
+      "w": "and",
+      "start": 7.759,
+      "end": 7.859
+    },
+    {
+      "w": "we",
+      "start": 7.899,
+      "end": 8.0
+    },
+    {
+      "w": "needed",
+      "start": 8.039,
+      "end": 8.239
+    },
+    {
+      "w": "it",
+      "start": 8.3,
+      "end": 8.38
+    },
+    {
+      "w": "fast.",
+      "start": 8.5,
+      "end": 8.92
+    },
+    {
+      "w": "The",
+      "start": 9.22,
+      "end": 9.3
+    },
+    {
+      "w": "proper",
+      "start": 9.359,
+      "end": 9.619
+    },
+    {
+      "w": "way",
+      "start": 9.659,
+      "end": 9.739
+    },
+    {
+      "w": "to",
+      "start": 9.8,
+      "end": 9.88
+    },
+    {
+      "w": "work",
+      "start": 9.92,
+      "end": 10.099
+    },
+    {
+      "w": "out",
+      "start": 10.159,
+      "end": 10.3
+    },
+    {
+      "w": "how",
+      "start": 10.399,
+      "end": 10.479
+    },
+    {
+      "w": "a",
+      "start": 10.539,
+      "end": 10.559
+    },
+    {
+      "w": "building",
+      "start": 10.619,
+      "end": 10.899
+    },
+    {
+      "w": "carries",
+      "start": 10.96,
+      "end": 11.199
+    },
+    {
+      "w": "its",
+      "start": 11.239,
+      "end": 11.38
+    },
+    {
+      "w": "loads",
+      "start": 11.479,
+      "end": 11.8
+    },
+    {
+      "w": "is",
+      "start": 12.0,
+      "end": 12.119
+    },
+    {
+      "w": "finite-element",
+      "start": 12.259,
+      "end": 12.939
+    },
+    {
+      "w": "analysis",
+      "start": 13.019,
+      "end": 13.679
+    },
+    {
+      "w": "very",
+      "start": 13.979,
+      "end": 14.179
+    },
+    {
+      "w": "accurate,",
+      "start": 14.299,
+      "end": 14.659
+    },
+    {
+      "w": "but",
+      "start": 14.819,
+      "end": 14.88
+    },
+    {
+      "w": "about",
+      "start": 14.96,
+      "end": 15.119
+    },
+    {
+      "w": "a",
+      "start": 15.159,
+      "end": 15.199
+    },
+    {
+      "w": "minute",
+      "start": 15.259,
+      "end": 15.46
+    },
+    {
+      "w": "per",
+      "start": 15.519,
+      "end": 15.579
+    },
+    {
+      "w": "design.",
+      "start": 15.659,
+      "end": 16.1
+    },
+    {
+      "w": "Way",
+      "start": 16.319,
+      "end": 16.5
+    },
+    {
+      "w": "too",
+      "start": 16.559,
+      "end": 16.719
+    },
+    {
+      "w": "slow",
+      "start": 16.779,
+      "end": 17.0
+    },
+    {
+      "w": "for",
+      "start": 17.059,
+      "end": 17.139
+    },
+    {
+      "w": "a",
+      "start": 17.18,
+      "end": 17.239
+    },
+    {
+      "w": "loop",
+      "start": 17.299,
+      "end": 17.459
+    },
+    {
+      "w": "that",
+      "start": 17.5,
+      "end": 17.6
+    },
+    {
+      "w": "runs",
+      "start": 17.639,
+      "end": 17.84
+    },
+    {
+      "w": "millions",
+      "start": 17.92,
+      "end": 18.18
+    },
+    {
+      "w": "of",
+      "start": 18.219,
+      "end": 18.319
+    },
+    {
+      "w": "times.",
+      "start": 18.379,
+      "end": 18.819
+    },
+    {
+      "w": "So",
+      "start": 20.34,
+      "end": 20.439
+    },
+    {
+      "w": "Patrick",
+      "start": 20.52,
+      "end": 20.859
+    },
+    {
+      "w": "trained",
+      "start": 20.939,
+      "end": 21.159
+    },
+    {
+      "w": "an",
+      "start": 21.199,
+      "end": 21.299
+    },
+    {
+      "w": "AI",
+      "start": 21.42,
+      "end": 21.639
+    },
+    {
+      "w": "model",
+      "start": 21.719,
+      "end": 21.979
+    },
+    {
+      "w": "to",
+      "start": 22.02,
+      "end": 22.1
+    },
+    {
+      "w": "just",
+      "start": 22.18,
+      "end": 22.319
+    },
+    {
+      "w": "predict",
+      "start": 22.379,
+      "end": 22.619
+    },
+    {
+      "w": "the",
+      "start": 22.68,
+      "end": 22.76
+    },
+    {
+      "w": "same",
+      "start": 22.819,
+      "end": 22.959
+    },
+    {
+      "w": "result.",
+      "start": 23.0,
+      "end": 23.419
+    },
+    {
+      "w": "It's",
+      "start": 23.659,
+      "end": 23.799
+    },
+    {
+      "w": "got",
+      "start": 23.84,
+      "end": 23.92
+    },
+    {
+      "w": "a",
+      "start": 23.979,
+      "end": 24.019
+    },
+    {
+      "w": "technical",
+      "start": 24.079,
+      "end": 24.479
+    },
+    {
+      "w": "name",
+      "start": 24.519,
+      "end": 24.739
+    },
+    {
+      "w": "a",
+      "start": 25.019,
+      "end": 25.099
+    },
+    {
+      "w": "U-Net",
+      "start": 25.239,
+      "end": 25.559
+    },
+    {
+      "w": "but",
+      "start": 25.779,
+      "end": 25.879
+    },
+    {
+      "w": "the",
+      "start": 25.939,
+      "end": 26.0
+    },
+    {
+      "w": "name,",
+      "start": 26.059,
+      "end": 26.359
+    },
+    {
+      "w": "and",
+      "start": 26.539,
+      "end": 26.619
+    },
+    {
+      "w": "all",
+      "start": 26.68,
+      "end": 26.739
+    },
+    {
+      "w": "the",
+      "start": 26.779,
+      "end": 26.879
+    },
+    {
+      "w": "talk",
+      "start": 26.939,
+      "end": 27.119
+    },
+    {
+      "w": "of",
+      "start": 27.159,
+      "end": 27.239
+    },
+    {
+      "w": "channels",
+      "start": 27.34,
+      "end": 27.619
+    },
+    {
+      "w": "and",
+      "start": 27.659,
+      "end": 27.76
+    },
+    {
+      "w": "parameters,",
+      "start": 27.819,
+      "end": 28.42
+    },
+    {
+      "w": "that's",
+      "start": 28.639,
+      "end": 28.819
+    },
+    {
+      "w": "just",
+      "start": 28.879,
+      "end": 28.979
+    },
+    {
+      "w": "the",
+      "start": 29.019,
+      "end": 29.099
+    },
+    {
+      "w": "dials",
+      "start": 29.159,
+      "end": 29.459
+    },
+    {
+      "w": "on",
+      "start": 29.479,
+      "end": 29.559
+    },
+    {
+      "w": "the",
+      "start": 29.579,
+      "end": 29.659
+    },
+    {
+      "w": "model.",
+      "start": 29.719,
+      "end": 30.019
+    },
+    {
+      "w": "Doesn't",
+      "start": 30.279,
+      "end": 30.5
+    },
+    {
+      "w": "matter",
+      "start": 30.599,
+      "end": 30.779
+    },
+    {
+      "w": "here.",
+      "start": 30.84,
+      "end": 31.059
+    },
+    {
+      "w": "What",
+      "start": 32.54,
+      "end": 32.639
+    },
+    {
+      "w": "matters",
+      "start": 32.7,
+      "end": 32.959
+    },
+    {
+      "w": "is",
+      "start": 33.0,
+      "end": 33.119
+    },
+    {
+      "w": "this:",
+      "start": 33.18,
+      "end": 33.5
+    },
+    {
+      "w": "it",
+      "start": 33.799,
+      "end": 33.899
+    },
+    {
+      "w": "tells",
+      "start": 33.959,
+      "end": 34.159
+    },
+    {
+      "w": "you",
+      "start": 34.18,
+      "end": 34.259
+    },
+    {
+      "w": "how",
+      "start": 34.299,
+      "end": 34.38
+    },
+    {
+      "w": "structural",
+      "start": 34.479,
+      "end": 34.899
+    },
+    {
+      "w": "element",
+      "start": 34.959,
+      "end": 35.239
+    },
+    {
+      "w": "behave",
+      "start": 35.299,
+      "end": 35.879
+    },
+    {
+      "w": "and",
+      "start": 35.939,
+      "end": 36.0
+    },
+    {
+      "w": "it",
+      "start": 36.04,
+      "end": 36.139
+    },
+    {
+      "w": "does",
+      "start": 36.18,
+      "end": 36.319
+    },
+    {
+      "w": "it",
+      "start": 36.36,
+      "end": 36.419
+    },
+    {
+      "w": "in",
+      "start": 36.459,
+      "end": 36.52
+    },
+    {
+      "w": "about",
+      "start": 36.599,
+      "end": 36.84
+    },
+    {
+      "w": "thirty",
+      "start": 36.88,
+      "end": 37.04
+    },
+    {
+      "w": "milliseconds",
+      "start": 37.139,
+      "end": 37.719
+    },
+    {
+      "w": "instead",
+      "start": 37.759,
+      "end": 38.02
+    },
+    {
+      "w": "of",
+      "start": 38.04,
+      "end": 38.099
+    },
+    {
+      "w": "a",
+      "start": 38.139,
+      "end": 38.2
+    },
+    {
+      "w": "minute.",
+      "start": 38.239,
+      "end": 38.619
+    },
+    {
+      "w": "Roughly",
+      "start": 39.739,
+      "end": 40.099
+    },
+    {
+      "w": "TWO",
+      "start": 40.159,
+      "end": 40.239
+    },
+    {
+      "w": "THOUSAND",
+      "start": 40.379,
+      "end": 40.719
+    },
+    {
+      "w": "times",
+      "start": 40.739,
+      "end": 40.959
+    },
+    {
+      "w": "faster",
+      "start": 41.059,
+      "end": 41.659
+    },
+    {
+      "w": "and",
+      "start": 41.7,
+      "end": 41.799
+    },
+    {
+      "w": "accurate",
+      "start": 41.919,
+      "end": 42.219
+    },
+    {
+      "w": "enough",
+      "start": 42.299,
+      "end": 42.52
+    },
+    {
+      "w": "that",
+      "start": 42.559,
+      "end": 42.659
+    },
+    {
+      "w": "you",
+      "start": 42.7,
+      "end": 42.759
+    },
+    {
+      "w": "can",
+      "start": 42.819,
+      "end": 42.919
+    },
+    {
+      "w": "actually",
+      "start": 43.0,
+      "end": 43.36
+    },
+    {
+      "w": "train",
+      "start": 43.419,
+      "end": 43.619
+    },
+    {
+      "w": "on",
+      "start": 43.659,
+      "end": 43.759
+    },
+    {
+      "w": "it.",
+      "start": 43.799,
+      "end": 43.879
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Now the structural side the second thing we think will outlive the project.",
+      "start": 0.079,
+      "end": 3.639
+    },
+    {
+      "text": "To train the model, we needed structural feedback, and we needed it fast.",
+      "start": 5.099,
+      "end": 8.92
+    },
+    {
+      "text": "The proper way to work out how a building carries its loads is finite-element analysis very accurate, but about a minute per design.",
+      "start": 9.22,
+      "end": 16.1
+    },
+    {
+      "text": "Way too slow for a loop that runs millions of times.",
+      "start": 16.319,
+      "end": 18.819
+    },
+    {
+      "text": "So Patrick trained an AI model to just predict the same result.",
+      "start": 20.34,
+      "end": 23.419
+    },
+    {
+      "text": "It's got a technical name a U-Net but the name, and all the talk of channels and parameters, that's just the dials on the model.",
+      "start": 23.659,
+      "end": 30.019
+    },
+    {
+      "text": "Doesn't matter here.",
+      "start": 30.279,
+      "end": 31.059
+    },
+    {
+      "text": "What matters is this: it tells you how structural element behave and it does it in about thirty milliseconds instead of a minute.",
+      "start": 32.54,
+      "end": 38.619
+    },
+    {
+      "text": "Roughly TWO THOUSAND times faster and accurate enough that you can actually train on it.",
+      "start": 39.739,
+      "end": 43.879
+    }
+  ]
+}

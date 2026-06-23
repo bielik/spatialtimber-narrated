@@ -1,0 +1,601 @@
+{
+  "schema": "spatialtimber.align/1",
+  "slide": 29,
+  "audio": "29.mp3",
+  "cut": "long_15min_v3",
+  "duration": 38.842,
+  "engine": "elevenlabs-forced-alignment",
+  "loss": 0.119,
+  "language": "en",
+  "generatedAt": "2026-06-23T15:45:18",
+  "text": "And that's it thank you. This was very much a team effort. From the TU Dresden, the Chair of Structural Design Matthias Beckh and Patrick Schäferling. From the Bauhaus-Universität Weimar, our Chair of Informatics in Architecture and Urbanism Reinhard König, myself, Iuliia Osintseva, and Luyang Zhang. Our industry partner, Münchner Wohnen. And our funder the BBSR, on behalf of the BMWSB, through the Zukunft Bau Forschungsförderung. And if any of this struck a chord whether you'd like to try the open-source tools, work with us, or just talk it through please do get in touch. We'd genuinely love to hear from you. Thanks so much for your attention.",
+  "words": [
+    {
+      "w": "And",
+      "start": 0.079,
+      "end": 0.179
+    },
+    {
+      "w": "that's",
+      "start": 0.219,
+      "end": 0.439
+    },
+    {
+      "w": "it",
+      "start": 0.5,
+      "end": 0.639
+    },
+    {
+      "w": "thank",
+      "start": 0.939,
+      "end": 1.159
+    },
+    {
+      "w": "you.",
+      "start": 1.22,
+      "end": 1.379
+    },
+    {
+      "w": "This",
+      "start": 2.7,
+      "end": 2.839
+    },
+    {
+      "w": "was",
+      "start": 2.899,
+      "end": 3.019
+    },
+    {
+      "w": "very",
+      "start": 3.099,
+      "end": 3.259
+    },
+    {
+      "w": "much",
+      "start": 3.359,
+      "end": 3.5
+    },
+    {
+      "w": "a",
+      "start": 3.559,
+      "end": 3.639
+    },
+    {
+      "w": "team",
+      "start": 3.699,
+      "end": 3.879
+    },
+    {
+      "w": "effort.",
+      "start": 4.0,
+      "end": 4.36
+    },
+    {
+      "w": "From",
+      "start": 4.579,
+      "end": 4.699
+    },
+    {
+      "w": "the",
+      "start": 4.719,
+      "end": 4.779
+    },
+    {
+      "w": "TU",
+      "start": 4.9,
+      "end": 5.139
+    },
+    {
+      "w": "Dresden,",
+      "start": 5.239,
+      "end": 5.759
+    },
+    {
+      "w": "the",
+      "start": 5.92,
+      "end": 6.019
+    },
+    {
+      "w": "Chair",
+      "start": 6.079,
+      "end": 6.259
+    },
+    {
+      "w": "of",
+      "start": 6.299,
+      "end": 6.359
+    },
+    {
+      "w": "Structural",
+      "start": 6.46,
+      "end": 6.839
+    },
+    {
+      "w": "Design",
+      "start": 6.92,
+      "end": 7.379
+    },
+    {
+      "w": "Matthias",
+      "start": 7.559,
+      "end": 7.98
+    },
+    {
+      "w": "Beckh",
+      "start": 8.039,
+      "end": 8.399
+    },
+    {
+      "w": "and",
+      "start": 8.46,
+      "end": 8.539
+    },
+    {
+      "w": "Patrick",
+      "start": 8.639,
+      "end": 8.96
+    },
+    {
+      "w": "Schäferling.",
+      "start": 9.039,
+      "end": 9.579
+    },
+    {
+      "w": "From",
+      "start": 9.819,
+      "end": 9.92
+    },
+    {
+      "w": "the",
+      "start": 9.96,
+      "end": 10.019
+    },
+    {
+      "w": "Bauhaus-Universität",
+      "start": 10.079,
+      "end": 11.219
+    },
+    {
+      "w": "Weimar,",
+      "start": 11.319,
+      "end": 11.759
+    },
+    {
+      "w": "our",
+      "start": 11.979,
+      "end": 12.099
+    },
+    {
+      "w": "Chair",
+      "start": 12.159,
+      "end": 12.3
+    },
+    {
+      "w": "of",
+      "start": 12.34,
+      "end": 12.399
+    },
+    {
+      "w": "Informatics",
+      "start": 12.46,
+      "end": 13.019
+    },
+    {
+      "w": "in",
+      "start": 13.059,
+      "end": 13.119
+    },
+    {
+      "w": "Architecture",
+      "start": 13.219,
+      "end": 13.759
+    },
+    {
+      "w": "and",
+      "start": 13.799,
+      "end": 13.859
+    },
+    {
+      "w": "Urbanism",
+      "start": 13.96,
+      "end": 14.479
+    },
+    {
+      "w": "Reinhard",
+      "start": 14.779,
+      "end": 15.139
+    },
+    {
+      "w": "König,",
+      "start": 15.239,
+      "end": 15.659
+    },
+    {
+      "w": "myself,",
+      "start": 15.839,
+      "end": 16.399
+    },
+    {
+      "w": "Iuliia",
+      "start": 16.6,
+      "end": 16.879
+    },
+    {
+      "w": "Osintseva,",
+      "start": 16.94,
+      "end": 17.579
+    },
+    {
+      "w": "and",
+      "start": 17.819,
+      "end": 17.899
+    },
+    {
+      "w": "Luyang",
+      "start": 17.959,
+      "end": 18.279
+    },
+    {
+      "w": "Zhang.",
+      "start": 18.379,
+      "end": 18.719
+    },
+    {
+      "w": "Our",
+      "start": 18.979,
+      "end": 19.079
+    },
+    {
+      "w": "industry",
+      "start": 19.119,
+      "end": 19.479
+    },
+    {
+      "w": "partner,",
+      "start": 19.579,
+      "end": 19.939
+    },
+    {
+      "w": "Münchner",
+      "start": 20.139,
+      "end": 20.539
+    },
+    {
+      "w": "Wohnen.",
+      "start": 20.6,
+      "end": 20.979
+    },
+    {
+      "w": "And",
+      "start": 21.18,
+      "end": 21.28
+    },
+    {
+      "w": "our",
+      "start": 21.319,
+      "end": 21.479
+    },
+    {
+      "w": "funder",
+      "start": 21.539,
+      "end": 21.899
+    },
+    {
+      "w": "the",
+      "start": 22.1,
+      "end": 22.18
+    },
+    {
+      "w": "BBSR,",
+      "start": 22.299,
+      "end": 22.979
+    },
+    {
+      "w": "on",
+      "start": 23.159,
+      "end": 23.28
+    },
+    {
+      "w": "behalf",
+      "start": 23.299,
+      "end": 23.659
+    },
+    {
+      "w": "of",
+      "start": 23.68,
+      "end": 23.78
+    },
+    {
+      "w": "the",
+      "start": 23.799,
+      "end": 23.84
+    },
+    {
+      "w": "BMWSB,",
+      "start": 23.939,
+      "end": 25.159
+    },
+    {
+      "w": "through",
+      "start": 25.199,
+      "end": 25.34
+    },
+    {
+      "w": "the",
+      "start": 25.359,
+      "end": 25.42
+    },
+    {
+      "w": "Zukunft",
+      "start": 25.539,
+      "end": 26.039
+    },
+    {
+      "w": "Bau",
+      "start": 26.079,
+      "end": 26.279
+    },
+    {
+      "w": "Forschungsförderung.",
+      "start": 26.42,
+      "end": 27.379
+    },
+    {
+      "w": "And",
+      "start": 27.699,
+      "end": 27.78
+    },
+    {
+      "w": "if",
+      "start": 27.819,
+      "end": 27.979
+    },
+    {
+      "w": "any",
+      "start": 28.019,
+      "end": 28.159
+    },
+    {
+      "w": "of",
+      "start": 28.18,
+      "end": 28.299
+    },
+    {
+      "w": "this",
+      "start": 28.319,
+      "end": 28.5
+    },
+    {
+      "w": "struck",
+      "start": 28.539,
+      "end": 28.76
+    },
+    {
+      "w": "a",
+      "start": 28.819,
+      "end": 28.899
+    },
+    {
+      "w": "chord",
+      "start": 28.959,
+      "end": 29.36
+    },
+    {
+      "w": "whether",
+      "start": 29.579,
+      "end": 29.76
+    },
+    {
+      "w": "you'd",
+      "start": 29.799,
+      "end": 29.94
+    },
+    {
+      "w": "like",
+      "start": 29.959,
+      "end": 30.119
+    },
+    {
+      "w": "to",
+      "start": 30.139,
+      "end": 30.26
+    },
+    {
+      "w": "try",
+      "start": 30.279,
+      "end": 30.459
+    },
+    {
+      "w": "the",
+      "start": 30.5,
+      "end": 30.599
+    },
+    {
+      "w": "open-source",
+      "start": 30.659,
+      "end": 31.259
+    },
+    {
+      "w": "tools,",
+      "start": 31.319,
+      "end": 31.899
+    },
+    {
+      "w": "work",
+      "start": 31.979,
+      "end": 32.139
+    },
+    {
+      "w": "with",
+      "start": 32.18,
+      "end": 32.319
+    },
+    {
+      "w": "us,",
+      "start": 32.399,
+      "end": 32.639
+    },
+    {
+      "w": "or",
+      "start": 32.819,
+      "end": 32.919
+    },
+    {
+      "w": "just",
+      "start": 32.979,
+      "end": 33.139
+    },
+    {
+      "w": "talk",
+      "start": 33.18,
+      "end": 33.36
+    },
+    {
+      "w": "it",
+      "start": 33.399,
+      "end": 33.54
+    },
+    {
+      "w": "through",
+      "start": 33.559,
+      "end": 33.819
+    },
+    {
+      "w": "please",
+      "start": 34.18,
+      "end": 34.419
+    },
+    {
+      "w": "do",
+      "start": 34.5,
+      "end": 34.619
+    },
+    {
+      "w": "get",
+      "start": 34.68,
+      "end": 34.759
+    },
+    {
+      "w": "in",
+      "start": 34.799,
+      "end": 34.919
+    },
+    {
+      "w": "touch.",
+      "start": 34.979,
+      "end": 35.319
+    },
+    {
+      "w": "We'd",
+      "start": 35.579,
+      "end": 35.759
+    },
+    {
+      "w": "genuinely",
+      "start": 35.779,
+      "end": 36.299
+    },
+    {
+      "w": "love",
+      "start": 36.319,
+      "end": 36.479
+    },
+    {
+      "w": "to",
+      "start": 36.52,
+      "end": 36.579
+    },
+    {
+      "w": "hear",
+      "start": 36.639,
+      "end": 36.739
+    },
+    {
+      "w": "from",
+      "start": 36.84,
+      "end": 36.979
+    },
+    {
+      "w": "you.",
+      "start": 37.02,
+      "end": 37.419
+    },
+    {
+      "w": "Thanks",
+      "start": 37.479,
+      "end": 37.68
+    },
+    {
+      "w": "so",
+      "start": 37.7,
+      "end": 37.799
+    },
+    {
+      "w": "much",
+      "start": 37.84,
+      "end": 38.0
+    },
+    {
+      "w": "for",
+      "start": 38.04,
+      "end": 38.119
+    },
+    {
+      "w": "your",
+      "start": 38.139,
+      "end": 38.22
+    },
+    {
+      "w": "attention.",
+      "start": 38.319,
+      "end": 38.759
+    }
+  ],
+  "sentences": [
+    {
+      "text": "And that's it thank you.",
+      "start": 0.079,
+      "end": 1.379
+    },
+    {
+      "text": "This was very much a team effort.",
+      "start": 2.7,
+      "end": 4.36
+    },
+    {
+      "text": "From the TU Dresden, the Chair of Structural Design Matthias Beckh and Patrick Schäferling.",
+      "start": 4.579,
+      "end": 9.579
+    },
+    {
+      "text": "From the Bauhaus-Universität Weimar, our Chair of Informatics in Architecture and Urbanism Reinhard König, myself, Iuliia Osintseva, and Luyang Zhang.",
+      "start": 9.819,
+      "end": 18.719
+    },
+    {
+      "text": "Our industry partner, Münchner Wohnen.",
+      "start": 18.979,
+      "end": 20.979
+    },
+    {
+      "text": "And our funder the BBSR, on behalf of the BMWSB, through the Zukunft Bau Forschungsförderung.",
+      "start": 21.18,
+      "end": 27.379
+    },
+    {
+      "text": "And if any of this struck a chord whether you'd like to try the open-source tools, work with us, or just talk it through please do get in touch.",
+      "start": 27.699,
+      "end": 35.319
+    },
+    {
+      "text": "We'd genuinely love to hear from you.",
+      "start": 35.579,
+      "end": 37.419
+    },
+    {
+      "text": "Thanks so much for your attention.",
+      "start": 37.479,
+      "end": 38.759
+    }
+  ]
+}

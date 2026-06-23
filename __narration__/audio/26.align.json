@@ -1,0 +1,396 @@
+{
+  "schema": "spatialtimber.align/1",
+  "slide": 26,
+  "audio": "26.mp3",
+  "cut": "long_15min_v3",
+  "duration": 31.581,
+  "engine": "elevenlabs-forced-alignment",
+  "loss": 0.1249,
+  "language": "en",
+  "generatedAt": "2026-06-23T15:45:15",
+  "text": "This project leaves some solid stuff behind. Two conference papers, both submitted one going to eCAADe 2026 in Lübeck, on generating residential layouts across scales with performance-aware control; the other to the IASS Symposium 2026 in Turin, on the structural surrogate and the wall-pruning optimizer. And three open-source releases the SpatialTimber Furnisher, the structural surrogate with its full training pipeline, and the layout generators, meaning the whole pipeline of base model plus adapters.",
+  "words": [
+    {
+      "w": "This",
+      "start": 0.079,
+      "end": 0.199
+    },
+    {
+      "w": "project",
+      "start": 0.299,
+      "end": 0.659
+    },
+    {
+      "w": "leaves",
+      "start": 0.759,
+      "end": 0.959
+    },
+    {
+      "w": "some",
+      "start": 1.0,
+      "end": 1.12
+    },
+    {
+      "w": "solid",
+      "start": 1.259,
+      "end": 1.5
+    },
+    {
+      "w": "stuff",
+      "start": 1.599,
+      "end": 1.839
+    },
+    {
+      "w": "behind.",
+      "start": 1.899,
+      "end": 2.299
+    },
+    {
+      "w": "Two",
+      "start": 3.539,
+      "end": 3.72
+    },
+    {
+      "w": "conference",
+      "start": 3.779,
+      "end": 4.139
+    },
+    {
+      "w": "papers,",
+      "start": 4.219,
+      "end": 4.599
+    },
+    {
+      "w": "both",
+      "start": 4.719,
+      "end": 4.94
+    },
+    {
+      "w": "submitted",
+      "start": 5.0,
+      "end": 5.4
+    },
+    {
+      "w": "one",
+      "start": 5.839,
+      "end": 6.0
+    },
+    {
+      "w": "going",
+      "start": 6.099,
+      "end": 6.299
+    },
+    {
+      "w": "to",
+      "start": 6.339,
+      "end": 6.399
+    },
+    {
+      "w": "eCAADe",
+      "start": 6.5,
+      "end": 6.919
+    },
+    {
+      "w": "2026",
+      "start": 7.079,
+      "end": 7.759
+    },
+    {
+      "w": "in",
+      "start": 7.799,
+      "end": 7.859
+    },
+    {
+      "w": "Lübeck,",
+      "start": 7.919,
+      "end": 8.34
+    },
+    {
+      "w": "on",
+      "start": 8.659,
+      "end": 8.76
+    },
+    {
+      "w": "generating",
+      "start": 8.859,
+      "end": 9.279
+    },
+    {
+      "w": "residential",
+      "start": 9.34,
+      "end": 9.8
+    },
+    {
+      "w": "layouts",
+      "start": 9.899,
+      "end": 10.239
+    },
+    {
+      "w": "across",
+      "start": 10.3,
+      "end": 10.579
+    },
+    {
+      "w": "scales",
+      "start": 10.659,
+      "end": 11.019
+    },
+    {
+      "w": "with",
+      "start": 11.059,
+      "end": 11.199
+    },
+    {
+      "w": "performance-aware",
+      "start": 11.239,
+      "end": 11.979
+    },
+    {
+      "w": "control;",
+      "start": 12.039,
+      "end": 12.519
+    },
+    {
+      "w": "the",
+      "start": 12.899,
+      "end": 12.96
+    },
+    {
+      "w": "other",
+      "start": 13.039,
+      "end": 13.219
+    },
+    {
+      "w": "to",
+      "start": 13.319,
+      "end": 13.38
+    },
+    {
+      "w": "the",
+      "start": 13.42,
+      "end": 13.479
+    },
+    {
+      "w": "IASS",
+      "start": 13.679,
+      "end": 14.259
+    },
+    {
+      "w": "Symposium",
+      "start": 14.34,
+      "end": 14.879
+    },
+    {
+      "w": "2026",
+      "start": 15.099,
+      "end": 15.739
+    },
+    {
+      "w": "in",
+      "start": 15.799,
+      "end": 15.879
+    },
+    {
+      "w": "Turin,",
+      "start": 15.939,
+      "end": 16.319
+    },
+    {
+      "w": "on",
+      "start": 16.639,
+      "end": 16.699
+    },
+    {
+      "w": "the",
+      "start": 16.739,
+      "end": 16.8
+    },
+    {
+      "w": "structural",
+      "start": 16.879,
+      "end": 17.359
+    },
+    {
+      "w": "surrogate",
+      "start": 17.42,
+      "end": 17.959
+    },
+    {
+      "w": "and",
+      "start": 18.0,
+      "end": 18.059
+    },
+    {
+      "w": "the",
+      "start": 18.1,
+      "end": 18.159
+    },
+    {
+      "w": "wall-pruning",
+      "start": 18.239,
+      "end": 18.819
+    },
+    {
+      "w": "optimizer.",
+      "start": 18.879,
+      "end": 19.519
+    },
+    {
+      "w": "And",
+      "start": 20.859,
+      "end": 20.959
+    },
+    {
+      "w": "three",
+      "start": 21.1,
+      "end": 21.299
+    },
+    {
+      "w": "open-source",
+      "start": 21.42,
+      "end": 21.899
+    },
+    {
+      "w": "releases",
+      "start": 21.959,
+      "end": 22.5
+    },
+    {
+      "w": "the",
+      "start": 22.779,
+      "end": 22.84
+    },
+    {
+      "w": "SpatialTimber",
+      "start": 22.92,
+      "end": 23.519
+    },
+    {
+      "w": "Furnisher,",
+      "start": 23.619,
+      "end": 24.119
+    },
+    {
+      "w": "the",
+      "start": 24.42,
+      "end": 24.479
+    },
+    {
+      "w": "structural",
+      "start": 24.559,
+      "end": 25.019
+    },
+    {
+      "w": "surrogate",
+      "start": 25.079,
+      "end": 25.439
+    },
+    {
+      "w": "with",
+      "start": 25.479,
+      "end": 25.559
+    },
+    {
+      "w": "its",
+      "start": 25.579,
+      "end": 25.719
+    },
+    {
+      "w": "full",
+      "start": 25.819,
+      "end": 26.0
+    },
+    {
+      "w": "training",
+      "start": 26.059,
+      "end": 26.359
+    },
+    {
+      "w": "pipeline,",
+      "start": 26.399,
+      "end": 26.899
+    },
+    {
+      "w": "and",
+      "start": 27.199,
+      "end": 27.279
+    },
+    {
+      "w": "the",
+      "start": 27.319,
+      "end": 27.379
+    },
+    {
+      "w": "layout",
+      "start": 27.479,
+      "end": 27.799
+    },
+    {
+      "w": "generators,",
+      "start": 27.84,
+      "end": 28.459
+    },
+    {
+      "w": "meaning",
+      "start": 28.819,
+      "end": 29.019
+    },
+    {
+      "w": "the",
+      "start": 29.059,
+      "end": 29.139
+    },
+    {
+      "w": "whole",
+      "start": 29.199,
+      "end": 29.379
+    },
+    {
+      "w": "pipeline",
+      "start": 29.439,
+      "end": 29.859
+    },
+    {
+      "w": "of",
+      "start": 29.879,
+      "end": 29.939
+    },
+    {
+      "w": "base",
+      "start": 30.059,
+      "end": 30.299
+    },
+    {
+      "w": "model",
+      "start": 30.34,
+      "end": 30.619
+    },
+    {
+      "w": "plus",
+      "start": 30.679,
+      "end": 30.84
+    },
+    {
+      "w": "adapters.",
+      "start": 30.939,
+      "end": 31.499
+    }
+  ],
+  "sentences": [
+    {
+      "text": "This project leaves some solid stuff behind.",
+      "start": 0.079,
+      "end": 2.299
+    },
+    {
+      "text": "Two conference papers, both submitted one going to eCAADe 2026 in Lübeck, on generating residential layouts across scales with performance-aware control; the other to the IASS Symposium 2026 in Turin, on the structural surrogate and the wall-pruning optimizer.",
+      "start": 3.539,
+      "end": 19.519
+    },
+    {
+      "text": "And three open-source releases the SpatialTimber Furnisher, the structural surrogate with its full training pipeline, and the layout generators, meaning the whole pipeline of base model plus adapters.",
+      "start": 20.859,
+      "end": 31.499
+    }
+  ]
+}

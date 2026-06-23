@@ -1,0 +1,1301 @@
+{
+  "schema": "spatialtimber.align/1",
+  "slide": 18,
+  "audio": "18.mp3",
+  "cut": "long_15min_v3",
+  "duration": 82.343,
+  "engine": "elevenlabs-forced-alignment",
+  "loss": 0.067,
+  "language": "en",
+  "generatedAt": "2026-06-23T15:45:10",
+  "text": "Where are we today? Our recipe is a curriculum of five adapters, trained one after another and the order we train them in is itself a real design decision. We call it the training curriculum. First we teach the model to draw a floor plan at all. Then to draw a good one, by giving it feedback on architectural quality. Then we move up a level, to a whole floor and because the quality lessons are already baked in, we don't just get floors, we get GOOD floors. Then whole buildings. And finally, we push toward structural efficiency. Now, some of that order is forced on you you obviously can't optimize a building's structure before the model can even design a building. But a lot of it is wide open, and honestly we've barely explored it. We chose to teach quality early, on a single apartment, on a hunch that it's easier to learn there than across a whole building and it paid off: that feedback step pushed the share of usable apartment layouts from fifty-one up to EIGHTY percent. So where does that leave us? The first four are trained and working apartment, quality, floor, building. The fifth is the one we're still training: taking that same feedback loop and pointing it at the whole building, this time for structural efficiency. And all of this the adapters themselves and the curriculum that trains them is Luyang Zhang's piece of the project.",
+  "words": [
+    {
+      "w": "Where",
+      "start": 0.119,
+      "end": 0.239
+    },
+    {
+      "w": "are",
+      "start": 0.299,
+      "end": 0.379
+    },
+    {
+      "w": "we",
+      "start": 0.439,
+      "end": 0.56
+    },
+    {
+      "w": "today?",
+      "start": 0.62,
+      "end": 0.979
+    },
+    {
+      "w": "Our",
+      "start": 2.72,
+      "end": 2.799
+    },
+    {
+      "w": "recipe",
+      "start": 2.839,
+      "end": 3.279
+    },
+    {
+      "w": "is",
+      "start": 3.339,
+      "end": 3.439
+    },
+    {
+      "w": "a",
+      "start": 3.48,
+      "end": 3.539
+    },
+    {
+      "w": "curriculum",
+      "start": 3.599,
+      "end": 4.079
+    },
+    {
+      "w": "of",
+      "start": 4.119,
+      "end": 4.239
+    },
+    {
+      "w": "five",
+      "start": 4.339,
+      "end": 4.5
+    },
+    {
+      "w": "adapters,",
+      "start": 4.619,
+      "end": 5.199
+    },
+    {
+      "w": "trained",
+      "start": 5.46,
+      "end": 5.819
+    },
+    {
+      "w": "one",
+      "start": 5.94,
+      "end": 6.039
+    },
+    {
+      "w": "after",
+      "start": 6.119,
+      "end": 6.319
+    },
+    {
+      "w": "another",
+      "start": 6.359,
+      "end": 6.759
+    },
+    {
+      "w": "and",
+      "start": 7.359,
+      "end": 7.419
+    },
+    {
+      "w": "the",
+      "start": 7.46,
+      "end": 7.519
+    },
+    {
+      "w": "order",
+      "start": 7.639,
+      "end": 7.819
+    },
+    {
+      "w": "we",
+      "start": 7.879,
+      "end": 7.98
+    },
+    {
+      "w": "train",
+      "start": 8.059,
+      "end": 8.26
+    },
+    {
+      "w": "them",
+      "start": 8.3,
+      "end": 8.42
+    },
+    {
+      "w": "in",
+      "start": 8.5,
+      "end": 8.679
+    },
+    {
+      "w": "is",
+      "start": 8.739,
+      "end": 8.819
+    },
+    {
+      "w": "itself",
+      "start": 8.859,
+      "end": 9.4
+    },
+    {
+      "w": "a",
+      "start": 9.539,
+      "end": 9.56
+    },
+    {
+      "w": "real",
+      "start": 9.659,
+      "end": 9.819
+    },
+    {
+      "w": "design",
+      "start": 9.899,
+      "end": 10.199
+    },
+    {
+      "w": "decision.",
+      "start": 10.26,
+      "end": 10.739
+    },
+    {
+      "w": "We",
+      "start": 11.34,
+      "end": 11.439
+    },
+    {
+      "w": "call",
+      "start": 11.5,
+      "end": 11.639
+    },
+    {
+      "w": "it",
+      "start": 11.679,
+      "end": 11.759
+    },
+    {
+      "w": "the",
+      "start": 11.819,
+      "end": 11.86
+    },
+    {
+      "w": "training",
+      "start": 11.96,
+      "end": 12.219
+    },
+    {
+      "w": "curriculum.",
+      "start": 12.319,
+      "end": 12.859
+    },
+    {
+      "w": "First",
+      "start": 13.939,
+      "end": 14.159
+    },
+    {
+      "w": "we",
+      "start": 14.199,
+      "end": 14.299
+    },
+    {
+      "w": "teach",
+      "start": 14.34,
+      "end": 14.519
+    },
+    {
+      "w": "the",
+      "start": 14.579,
+      "end": 14.639
+    },
+    {
+      "w": "model",
+      "start": 14.719,
+      "end": 14.939
+    },
+    {
+      "w": "to",
+      "start": 14.979,
+      "end": 15.059
+    },
+    {
+      "w": "draw",
+      "start": 15.119,
+      "end": 15.259
+    },
+    {
+      "w": "a",
+      "start": 15.319,
+      "end": 15.38
+    },
+    {
+      "w": "floor",
+      "start": 15.46,
+      "end": 15.619
+    },
+    {
+      "w": "plan",
+      "start": 15.719,
+      "end": 15.92
+    },
+    {
+      "w": "at",
+      "start": 15.96,
+      "end": 16.04
+    },
+    {
+      "w": "all.",
+      "start": 16.079,
+      "end": 16.319
+    },
+    {
+      "w": "Then",
+      "start": 16.959,
+      "end": 17.079
+    },
+    {
+      "w": "to",
+      "start": 17.159,
+      "end": 17.239
+    },
+    {
+      "w": "draw",
+      "start": 17.319,
+      "end": 17.459
+    },
+    {
+      "w": "a",
+      "start": 17.52,
+      "end": 17.559
+    },
+    {
+      "w": "good",
+      "start": 17.659,
+      "end": 17.799
+    },
+    {
+      "w": "one,",
+      "start": 17.899,
+      "end": 18.079
+    },
+    {
+      "w": "by",
+      "start": 18.34,
+      "end": 18.459
+    },
+    {
+      "w": "giving",
+      "start": 18.5,
+      "end": 18.68
+    },
+    {
+      "w": "it",
+      "start": 18.719,
+      "end": 18.859
+    },
+    {
+      "w": "feedback",
+      "start": 18.92,
+      "end": 19.319
+    },
+    {
+      "w": "on",
+      "start": 19.359,
+      "end": 19.439
+    },
+    {
+      "w": "architectural",
+      "start": 19.5,
+      "end": 20.039
+    },
+    {
+      "w": "quality.",
+      "start": 20.159,
+      "end": 20.579
+    },
+    {
+      "w": "Then",
+      "start": 21.359,
+      "end": 21.459
+    },
+    {
+      "w": "we",
+      "start": 21.5,
+      "end": 21.6
+    },
+    {
+      "w": "move",
+      "start": 21.639,
+      "end": 21.779
+    },
+    {
+      "w": "up",
+      "start": 21.84,
+      "end": 21.939
+    },
+    {
+      "w": "a",
+      "start": 21.979,
+      "end": 22.02
+    },
+    {
+      "w": "level,",
+      "start": 22.079,
+      "end": 22.379
+    },
+    {
+      "w": "to",
+      "start": 22.619,
+      "end": 22.699
+    },
+    {
+      "w": "a",
+      "start": 22.779,
+      "end": 22.819
+    },
+    {
+      "w": "whole",
+      "start": 22.879,
+      "end": 23.079
+    },
+    {
+      "w": "floor",
+      "start": 23.159,
+      "end": 23.939
+    },
+    {
+      "w": "and",
+      "start": 24.019,
+      "end": 24.1
+    },
+    {
+      "w": "because",
+      "start": 24.139,
+      "end": 24.399
+    },
+    {
+      "w": "the",
+      "start": 24.439,
+      "end": 24.519
+    },
+    {
+      "w": "quality",
+      "start": 24.579,
+      "end": 24.899
+    },
+    {
+      "w": "lessons",
+      "start": 24.959,
+      "end": 25.26
+    },
+    {
+      "w": "are",
+      "start": 25.319,
+      "end": 25.399
+    },
+    {
+      "w": "already",
+      "start": 25.459,
+      "end": 25.739
+    },
+    {
+      "w": "baked",
+      "start": 25.799,
+      "end": 26.039
+    },
+    {
+      "w": "in,",
+      "start": 26.119,
+      "end": 26.299
+    },
+    {
+      "w": "we",
+      "start": 26.699,
+      "end": 26.779
+    },
+    {
+      "w": "don't",
+      "start": 26.84,
+      "end": 26.979
+    },
+    {
+      "w": "just",
+      "start": 27.059,
+      "end": 27.159
+    },
+    {
+      "w": "get",
+      "start": 27.219,
+      "end": 27.319
+    },
+    {
+      "w": "floors,",
+      "start": 27.439,
+      "end": 27.899
+    },
+    {
+      "w": "we",
+      "start": 28.299,
+      "end": 28.379
+    },
+    {
+      "w": "get",
+      "start": 28.42,
+      "end": 28.519
+    },
+    {
+      "w": "GOOD",
+      "start": 28.659,
+      "end": 28.799
+    },
+    {
+      "w": "floors.",
+      "start": 28.899,
+      "end": 29.42
+    },
+    {
+      "w": "Then",
+      "start": 29.979,
+      "end": 30.099
+    },
+    {
+      "w": "whole",
+      "start": 30.199,
+      "end": 30.359
+    },
+    {
+      "w": "buildings.",
+      "start": 30.42,
+      "end": 31.039
+    },
+    {
+      "w": "And",
+      "start": 31.34,
+      "end": 31.44
+    },
+    {
+      "w": "finally,",
+      "start": 31.539,
+      "end": 31.779
+    },
+    {
+      "w": "we",
+      "start": 31.84,
+      "end": 31.959
+    },
+    {
+      "w": "push",
+      "start": 32.02,
+      "end": 32.219
+    },
+    {
+      "w": "toward",
+      "start": 32.259,
+      "end": 32.479
+    },
+    {
+      "w": "structural",
+      "start": 32.54,
+      "end": 32.919
+    },
+    {
+      "w": "efficiency.",
+      "start": 32.979,
+      "end": 33.639
+    },
+    {
+      "w": "Now,",
+      "start": 34.659,
+      "end": 34.759
+    },
+    {
+      "w": "some",
+      "start": 34.86,
+      "end": 34.959
+    },
+    {
+      "w": "of",
+      "start": 35.0,
+      "end": 35.059
+    },
+    {
+      "w": "that",
+      "start": 35.119,
+      "end": 35.239
+    },
+    {
+      "w": "order",
+      "start": 35.34,
+      "end": 35.52
+    },
+    {
+      "w": "is",
+      "start": 35.559,
+      "end": 35.659
+    },
+    {
+      "w": "forced",
+      "start": 35.759,
+      "end": 36.04
+    },
+    {
+      "w": "on",
+      "start": 36.079,
+      "end": 36.18
+    },
+    {
+      "w": "you",
+      "start": 36.239,
+      "end": 36.36
+    },
+    {
+      "w": "you",
+      "start": 36.88,
+      "end": 36.939
+    },
+    {
+      "w": "obviously",
+      "start": 37.04,
+      "end": 37.38
+    },
+    {
+      "w": "can't",
+      "start": 37.459,
+      "end": 37.619
+    },
+    {
+      "w": "optimize",
+      "start": 37.719,
+      "end": 38.119
+    },
+    {
+      "w": "a",
+      "start": 38.18,
+      "end": 38.2
+    },
+    {
+      "w": "building's",
+      "start": 38.259,
+      "end": 38.54
+    },
+    {
+      "w": "structure",
+      "start": 38.599,
+      "end": 38.979
+    },
+    {
+      "w": "before",
+      "start": 39.02,
+      "end": 39.239
+    },
+    {
+      "w": "the",
+      "start": 39.279,
+      "end": 39.36
+    },
+    {
+      "w": "model",
+      "start": 39.439,
+      "end": 39.639
+    },
+    {
+      "w": "can",
+      "start": 39.719,
+      "end": 39.819
+    },
+    {
+      "w": "even",
+      "start": 39.86,
+      "end": 40.0
+    },
+    {
+      "w": "design",
+      "start": 40.079,
+      "end": 40.36
+    },
+    {
+      "w": "a",
+      "start": 40.419,
+      "end": 40.459
+    },
+    {
+      "w": "building.",
+      "start": 40.52,
+      "end": 40.939
+    },
+    {
+      "w": "But",
+      "start": 41.54,
+      "end": 41.619
+    },
+    {
+      "w": "a",
+      "start": 41.659,
+      "end": 41.719
+    },
+    {
+      "w": "lot",
+      "start": 41.759,
+      "end": 41.879
+    },
+    {
+      "w": "of",
+      "start": 41.919,
+      "end": 41.979
+    },
+    {
+      "w": "it",
+      "start": 42.02,
+      "end": 42.079
+    },
+    {
+      "w": "is",
+      "start": 42.119,
+      "end": 42.219
+    },
+    {
+      "w": "wide",
+      "start": 42.319,
+      "end": 42.52
+    },
+    {
+      "w": "open,",
+      "start": 42.579,
+      "end": 42.899
+    },
+    {
+      "w": "and",
+      "start": 43.34,
+      "end": 43.439
+    },
+    {
+      "w": "honestly",
+      "start": 43.5,
+      "end": 43.919
+    },
+    {
+      "w": "we've",
+      "start": 43.959,
+      "end": 44.119
+    },
+    {
+      "w": "barely",
+      "start": 44.18,
+      "end": 44.439
+    },
+    {
+      "w": "explored",
+      "start": 44.52,
+      "end": 44.919
+    },
+    {
+      "w": "it.",
+      "start": 44.979,
+      "end": 45.119
+    },
+    {
+      "w": "We",
+      "start": 46.2,
+      "end": 46.299
+    },
+    {
+      "w": "chose",
+      "start": 46.36,
+      "end": 46.579
+    },
+    {
+      "w": "to",
+      "start": 46.619,
+      "end": 46.719
+    },
+    {
+      "w": "teach",
+      "start": 46.779,
+      "end": 46.979
+    },
+    {
+      "w": "quality",
+      "start": 47.039,
+      "end": 47.419
+    },
+    {
+      "w": "early,",
+      "start": 47.479,
+      "end": 47.84
+    },
+    {
+      "w": "on",
+      "start": 48.039,
+      "end": 48.099
+    },
+    {
+      "w": "a",
+      "start": 48.159,
+      "end": 48.219
+    },
+    {
+      "w": "single",
+      "start": 48.279,
+      "end": 48.479
+    },
+    {
+      "w": "apartment,",
+      "start": 48.559,
+      "end": 49.119
+    },
+    {
+      "w": "on",
+      "start": 49.579,
+      "end": 49.659
+    },
+    {
+      "w": "a",
+      "start": 49.719,
+      "end": 49.759
+    },
+    {
+      "w": "hunch",
+      "start": 49.819,
+      "end": 50.059
+    },
+    {
+      "w": "that",
+      "start": 50.099,
+      "end": 50.18
+    },
+    {
+      "w": "it's",
+      "start": 50.219,
+      "end": 50.36
+    },
+    {
+      "w": "easier",
+      "start": 50.419,
+      "end": 50.7
+    },
+    {
+      "w": "to",
+      "start": 50.739,
+      "end": 50.84
+    },
+    {
+      "w": "learn",
+      "start": 50.879,
+      "end": 51.079
+    },
+    {
+      "w": "there",
+      "start": 51.119,
+      "end": 51.319
+    },
+    {
+      "w": "than",
+      "start": 51.34,
+      "end": 51.439
+    },
+    {
+      "w": "across",
+      "start": 51.5,
+      "end": 51.819
+    },
+    {
+      "w": "a",
+      "start": 51.899,
+      "end": 51.919
+    },
+    {
+      "w": "whole",
+      "start": 51.959,
+      "end": 52.099
+    },
+    {
+      "w": "building",
+      "start": 52.18,
+      "end": 53.02
+    },
+    {
+      "w": "and",
+      "start": 53.079,
+      "end": 53.159
+    },
+    {
+      "w": "it",
+      "start": 53.18,
+      "end": 53.279
+    },
+    {
+      "w": "paid",
+      "start": 53.34,
+      "end": 53.539
+    },
+    {
+      "w": "off:",
+      "start": 53.619,
+      "end": 54.559
+    },
+    {
+      "w": "that",
+      "start": 54.619,
+      "end": 54.739
+    },
+    {
+      "w": "feedback",
+      "start": 54.899,
+      "end": 55.319
+    },
+    {
+      "w": "step",
+      "start": 55.36,
+      "end": 55.639
+    },
+    {
+      "w": "pushed",
+      "start": 55.719,
+      "end": 55.919
+    },
+    {
+      "w": "the",
+      "start": 55.959,
+      "end": 56.059
+    },
+    {
+      "w": "share",
+      "start": 56.119,
+      "end": 56.299
+    },
+    {
+      "w": "of",
+      "start": 56.34,
+      "end": 56.439
+    },
+    {
+      "w": "usable",
+      "start": 56.539,
+      "end": 56.84
+    },
+    {
+      "w": "apartment",
+      "start": 56.919,
+      "end": 57.299
+    },
+    {
+      "w": "layouts",
+      "start": 57.36,
+      "end": 57.739
+    },
+    {
+      "w": "from",
+      "start": 57.799,
+      "end": 57.959
+    },
+    {
+      "w": "fifty-one",
+      "start": 58.02,
+      "end": 58.479
+    },
+    {
+      "w": "up",
+      "start": 59.099,
+      "end": 59.199
+    },
+    {
+      "w": "to",
+      "start": 59.239,
+      "end": 59.359
+    },
+    {
+      "w": "EIGHTY",
+      "start": 59.399,
+      "end": 59.579
+    },
+    {
+      "w": "percent.",
+      "start": 59.659,
+      "end": 61.18
+    },
+    {
+      "w": "So",
+      "start": 61.239,
+      "end": 61.319
+    },
+    {
+      "w": "where",
+      "start": 61.359,
+      "end": 61.459
+    },
+    {
+      "w": "does",
+      "start": 61.5,
+      "end": 61.619
+    },
+    {
+      "w": "that",
+      "start": 61.659,
+      "end": 61.799
+    },
+    {
+      "w": "leave",
+      "start": 61.859,
+      "end": 62.02
+    },
+    {
+      "w": "us?",
+      "start": 62.099,
+      "end": 62.379
+    },
+    {
+      "w": "The",
+      "start": 63.059,
+      "end": 63.139
+    },
+    {
+      "w": "first",
+      "start": 63.199,
+      "end": 63.419
+    },
+    {
+      "w": "four",
+      "start": 63.5,
+      "end": 63.659
+    },
+    {
+      "w": "are",
+      "start": 63.699,
+      "end": 63.799
+    },
+    {
+      "w": "trained",
+      "start": 63.879,
+      "end": 64.139
+    },
+    {
+      "w": "and",
+      "start": 64.18,
+      "end": 64.279
+    },
+    {
+      "w": "working",
+      "start": 64.319,
+      "end": 65.079
+    },
+    {
+      "w": "apartment,",
+      "start": 65.22,
+      "end": 65.639
+    },
+    {
+      "w": "quality,",
+      "start": 65.839,
+      "end": 66.299
+    },
+    {
+      "w": "floor,",
+      "start": 66.54,
+      "end": 66.879
+    },
+    {
+      "w": "building.",
+      "start": 67.08,
+      "end": 67.479
+    },
+    {
+      "w": "The",
+      "start": 68.04,
+      "end": 68.139
+    },
+    {
+      "w": "fifth",
+      "start": 68.22,
+      "end": 68.399
+    },
+    {
+      "w": "is",
+      "start": 68.459,
+      "end": 68.539
+    },
+    {
+      "w": "the",
+      "start": 68.58,
+      "end": 68.659
+    },
+    {
+      "w": "one",
+      "start": 68.72,
+      "end": 68.819
+    },
+    {
+      "w": "we're",
+      "start": 68.879,
+      "end": 69.0
+    },
+    {
+      "w": "still",
+      "start": 69.04,
+      "end": 69.239
+    },
+    {
+      "w": "training:",
+      "start": 69.319,
+      "end": 70.22
+    },
+    {
+      "w": "taking",
+      "start": 70.299,
+      "end": 70.559
+    },
+    {
+      "w": "that",
+      "start": 70.599,
+      "end": 70.779
+    },
+    {
+      "w": "same",
+      "start": 70.839,
+      "end": 71.04
+    },
+    {
+      "w": "feedback",
+      "start": 71.099,
+      "end": 71.519
+    },
+    {
+      "w": "loop",
+      "start": 71.58,
+      "end": 71.739
+    },
+    {
+      "w": "and",
+      "start": 71.76,
+      "end": 71.879
+    },
+    {
+      "w": "pointing",
+      "start": 71.939,
+      "end": 72.199
+    },
+    {
+      "w": "it",
+      "start": 72.22,
+      "end": 72.299
+    },
+    {
+      "w": "at",
+      "start": 72.339,
+      "end": 72.419
+    },
+    {
+      "w": "the",
+      "start": 72.459,
+      "end": 72.519
+    },
+    {
+      "w": "whole",
+      "start": 72.559,
+      "end": 72.739
+    },
+    {
+      "w": "building,",
+      "start": 72.799,
+      "end": 73.139
+    },
+    {
+      "w": "this",
+      "start": 73.54,
+      "end": 73.699
+    },
+    {
+      "w": "time",
+      "start": 73.76,
+      "end": 73.919
+    },
+    {
+      "w": "for",
+      "start": 73.979,
+      "end": 74.08
+    },
+    {
+      "w": "structural",
+      "start": 74.139,
+      "end": 74.54
+    },
+    {
+      "w": "efficiency.",
+      "start": 74.639,
+      "end": 75.239
+    },
+    {
+      "w": "And",
+      "start": 76.059,
+      "end": 76.159
+    },
+    {
+      "w": "all",
+      "start": 76.239,
+      "end": 76.319
+    },
+    {
+      "w": "of",
+      "start": 76.4,
+      "end": 76.459
+    },
+    {
+      "w": "this",
+      "start": 76.5,
+      "end": 77.239
+    },
+    {
+      "w": "the",
+      "start": 77.259,
+      "end": 77.319
+    },
+    {
+      "w": "adapters",
+      "start": 77.439,
+      "end": 77.859
+    },
+    {
+      "w": "themselves",
+      "start": 77.9,
+      "end": 78.439
+    },
+    {
+      "w": "and",
+      "start": 78.479,
+      "end": 78.559
+    },
+    {
+      "w": "the",
+      "start": 78.58,
+      "end": 78.659
+    },
+    {
+      "w": "curriculum",
+      "start": 78.72,
+      "end": 79.139
+    },
+    {
+      "w": "that",
+      "start": 79.18,
+      "end": 79.279
+    },
+    {
+      "w": "trains",
+      "start": 79.36,
+      "end": 79.639
+    },
+    {
+      "w": "them",
+      "start": 79.699,
+      "end": 80.319
+    },
+    {
+      "w": "is",
+      "start": 80.379,
+      "end": 80.5
+    },
+    {
+      "w": "Luyang",
+      "start": 80.58,
+      "end": 80.959
+    },
+    {
+      "w": "Zhang's",
+      "start": 81.0,
+      "end": 81.359
+    },
+    {
+      "w": "piece",
+      "start": 81.419,
+      "end": 81.599
+    },
+    {
+      "w": "of",
+      "start": 81.639,
+      "end": 81.699
+    },
+    {
+      "w": "the",
+      "start": 81.739,
+      "end": 81.819
+    },
+    {
+      "w": "project.",
+      "start": 81.879,
+      "end": 82.299
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Where are we today?",
+      "start": 0.119,
+      "end": 0.979
+    },
+    {
+      "text": "Our recipe is a curriculum of five adapters, trained one after another and the order we train them in is itself a real design decision.",
+      "start": 2.72,
+      "end": 10.739
+    },
+    {
+      "text": "We call it the training curriculum.",
+      "start": 11.34,
+      "end": 12.859
+    },
+    {
+      "text": "First we teach the model to draw a floor plan at all.",
+      "start": 13.939,
+      "end": 16.319
+    },
+    {
+      "text": "Then to draw a good one, by giving it feedback on architectural quality.",
+      "start": 16.959,
+      "end": 20.579
+    },
+    {
+      "text": "Then we move up a level, to a whole floor and because the quality lessons are already baked in, we don't just get floors, we get GOOD floors.",
+      "start": 21.359,
+      "end": 29.42
+    },
+    {
+      "text": "Then whole buildings.",
+      "start": 29.979,
+      "end": 31.039
+    },
+    {
+      "text": "And finally, we push toward structural efficiency.",
+      "start": 31.34,
+      "end": 33.639
+    },
+    {
+      "text": "Now, some of that order is forced on you you obviously can't optimize a building's structure before the model can even design a building.",
+      "start": 34.659,
+      "end": 40.939
+    },
+    {
+      "text": "But a lot of it is wide open, and honestly we've barely explored it.",
+      "start": 41.54,
+      "end": 45.119
+    },
+    {
+      "text": "We chose to teach quality early, on a single apartment, on a hunch that it's easier to learn there than across a whole building and it paid off: that feedback step pushed the share of usable apartment layouts from fifty-one up to EIGHTY percent.",
+      "start": 46.2,
+      "end": 61.18
+    },
+    {
+      "text": "So where does that leave us?",
+      "start": 61.239,
+      "end": 62.379
+    },
+    {
+      "text": "The first four are trained and working apartment, quality, floor, building.",
+      "start": 63.059,
+      "end": 67.479
+    },
+    {
+      "text": "The fifth is the one we're still training: taking that same feedback loop and pointing it at the whole building, this time for structural efficiency.",
+      "start": 68.04,
+      "end": 75.239
+    },
+    {
+      "text": "And all of this the adapters themselves and the curriculum that trains them is Luyang Zhang's piece of the project.",
+      "start": 76.059,
+      "end": 82.299
+    }
+  ]
+}

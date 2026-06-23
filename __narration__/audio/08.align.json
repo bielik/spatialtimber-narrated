@@ -1,0 +1,411 @@
+{
+  "schema": "spatialtimber.align/1",
+  "slide": 8,
+  "audio": "08.mp3",
+  "cut": "long_15min_v3",
+  "duration": 31.359,
+  "engine": "elevenlabs-forced-alignment",
+  "loss": 0.1236,
+  "language": "en",
+  "generatedAt": "2026-06-23T15:45:02",
+  "text": "And that's really the heart of it. We can BUILD this that part we've basically got. Timber Raumtragwerke, walls carrying load, coordinated wall stacks, modular parts the engineering is all there. What we can't do is DESIGN it. Coordinating the apartment layouts with the structure, on every single floor, for every building every new constraint multiplies the options you'd have to juggle. By hand, at any real scale, there's just no keeping up.",
+  "words": [
+    {
+      "w": "And",
+      "start": 0.099,
+      "end": 0.199
+    },
+    {
+      "w": "that's",
+      "start": 0.239,
+      "end": 0.459
+    },
+    {
+      "w": "really",
+      "start": 0.519,
+      "end": 0.719
+    },
+    {
+      "w": "the",
+      "start": 0.759,
+      "end": 0.839
+    },
+    {
+      "w": "heart",
+      "start": 0.879,
+      "end": 1.019
+    },
+    {
+      "w": "of",
+      "start": 1.059,
+      "end": 1.139
+    },
+    {
+      "w": "it.",
+      "start": 1.179,
+      "end": 1.399
+    },
+    {
+      "w": "We",
+      "start": 3.539,
+      "end": 3.619
+    },
+    {
+      "w": "can",
+      "start": 3.659,
+      "end": 3.819
+    },
+    {
+      "w": "BUILD",
+      "start": 3.859,
+      "end": 4.119
+    },
+    {
+      "w": "this",
+      "start": 4.199,
+      "end": 4.5
+    },
+    {
+      "w": "that",
+      "start": 5.099,
+      "end": 5.279
+    },
+    {
+      "w": "part",
+      "start": 5.339,
+      "end": 5.519
+    },
+    {
+      "w": "we've",
+      "start": 5.559,
+      "end": 5.739
+    },
+    {
+      "w": "basically",
+      "start": 5.779,
+      "end": 6.219
+    },
+    {
+      "w": "got.",
+      "start": 6.279,
+      "end": 6.639
+    },
+    {
+      "w": "Timber",
+      "start": 7.039,
+      "end": 7.359
+    },
+    {
+      "w": "Raumtragwerke,",
+      "start": 7.44,
+      "end": 8.42
+    },
+    {
+      "w": "walls",
+      "start": 8.899,
+      "end": 9.179
+    },
+    {
+      "w": "carrying",
+      "start": 9.26,
+      "end": 9.619
+    },
+    {
+      "w": "load,",
+      "start": 9.719,
+      "end": 10.019
+    },
+    {
+      "w": "coordinated",
+      "start": 10.46,
+      "end": 10.979
+    },
+    {
+      "w": "wall",
+      "start": 11.039,
+      "end": 11.199
+    },
+    {
+      "w": "stacks,",
+      "start": 11.279,
+      "end": 11.759
+    },
+    {
+      "w": "modular",
+      "start": 12.179,
+      "end": 12.539
+    },
+    {
+      "w": "parts",
+      "start": 12.679,
+      "end": 13.039
+    },
+    {
+      "w": "the",
+      "start": 13.46,
+      "end": 13.519
+    },
+    {
+      "w": "engineering",
+      "start": 13.579,
+      "end": 14.039
+    },
+    {
+      "w": "is",
+      "start": 14.099,
+      "end": 14.199
+    },
+    {
+      "w": "all",
+      "start": 14.279,
+      "end": 14.359
+    },
+    {
+      "w": "there.",
+      "start": 14.439,
+      "end": 14.699
+    },
+    {
+      "w": "What",
+      "start": 15.179,
+      "end": 15.279
+    },
+    {
+      "w": "we",
+      "start": 15.319,
+      "end": 15.439
+    },
+    {
+      "w": "can't",
+      "start": 15.5,
+      "end": 15.739
+    },
+    {
+      "w": "do",
+      "start": 15.819,
+      "end": 16.059
+    },
+    {
+      "w": "is",
+      "start": 16.119,
+      "end": 16.219
+    },
+    {
+      "w": "DESIGN",
+      "start": 16.319,
+      "end": 16.68
+    },
+    {
+      "w": "it.",
+      "start": 16.739,
+      "end": 16.92
+    },
+    {
+      "w": "Coordinating",
+      "start": 18.5,
+      "end": 18.979
+    },
+    {
+      "w": "the",
+      "start": 19.039,
+      "end": 19.079
+    },
+    {
+      "w": "apartment",
+      "start": 19.18,
+      "end": 19.52
+    },
+    {
+      "w": "layouts",
+      "start": 19.6,
+      "end": 19.939
+    },
+    {
+      "w": "with",
+      "start": 19.979,
+      "end": 20.079
+    },
+    {
+      "w": "the",
+      "start": 20.119,
+      "end": 20.18
+    },
+    {
+      "w": "structure,",
+      "start": 20.239,
+      "end": 20.699
+    },
+    {
+      "w": "on",
+      "start": 21.059,
+      "end": 21.199
+    },
+    {
+      "w": "every",
+      "start": 21.279,
+      "end": 21.439
+    },
+    {
+      "w": "single",
+      "start": 21.539,
+      "end": 21.739
+    },
+    {
+      "w": "floor,",
+      "start": 21.879,
+      "end": 22.159
+    },
+    {
+      "w": "for",
+      "start": 22.379,
+      "end": 22.479
+    },
+    {
+      "w": "every",
+      "start": 22.539,
+      "end": 22.699
+    },
+    {
+      "w": "building",
+      "start": 22.799,
+      "end": 23.519
+    },
+    {
+      "w": "every",
+      "start": 23.619,
+      "end": 23.779
+    },
+    {
+      "w": "new",
+      "start": 23.879,
+      "end": 23.979
+    },
+    {
+      "w": "constraint",
+      "start": 24.039,
+      "end": 24.479
+    },
+    {
+      "w": "multiplies",
+      "start": 24.559,
+      "end": 25.059
+    },
+    {
+      "w": "the",
+      "start": 25.119,
+      "end": 25.199
+    },
+    {
+      "w": "options",
+      "start": 25.279,
+      "end": 25.619
+    },
+    {
+      "w": "you'd",
+      "start": 25.659,
+      "end": 25.779
+    },
+    {
+      "w": "have",
+      "start": 25.84,
+      "end": 26.0
+    },
+    {
+      "w": "to",
+      "start": 26.001,
+      "end": 26.099
+    },
+    {
+      "w": "juggle.",
+      "start": 26.159,
+      "end": 26.459
+    },
+    {
+      "w": "By",
+      "start": 27.0,
+      "end": 27.119
+    },
+    {
+      "w": "hand,",
+      "start": 27.199,
+      "end": 27.539
+    },
+    {
+      "w": "at",
+      "start": 27.779,
+      "end": 27.84
+    },
+    {
+      "w": "any",
+      "start": 27.899,
+      "end": 28.059
+    },
+    {
+      "w": "real",
+      "start": 28.119,
+      "end": 28.319
+    },
+    {
+      "w": "scale,",
+      "start": 28.359,
+      "end": 28.739
+    },
+    {
+      "w": "there's",
+      "start": 30.179,
+      "end": 30.36
+    },
+    {
+      "w": "just",
+      "start": 30.42,
+      "end": 30.5
+    },
+    {
+      "w": "no",
+      "start": 30.559,
+      "end": 30.679
+    },
+    {
+      "w": "keeping",
+      "start": 30.739,
+      "end": 30.979
+    },
+    {
+      "w": "up.",
+      "start": 31.059,
+      "end": 31.26
+    }
+  ],
+  "sentences": [
+    {
+      "text": "And that's really the heart of it.",
+      "start": 0.099,
+      "end": 1.399
+    },
+    {
+      "text": "We can BUILD this that part we've basically got.",
+      "start": 3.539,
+      "end": 6.639
+    },
+    {
+      "text": "Timber Raumtragwerke, walls carrying load, coordinated wall stacks, modular parts the engineering is all there.",
+      "start": 7.039,
+      "end": 14.699
+    },
+    {
+      "text": "What we can't do is DESIGN it.",
+      "start": 15.179,
+      "end": 16.92
+    },
+    {
+      "text": "Coordinating the apartment layouts with the structure, on every single floor, for every building every new constraint multiplies the options you'd have to juggle.",
+      "start": 18.5,
+      "end": 26.459
+    },
+    {
+      "text": "By hand, at any real scale, there's just no keeping up.",
+      "start": 27.0,
+      "end": 31.26
+    }
+  ]
+}

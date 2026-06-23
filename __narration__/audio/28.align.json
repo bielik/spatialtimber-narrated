@@ -1,0 +1,741 @@
+{
+  "schema": "spatialtimber.align/1",
+  "slide": 28,
+  "audio": "28.mp3",
+  "cut": "long_15min_v3",
+  "duration": 39.505,
+  "engine": "elevenlabs-forced-alignment",
+  "loss": 0.0313,
+  "language": "en",
+  "generatedAt": "2026-06-23T15:52:18",
+  "text": "Before any of that's practical, though, there are two problems we have to crack. First, adapters can interfere with each other. They don't always stack cleanly push one quality, say layout efficiency, and another, like barrier-free access, can drift out of balance. So we need to spot when adapters are pulling against each other, and train those ones together rather than one at a time. Second, adapters are tied to one base model. Right now, every adapter is bound to the exact brain it was trained on swap the base, and you'd have to retrain all of them. We need adapters that can move to a new base without starting from scratch. Both of those are open research questions and they're exactly the kind of thing this project has teed up for the next one to tackle.",
+  "words": [
+    {
+      "w": "Before",
+      "start": 0.119,
+      "end": 0.419
+    },
+    {
+      "w": "any",
+      "start": 0.459,
+      "end": 0.599
+    },
+    {
+      "w": "of",
+      "start": 0.639,
+      "end": 0.699
+    },
+    {
+      "w": "that's",
+      "start": 0.74,
+      "end": 0.939
+    },
+    {
+      "w": "practical,",
+      "start": 0.979,
+      "end": 1.399
+    },
+    {
+      "w": "though,",
+      "start": 1.48,
+      "end": 1.639
+    },
+    {
+      "w": "there",
+      "start": 1.839,
+      "end": 1.919
+    },
+    {
+      "w": "are",
+      "start": 1.939,
+      "end": 2.059
+    },
+    {
+      "w": "two",
+      "start": 2.119,
+      "end": 2.2
+    },
+    {
+      "w": "problems",
+      "start": 2.299,
+      "end": 2.659
+    },
+    {
+      "w": "we",
+      "start": 2.72,
+      "end": 2.799
+    },
+    {
+      "w": "have",
+      "start": 2.839,
+      "end": 2.959
+    },
+    {
+      "w": "to",
+      "start": 2.98,
+      "end": 3.059
+    },
+    {
+      "w": "crack.",
+      "start": 3.119,
+      "end": 3.439
+    },
+    {
+      "w": "First,",
+      "start": 5.139,
+      "end": 5.519
+    },
+    {
+      "w": "adapters",
+      "start": 5.759,
+      "end": 6.119
+    },
+    {
+      "w": "can",
+      "start": 6.179,
+      "end": 6.279
+    },
+    {
+      "w": "interfere",
+      "start": 6.339,
+      "end": 6.719
+    },
+    {
+      "w": "with",
+      "start": 6.759,
+      "end": 6.839
+    },
+    {
+      "w": "each",
+      "start": 6.879,
+      "end": 7.019
+    },
+    {
+      "w": "other.",
+      "start": 7.079,
+      "end": 7.259
+    },
+    {
+      "w": "They",
+      "start": 7.519,
+      "end": 7.639
+    },
+    {
+      "w": "don't",
+      "start": 7.659,
+      "end": 7.779
+    },
+    {
+      "w": "always",
+      "start": 7.819,
+      "end": 8.039
+    },
+    {
+      "w": "stack",
+      "start": 8.079,
+      "end": 8.359
+    },
+    {
+      "w": "cleanly",
+      "start": 8.42,
+      "end": 8.76
+    },
+    {
+      "w": "push",
+      "start": 9.059,
+      "end": 9.239
+    },
+    {
+      "w": "one",
+      "start": 9.34,
+      "end": 9.42
+    },
+    {
+      "w": "quality,",
+      "start": 9.519,
+      "end": 9.92
+    },
+    {
+      "w": "say",
+      "start": 10.139,
+      "end": 10.239
+    },
+    {
+      "w": "layout",
+      "start": 10.34,
+      "end": 10.539
+    },
+    {
+      "w": "efficiency,",
+      "start": 10.639,
+      "end": 11.159
+    },
+    {
+      "w": "and",
+      "start": 11.34,
+      "end": 11.42
+    },
+    {
+      "w": "another,",
+      "start": 11.46,
+      "end": 11.8
+    },
+    {
+      "w": "like",
+      "start": 12.0,
+      "end": 12.099
+    },
+    {
+      "w": "barrier-free",
+      "start": 12.199,
+      "end": 12.659
+    },
+    {
+      "w": "access,",
+      "start": 12.759,
+      "end": 13.199
+    },
+    {
+      "w": "can",
+      "start": 13.359,
+      "end": 13.46
+    },
+    {
+      "w": "drift",
+      "start": 13.519,
+      "end": 13.719
+    },
+    {
+      "w": "out",
+      "start": 13.759,
+      "end": 13.84
+    },
+    {
+      "w": "of",
+      "start": 13.859,
+      "end": 13.96
+    },
+    {
+      "w": "balance.",
+      "start": 14.019,
+      "end": 14.46
+    },
+    {
+      "w": "So",
+      "start": 14.759,
+      "end": 14.819
+    },
+    {
+      "w": "we",
+      "start": 14.88,
+      "end": 14.92
+    },
+    {
+      "w": "need",
+      "start": 15.0,
+      "end": 15.1
+    },
+    {
+      "w": "to",
+      "start": 15.119,
+      "end": 15.239
+    },
+    {
+      "w": "spot",
+      "start": 15.259,
+      "end": 15.539
+    },
+    {
+      "w": "when",
+      "start": 15.579,
+      "end": 15.68
+    },
+    {
+      "w": "adapters",
+      "start": 15.759,
+      "end": 16.159
+    },
+    {
+      "w": "are",
+      "start": 16.18,
+      "end": 16.299
+    },
+    {
+      "w": "pulling",
+      "start": 16.34,
+      "end": 16.559
+    },
+    {
+      "w": "against",
+      "start": 16.639,
+      "end": 16.899
+    },
+    {
+      "w": "each",
+      "start": 16.92,
+      "end": 17.059
+    },
+    {
+      "w": "other,",
+      "start": 17.119,
+      "end": 17.319
+    },
+    {
+      "w": "and",
+      "start": 17.5,
+      "end": 17.639
+    },
+    {
+      "w": "train",
+      "start": 17.68,
+      "end": 17.899
+    },
+    {
+      "w": "those",
+      "start": 17.92,
+      "end": 18.1
+    },
+    {
+      "w": "ones",
+      "start": 18.139,
+      "end": 18.34
+    },
+    {
+      "w": "together",
+      "start": 18.359,
+      "end": 18.879
+    },
+    {
+      "w": "rather",
+      "start": 18.939,
+      "end": 19.18
+    },
+    {
+      "w": "than",
+      "start": 19.181,
+      "end": 19.319
+    },
+    {
+      "w": "one",
+      "start": 19.379,
+      "end": 19.459
+    },
+    {
+      "w": "at",
+      "start": 19.5,
+      "end": 19.559
+    },
+    {
+      "w": "a",
+      "start": 19.6,
+      "end": 19.659
+    },
+    {
+      "w": "time.",
+      "start": 19.699,
+      "end": 19.979
+    },
+    {
+      "w": "Second,",
+      "start": 21.359,
+      "end": 21.719
+    },
+    {
+      "w": "adapters",
+      "start": 21.959,
+      "end": 22.34
+    },
+    {
+      "w": "are",
+      "start": 22.359,
+      "end": 22.479
+    },
+    {
+      "w": "tied",
+      "start": 22.519,
+      "end": 22.739
+    },
+    {
+      "w": "to",
+      "start": 22.74,
+      "end": 22.86
+    },
+    {
+      "w": "one",
+      "start": 22.899,
+      "end": 23.0
+    },
+    {
+      "w": "base",
+      "start": 23.079,
+      "end": 23.279
+    },
+    {
+      "w": "model.",
+      "start": 23.359,
+      "end": 23.819
+    },
+    {
+      "w": "Right",
+      "start": 23.879,
+      "end": 24.019
+    },
+    {
+      "w": "now,",
+      "start": 24.139,
+      "end": 24.399
+    },
+    {
+      "w": "every",
+      "start": 24.479,
+      "end": 24.639
+    },
+    {
+      "w": "adapter",
+      "start": 24.739,
+      "end": 25.079
+    },
+    {
+      "w": "is",
+      "start": 25.1,
+      "end": 25.239
+    },
+    {
+      "w": "bound",
+      "start": 25.26,
+      "end": 25.459
+    },
+    {
+      "w": "to",
+      "start": 25.479,
+      "end": 25.559
+    },
+    {
+      "w": "the",
+      "start": 25.579,
+      "end": 25.619
+    },
+    {
+      "w": "exact",
+      "start": 25.719,
+      "end": 26.039
+    },
+    {
+      "w": "brain",
+      "start": 26.099,
+      "end": 26.26
+    },
+    {
+      "w": "it",
+      "start": 26.299,
+      "end": 26.36
+    },
+    {
+      "w": "was",
+      "start": 26.379,
+      "end": 26.519
+    },
+    {
+      "w": "trained",
+      "start": 26.559,
+      "end": 26.819
+    },
+    {
+      "w": "on",
+      "start": 26.859,
+      "end": 27.0
+    },
+    {
+      "w": "swap",
+      "start": 27.359,
+      "end": 27.619
+    },
+    {
+      "w": "the",
+      "start": 27.659,
+      "end": 27.719
+    },
+    {
+      "w": "base,",
+      "start": 27.779,
+      "end": 28.18
+    },
+    {
+      "w": "and",
+      "start": 28.219,
+      "end": 28.299
+    },
+    {
+      "w": "you'd",
+      "start": 28.319,
+      "end": 28.459
+    },
+    {
+      "w": "have",
+      "start": 28.479,
+      "end": 28.619
+    },
+    {
+      "w": "to",
+      "start": 28.62,
+      "end": 28.7
+    },
+    {
+      "w": "retrain",
+      "start": 28.719,
+      "end": 29.039
+    },
+    {
+      "w": "all",
+      "start": 29.099,
+      "end": 29.199
+    },
+    {
+      "w": "of",
+      "start": 29.219,
+      "end": 29.34
+    },
+    {
+      "w": "them.",
+      "start": 29.379,
+      "end": 29.739
+    },
+    {
+      "w": "We",
+      "start": 29.819,
+      "end": 29.899
+    },
+    {
+      "w": "need",
+      "start": 29.939,
+      "end": 30.039
+    },
+    {
+      "w": "adapters",
+      "start": 30.119,
+      "end": 30.519
+    },
+    {
+      "w": "that",
+      "start": 30.559,
+      "end": 30.68
+    },
+    {
+      "w": "can",
+      "start": 30.699,
+      "end": 30.84
+    },
+    {
+      "w": "move",
+      "start": 30.841,
+      "end": 31.019
+    },
+    {
+      "w": "to",
+      "start": 31.059,
+      "end": 31.119
+    },
+    {
+      "w": "a",
+      "start": 31.139,
+      "end": 31.219
+    },
+    {
+      "w": "new",
+      "start": 31.26,
+      "end": 31.379
+    },
+    {
+      "w": "base",
+      "start": 31.42,
+      "end": 31.68
+    },
+    {
+      "w": "without",
+      "start": 31.719,
+      "end": 31.979
+    },
+    {
+      "w": "starting",
+      "start": 32.0,
+      "end": 32.299
+    },
+    {
+      "w": "from",
+      "start": 32.3,
+      "end": 32.439
+    },
+    {
+      "w": "scratch.",
+      "start": 32.479,
+      "end": 32.959
+    },
+    {
+      "w": "Both",
+      "start": 33.919,
+      "end": 34.099
+    },
+    {
+      "w": "of",
+      "start": 34.119,
+      "end": 34.22
+    },
+    {
+      "w": "those",
+      "start": 34.259,
+      "end": 34.419
+    },
+    {
+      "w": "are",
+      "start": 34.459,
+      "end": 34.56
+    },
+    {
+      "w": "open",
+      "start": 34.599,
+      "end": 34.799
+    },
+    {
+      "w": "research",
+      "start": 34.84,
+      "end": 35.2
+    },
+    {
+      "w": "questions",
+      "start": 35.259,
+      "end": 35.84
+    },
+    {
+      "w": "and",
+      "start": 35.88,
+      "end": 35.979
+    },
+    {
+      "w": "they're",
+      "start": 36.0,
+      "end": 36.119
+    },
+    {
+      "w": "exactly",
+      "start": 36.2,
+      "end": 36.659
+    },
+    {
+      "w": "the",
+      "start": 36.719,
+      "end": 36.799
+    },
+    {
+      "w": "kind",
+      "start": 36.84,
+      "end": 36.979
+    },
+    {
+      "w": "of",
+      "start": 37.0,
+      "end": 37.119
+    },
+    {
+      "w": "thing",
+      "start": 37.139,
+      "end": 37.279
+    },
+    {
+      "w": "this",
+      "start": 37.319,
+      "end": 37.439
+    },
+    {
+      "w": "project",
+      "start": 37.52,
+      "end": 37.88
+    },
+    {
+      "w": "has",
+      "start": 37.899,
+      "end": 38.0
+    },
+    {
+      "w": "teed",
+      "start": 38.099,
+      "end": 38.259
+    },
+    {
+      "w": "up",
+      "start": 38.319,
+      "end": 38.439
+    },
+    {
+      "w": "for",
+      "start": 38.479,
+      "end": 38.54
+    },
+    {
+      "w": "the",
+      "start": 38.579,
+      "end": 38.619
+    },
+    {
+      "w": "next",
+      "start": 38.7,
+      "end": 38.86
+    },
+    {
+      "w": "one",
+      "start": 38.919,
+      "end": 39.02
+    },
+    {
+      "w": "to",
+      "start": 39.021,
+      "end": 39.139
+    },
+    {
+      "w": "tackle.",
+      "start": 39.159,
+      "end": 39.459
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Before any of that's practical, though, there are two problems we have to crack.",
+      "start": 0.119,
+      "end": 3.439
+    },
+    {
+      "text": "First, adapters can interfere with each other.",
+      "start": 5.139,
+      "end": 7.259
+    },
+    {
+      "text": "They don't always stack cleanly push one quality, say layout efficiency, and another, like barrier-free access, can drift out of balance.",
+      "start": 7.519,
+      "end": 14.46
+    },
+    {
+      "text": "So we need to spot when adapters are pulling against each other, and train those ones together rather than one at a time.",
+      "start": 14.759,
+      "end": 19.979
+    },
+    {
+      "text": "Second, adapters are tied to one base model.",
+      "start": 21.359,
+      "end": 23.819
+    },
+    {
+      "text": "Right now, every adapter is bound to the exact brain it was trained on swap the base, and you'd have to retrain all of them.",
+      "start": 23.879,
+      "end": 29.739
+    },
+    {
+      "text": "We need adapters that can move to a new base without starting from scratch.",
+      "start": 29.819,
+      "end": 32.959
+    },
+    {
+      "text": "Both of those are open research questions and they're exactly the kind of thing this project has teed up for the next one to tackle.",
+      "start": 33.919,
+      "end": 39.459
+    }
+  ]
+}

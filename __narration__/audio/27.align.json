@@ -1,0 +1,841 @@
+{
+  "schema": "spatialtimber.align/1",
+  "slide": 27,
+  "audio": "27.mp3",
+  "cut": "long_15min_v3",
+  "duration": 59.353,
+  "engine": "elevenlabs-forced-alignment",
+  "loss": 0.0926,
+  "language": "en",
+  "generatedAt": "2026-06-23T15:45:16",
+  "text": "So where does this point? Right now the whole field is chasing ONE model that does everything every site, every client, every building code, every construction system, all at once. The all-knowing architect-in-a-box. Surprise: it doesn't work. And it was never going to human designers don't work that way either. Nobody masters local fire code and prefab bathroom modules and barrier-free social housing all at once; we SPECIALIZE. So why should the AI be any different? That's exactly what adapters are good for: each one is cheap to train, learns one thing, and the key part they COMBINE. So picture a platform of them, a shelf of skills. Whoever's on the project architect, contractor, whoever just ticks the skills the job needs, and the tailored model assembles itself, ready to use. The one you'd put together for social housing in Baden-Württemberg isn't the one you'd put together for a prefab-bathroom rooftop extension in Berlin.",
+  "words": [
+    {
+      "w": "So",
+      "start": 0.079,
+      "end": 0.179
+    },
+    {
+      "w": "where",
+      "start": 0.259,
+      "end": 0.399
+    },
+    {
+      "w": "does",
+      "start": 0.439,
+      "end": 0.579
+    },
+    {
+      "w": "this",
+      "start": 0.639,
+      "end": 0.759
+    },
+    {
+      "w": "point?",
+      "start": 0.879,
+      "end": 1.22
+    },
+    {
+      "w": "Right",
+      "start": 2.919,
+      "end": 3.079
+    },
+    {
+      "w": "now",
+      "start": 3.159,
+      "end": 3.339
+    },
+    {
+      "w": "the",
+      "start": 3.399,
+      "end": 3.48
+    },
+    {
+      "w": "whole",
+      "start": 3.539,
+      "end": 3.659
+    },
+    {
+      "w": "field",
+      "start": 3.819,
+      "end": 4.019
+    },
+    {
+      "w": "is",
+      "start": 4.059,
+      "end": 4.179
+    },
+    {
+      "w": "chasing",
+      "start": 4.239,
+      "end": 4.599
+    },
+    {
+      "w": "ONE",
+      "start": 4.759,
+      "end": 4.9
+    },
+    {
+      "w": "model",
+      "start": 5.0,
+      "end": 5.259
+    },
+    {
+      "w": "that",
+      "start": 5.319,
+      "end": 5.44
+    },
+    {
+      "w": "does",
+      "start": 5.48,
+      "end": 5.639
+    },
+    {
+      "w": "everything",
+      "start": 5.759,
+      "end": 6.219
+    },
+    {
+      "w": "every",
+      "start": 6.519,
+      "end": 6.699
+    },
+    {
+      "w": "site,",
+      "start": 6.819,
+      "end": 7.119
+    },
+    {
+      "w": "every",
+      "start": 7.279,
+      "end": 7.44
+    },
+    {
+      "w": "client,",
+      "start": 7.579,
+      "end": 7.94
+    },
+    {
+      "w": "every",
+      "start": 8.079,
+      "end": 8.239
+    },
+    {
+      "w": "building",
+      "start": 8.359,
+      "end": 8.659
+    },
+    {
+      "w": "code,",
+      "start": 8.739,
+      "end": 9.019
+    },
+    {
+      "w": "every",
+      "start": 9.479,
+      "end": 9.619
+    },
+    {
+      "w": "construction",
+      "start": 9.719,
+      "end": 10.239
+    },
+    {
+      "w": "system,",
+      "start": 10.359,
+      "end": 10.659
+    },
+    {
+      "w": "all",
+      "start": 10.779,
+      "end": 10.88
+    },
+    {
+      "w": "at",
+      "start": 10.939,
+      "end": 11.0
+    },
+    {
+      "w": "once.",
+      "start": 11.079,
+      "end": 11.42
+    },
+    {
+      "w": "The",
+      "start": 12.5,
+      "end": 12.56
+    },
+    {
+      "w": "all-knowing",
+      "start": 12.639,
+      "end": 13.099
+    },
+    {
+      "w": "architect-in-a-box.",
+      "start": 13.219,
+      "end": 14.38
+    },
+    {
+      "w": "Surprise:",
+      "start": 15.339,
+      "end": 15.92
+    },
+    {
+      "w": "it",
+      "start": 16.119,
+      "end": 16.199
+    },
+    {
+      "w": "doesn't",
+      "start": 16.26,
+      "end": 16.479
+    },
+    {
+      "w": "work.",
+      "start": 16.559,
+      "end": 16.819
+    },
+    {
+      "w": "And",
+      "start": 17.1,
+      "end": 17.18
+    },
+    {
+      "w": "it",
+      "start": 17.199,
+      "end": 17.239
+    },
+    {
+      "w": "was",
+      "start": 17.279,
+      "end": 17.379
+    },
+    {
+      "w": "never",
+      "start": 17.459,
+      "end": 17.619
+    },
+    {
+      "w": "going",
+      "start": 17.719,
+      "end": 17.959
+    },
+    {
+      "w": "to",
+      "start": 18.02,
+      "end": 18.219
+    },
+    {
+      "w": "human",
+      "start": 18.619,
+      "end": 18.84
+    },
+    {
+      "w": "designers",
+      "start": 18.899,
+      "end": 19.319
+    },
+    {
+      "w": "don't",
+      "start": 19.379,
+      "end": 19.5
+    },
+    {
+      "w": "work",
+      "start": 19.559,
+      "end": 19.719
+    },
+    {
+      "w": "that",
+      "start": 19.76,
+      "end": 19.879
+    },
+    {
+      "w": "way",
+      "start": 19.939,
+      "end": 20.079
+    },
+    {
+      "w": "either.",
+      "start": 20.159,
+      "end": 20.439
+    },
+    {
+      "w": "Nobody",
+      "start": 20.899,
+      "end": 21.18
+    },
+    {
+      "w": "masters",
+      "start": 21.239,
+      "end": 21.639
+    },
+    {
+      "w": "local",
+      "start": 21.719,
+      "end": 21.979
+    },
+    {
+      "w": "fire",
+      "start": 22.059,
+      "end": 22.26
+    },
+    {
+      "w": "code",
+      "start": 22.379,
+      "end": 22.619
+    },
+    {
+      "w": "and",
+      "start": 22.659,
+      "end": 22.739
+    },
+    {
+      "w": "prefab",
+      "start": 22.84,
+      "end": 23.26
+    },
+    {
+      "w": "bathroom",
+      "start": 23.34,
+      "end": 23.68
+    },
+    {
+      "w": "modules",
+      "start": 23.739,
+      "end": 24.18
+    },
+    {
+      "w": "and",
+      "start": 24.539,
+      "end": 24.639
+    },
+    {
+      "w": "barrier-free",
+      "start": 24.719,
+      "end": 25.319
+    },
+    {
+      "w": "social",
+      "start": 25.379,
+      "end": 25.679
+    },
+    {
+      "w": "housing",
+      "start": 25.719,
+      "end": 26.039
+    },
+    {
+      "w": "all",
+      "start": 26.099,
+      "end": 26.18
+    },
+    {
+      "w": "at",
+      "start": 26.239,
+      "end": 26.319
+    },
+    {
+      "w": "once;",
+      "start": 26.379,
+      "end": 26.799
+    },
+    {
+      "w": "we",
+      "start": 27.299,
+      "end": 27.419
+    },
+    {
+      "w": "SPECIALIZE.",
+      "start": 27.479,
+      "end": 28.259
+    },
+    {
+      "w": "So",
+      "start": 28.819,
+      "end": 28.899
+    },
+    {
+      "w": "why",
+      "start": 28.959,
+      "end": 29.059
+    },
+    {
+      "w": "should",
+      "start": 29.139,
+      "end": 29.239
+    },
+    {
+      "w": "the",
+      "start": 29.279,
+      "end": 29.359
+    },
+    {
+      "w": "AI",
+      "start": 29.519,
+      "end": 29.739
+    },
+    {
+      "w": "be",
+      "start": 29.799,
+      "end": 29.879
+    },
+    {
+      "w": "any",
+      "start": 29.92,
+      "end": 30.059
+    },
+    {
+      "w": "different?",
+      "start": 30.099,
+      "end": 30.519
+    },
+    {
+      "w": "That's",
+      "start": 31.079,
+      "end": 31.219
+    },
+    {
+      "w": "exactly",
+      "start": 31.279,
+      "end": 31.659
+    },
+    {
+      "w": "what",
+      "start": 31.719,
+      "end": 31.799
+    },
+    {
+      "w": "adapters",
+      "start": 31.859,
+      "end": 32.279
+    },
+    {
+      "w": "are",
+      "start": 32.319,
+      "end": 32.399
+    },
+    {
+      "w": "good",
+      "start": 32.459,
+      "end": 32.619
+    },
+    {
+      "w": "for:",
+      "start": 32.68,
+      "end": 32.919
+    },
+    {
+      "w": "each",
+      "start": 33.54,
+      "end": 33.719
+    },
+    {
+      "w": "one",
+      "start": 33.799,
+      "end": 33.88
+    },
+    {
+      "w": "is",
+      "start": 33.919,
+      "end": 34.02
+    },
+    {
+      "w": "cheap",
+      "start": 34.119,
+      "end": 34.299
+    },
+    {
+      "w": "to",
+      "start": 34.34,
+      "end": 34.439
+    },
+    {
+      "w": "train,",
+      "start": 34.5,
+      "end": 34.819
+    },
+    {
+      "w": "learns",
+      "start": 35.04,
+      "end": 35.319
+    },
+    {
+      "w": "one",
+      "start": 35.399,
+      "end": 35.579
+    },
+    {
+      "w": "thing,",
+      "start": 35.619,
+      "end": 35.88
+    },
+    {
+      "w": "and",
+      "start": 36.04,
+      "end": 36.239
+    },
+    {
+      "w": "the",
+      "start": 36.599,
+      "end": 36.68
+    },
+    {
+      "w": "key",
+      "start": 36.759,
+      "end": 36.899
+    },
+    {
+      "w": "part",
+      "start": 36.959,
+      "end": 37.299
+    },
+    {
+      "w": "they",
+      "start": 37.599,
+      "end": 37.739
+    },
+    {
+      "w": "COMBINE.",
+      "start": 37.779,
+      "end": 38.319
+    },
+    {
+      "w": "So",
+      "start": 38.919,
+      "end": 38.979
+    },
+    {
+      "w": "picture",
+      "start": 39.079,
+      "end": 39.319
+    },
+    {
+      "w": "a",
+      "start": 39.36,
+      "end": 39.419
+    },
+    {
+      "w": "platform",
+      "start": 39.459,
+      "end": 39.879
+    },
+    {
+      "w": "of",
+      "start": 39.919,
+      "end": 40.02
+    },
+    {
+      "w": "them,",
+      "start": 40.059,
+      "end": 40.259
+    },
+    {
+      "w": "a",
+      "start": 40.5,
+      "end": 40.579
+    },
+    {
+      "w": "shelf",
+      "start": 40.639,
+      "end": 40.879
+    },
+    {
+      "w": "of",
+      "start": 40.919,
+      "end": 41.04
+    },
+    {
+      "w": "skills.",
+      "start": 41.119,
+      "end": 41.639
+    },
+    {
+      "w": "Whoever's",
+      "start": 42.259,
+      "end": 42.619
+    },
+    {
+      "w": "on",
+      "start": 42.659,
+      "end": 42.719
+    },
+    {
+      "w": "the",
+      "start": 42.759,
+      "end": 42.84
+    },
+    {
+      "w": "project",
+      "start": 42.899,
+      "end": 43.54
+    },
+    {
+      "w": "architect,",
+      "start": 43.619,
+      "end": 44.159
+    },
+    {
+      "w": "contractor,",
+      "start": 44.319,
+      "end": 44.899
+    },
+    {
+      "w": "whoever",
+      "start": 44.959,
+      "end": 45.739
+    },
+    {
+      "w": "just",
+      "start": 45.84,
+      "end": 46.02
+    },
+    {
+      "w": "ticks",
+      "start": 46.059,
+      "end": 46.299
+    },
+    {
+      "w": "the",
+      "start": 46.34,
+      "end": 46.399
+    },
+    {
+      "w": "skills",
+      "start": 46.479,
+      "end": 46.759
+    },
+    {
+      "w": "the",
+      "start": 46.799,
+      "end": 46.879
+    },
+    {
+      "w": "job",
+      "start": 46.959,
+      "end": 47.2
+    },
+    {
+      "w": "needs,",
+      "start": 47.259,
+      "end": 47.679
+    },
+    {
+      "w": "and",
+      "start": 48.0,
+      "end": 48.059
+    },
+    {
+      "w": "the",
+      "start": 48.099,
+      "end": 48.2
+    },
+    {
+      "w": "tailored",
+      "start": 48.259,
+      "end": 48.579
+    },
+    {
+      "w": "model",
+      "start": 48.639,
+      "end": 48.879
+    },
+    {
+      "w": "assembles",
+      "start": 48.939,
+      "end": 49.34
+    },
+    {
+      "w": "itself,",
+      "start": 49.379,
+      "end": 49.939
+    },
+    {
+      "w": "ready",
+      "start": 50.319,
+      "end": 50.5
+    },
+    {
+      "w": "to",
+      "start": 50.539,
+      "end": 50.639
+    },
+    {
+      "w": "use.",
+      "start": 50.779,
+      "end": 51.159
+    },
+    {
+      "w": "The",
+      "start": 51.919,
+      "end": 52.0
+    },
+    {
+      "w": "one",
+      "start": 52.079,
+      "end": 52.18
+    },
+    {
+      "w": "you'd",
+      "start": 52.219,
+      "end": 52.34
+    },
+    {
+      "w": "put",
+      "start": 52.399,
+      "end": 52.52
+    },
+    {
+      "w": "together",
+      "start": 52.539,
+      "end": 52.899
+    },
+    {
+      "w": "for",
+      "start": 52.959,
+      "end": 53.079
+    },
+    {
+      "w": "social",
+      "start": 53.159,
+      "end": 53.439
+    },
+    {
+      "w": "housing",
+      "start": 53.479,
+      "end": 53.799
+    },
+    {
+      "w": "in",
+      "start": 53.819,
+      "end": 53.919
+    },
+    {
+      "w": "Baden-Württemberg",
+      "start": 53.979,
+      "end": 55.259
+    },
+    {
+      "w": "isn't",
+      "start": 55.34,
+      "end": 55.52
+    },
+    {
+      "w": "the",
+      "start": 55.559,
+      "end": 55.639
+    },
+    {
+      "w": "one",
+      "start": 55.719,
+      "end": 55.819
+    },
+    {
+      "w": "you'd",
+      "start": 55.86,
+      "end": 56.0
+    },
+    {
+      "w": "put",
+      "start": 56.039,
+      "end": 56.159
+    },
+    {
+      "w": "together",
+      "start": 56.199,
+      "end": 56.559
+    },
+    {
+      "w": "for",
+      "start": 56.619,
+      "end": 56.699
+    },
+    {
+      "w": "a",
+      "start": 56.759,
+      "end": 56.84
+    },
+    {
+      "w": "prefab-bathroom",
+      "start": 56.899,
+      "end": 57.819
+    },
+    {
+      "w": "rooftop",
+      "start": 57.86,
+      "end": 58.279
+    },
+    {
+      "w": "extension",
+      "start": 58.359,
+      "end": 58.779
+    },
+    {
+      "w": "in",
+      "start": 58.819,
+      "end": 58.879
+    },
+    {
+      "w": "Berlin.",
+      "start": 58.939,
+      "end": 59.279
+    }
+  ],
+  "sentences": [
+    {
+      "text": "So where does this point?",
+      "start": 0.079,
+      "end": 1.22
+    },
+    {
+      "text": "Right now the whole field is chasing ONE model that does everything every site, every client, every building code, every construction system, all at once.",
+      "start": 2.919,
+      "end": 11.42
+    },
+    {
+      "text": "The all-knowing architect-in-a-box.",
+      "start": 12.5,
+      "end": 14.38
+    },
+    {
+      "text": "Surprise: it doesn't work.",
+      "start": 15.339,
+      "end": 16.819
+    },
+    {
+      "text": "And it was never going to human designers don't work that way either.",
+      "start": 17.1,
+      "end": 20.439
+    },
+    {
+      "text": "Nobody masters local fire code and prefab bathroom modules and barrier-free social housing all at once; we SPECIALIZE.",
+      "start": 20.899,
+      "end": 28.259
+    },
+    {
+      "text": "So why should the AI be any different?",
+      "start": 28.819,
+      "end": 30.519
+    },
+    {
+      "text": "That's exactly what adapters are good for: each one is cheap to train, learns one thing, and the key part they COMBINE.",
+      "start": 31.079,
+      "end": 38.319
+    },
+    {
+      "text": "So picture a platform of them, a shelf of skills.",
+      "start": 38.919,
+      "end": 41.639
+    },
+    {
+      "text": "Whoever's on the project architect, contractor, whoever just ticks the skills the job needs, and the tailored model assembles itself, ready to use.",
+      "start": 42.259,
+      "end": 51.159
+    },
+    {
+      "text": "The one you'd put together for social housing in Baden-Württemberg isn't the one you'd put together for a prefab-bathroom rooftop extension in Berlin.",
+      "start": 51.919,
+      "end": 59.279
+    }
+  ]
+}

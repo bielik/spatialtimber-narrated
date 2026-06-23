@@ -1,0 +1,56 @@
+{
+  "schema": "spatialtimber.align/1",
+  "slide": 17,
+  "audio": "17.mp3",
+  "cut": "long_15min_v3",
+  "duration": 1.828,
+  "engine": "elevenlabs-forced-alignment",
+  "loss": 0.1852,
+  "language": "en",
+  "generatedAt": "2026-06-23T15:45:09",
+  "text": "So what came out of all this?",
+  "words": [
+    {
+      "w": "So",
+      "start": 0.099,
+      "end": 0.579
+    },
+    {
+      "w": "what",
+      "start": 0.599,
+      "end": 0.799
+    },
+    {
+      "w": "came",
+      "start": 0.839,
+      "end": 1.019
+    },
+    {
+      "w": "out",
+      "start": 1.059,
+      "end": 1.159
+    },
+    {
+      "w": "of",
+      "start": 1.179,
+      "end": 1.279
+    },
+    {
+      "w": "all",
+      "start": 1.339,
+      "end": 1.459
+    },
+    {
+      "w": "this?",
+      "start": 1.5,
+      "end": 1.719
+    }
+  ],
+  "sentences": [
+    {
+      "text": "So what came out of all this?",
+      "start": 0.099,
+      "end": 1.719
+    }
+  ]
+}

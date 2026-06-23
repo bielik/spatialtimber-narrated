@@ -1,0 +1,586 @@
+{
+  "schema": "spatialtimber.align/1",
+  "slide": 23,
+  "audio": "23.mp3",
+  "cut": "long_15min_v3",
+  "duration": 34.047,
+  "engine": "elevenlabs-forced-alignment",
+  "loss": 0.0547,
+  "language": "en",
+  "generatedAt": "2026-06-23T15:52:16",
+  "text": "Two things make our version a bit unusual. First, it's detailed. The usual quick estimator squashes the whole building down to a single number one score for the structure. Ours gives you a result for every individual wall and every slab panel. And that's what lets us make targeted decisions, instead of just judging the building as one lump. Second, it's general. Most of these models are trained for one fixed building type. We trained ours on hundret thousands of randomly generated layouts, so it works as the structural scorer for pretty much anything we throw at it not just the cases it was tuned on.",
+  "words": [
+    {
+      "w": "Two",
+      "start": 0.14,
+      "end": 0.259
+    },
+    {
+      "w": "things",
+      "start": 0.379,
+      "end": 0.659
+    },
+    {
+      "w": "make",
+      "start": 0.699,
+      "end": 0.859
+    },
+    {
+      "w": "our",
+      "start": 0.919,
+      "end": 0.999
+    },
+    {
+      "w": "version",
+      "start": 1.059,
+      "end": 1.319
+    },
+    {
+      "w": "a",
+      "start": 1.36,
+      "end": 1.379
+    },
+    {
+      "w": "bit",
+      "start": 1.459,
+      "end": 1.539
+    },
+    {
+      "w": "unusual.",
+      "start": 1.62,
+      "end": 2.2
+    },
+    {
+      "w": "First,",
+      "start": 3.48,
+      "end": 3.74
+    },
+    {
+      "w": "it's",
+      "start": 3.839,
+      "end": 4.019
+    },
+    {
+      "w": "detailed.",
+      "start": 4.059,
+      "end": 4.579
+    },
+    {
+      "w": "The",
+      "start": 4.859,
+      "end": 4.92
+    },
+    {
+      "w": "usual",
+      "start": 5.039,
+      "end": 5.279
+    },
+    {
+      "w": "quick",
+      "start": 5.44,
+      "end": 5.599
+    },
+    {
+      "w": "estimator",
+      "start": 5.699,
+      "end": 6.179
+    },
+    {
+      "w": "squashes",
+      "start": 6.259,
+      "end": 6.699
+    },
+    {
+      "w": "the",
+      "start": 6.759,
+      "end": 6.819
+    },
+    {
+      "w": "whole",
+      "start": 6.859,
+      "end": 7.0
+    },
+    {
+      "w": "building",
+      "start": 7.079,
+      "end": 7.359
+    },
+    {
+      "w": "down",
+      "start": 7.399,
+      "end": 7.559
+    },
+    {
+      "w": "to",
+      "start": 7.619,
+      "end": 7.679
+    },
+    {
+      "w": "a",
+      "start": 7.719,
+      "end": 7.799
+    },
+    {
+      "w": "single",
+      "start": 7.859,
+      "end": 8.039
+    },
+    {
+      "w": "number",
+      "start": 8.139,
+      "end": 8.399
+    },
+    {
+      "w": "one",
+      "start": 8.84,
+      "end": 9.019
+    },
+    {
+      "w": "score",
+      "start": 9.079,
+      "end": 9.359
+    },
+    {
+      "w": "for",
+      "start": 9.399,
+      "end": 9.479
+    },
+    {
+      "w": "the",
+      "start": 9.5,
+      "end": 9.559
+    },
+    {
+      "w": "structure.",
+      "start": 9.639,
+      "end": 10.099
+    },
+    {
+      "w": "Ours",
+      "start": 10.439,
+      "end": 10.699
+    },
+    {
+      "w": "gives",
+      "start": 10.739,
+      "end": 10.88
+    },
+    {
+      "w": "you",
+      "start": 10.92,
+      "end": 10.979
+    },
+    {
+      "w": "a",
+      "start": 11.019,
+      "end": 11.059
+    },
+    {
+      "w": "result",
+      "start": 11.119,
+      "end": 11.479
+    },
+    {
+      "w": "for",
+      "start": 11.539,
+      "end": 11.659
+    },
+    {
+      "w": "every",
+      "start": 11.759,
+      "end": 11.92
+    },
+    {
+      "w": "individual",
+      "start": 12.0,
+      "end": 12.439
+    },
+    {
+      "w": "wall",
+      "start": 12.559,
+      "end": 12.819
+    },
+    {
+      "w": "and",
+      "start": 12.96,
+      "end": 13.039
+    },
+    {
+      "w": "every",
+      "start": 13.119,
+      "end": 13.299
+    },
+    {
+      "w": "slab",
+      "start": 13.42,
+      "end": 13.679
+    },
+    {
+      "w": "panel.",
+      "start": 13.759,
+      "end": 14.079
+    },
+    {
+      "w": "And",
+      "start": 15.279,
+      "end": 15.359
+    },
+    {
+      "w": "that's",
+      "start": 15.399,
+      "end": 15.599
+    },
+    {
+      "w": "what",
+      "start": 15.639,
+      "end": 15.719
+    },
+    {
+      "w": "lets",
+      "start": 15.779,
+      "end": 15.939
+    },
+    {
+      "w": "us",
+      "start": 16.0,
+      "end": 16.079
+    },
+    {
+      "w": "make",
+      "start": 16.139,
+      "end": 16.319
+    },
+    {
+      "w": "targeted",
+      "start": 16.379,
+      "end": 16.739
+    },
+    {
+      "w": "decisions,",
+      "start": 16.779,
+      "end": 17.34
+    },
+    {
+      "w": "instead",
+      "start": 17.68,
+      "end": 17.959
+    },
+    {
+      "w": "of",
+      "start": 17.979,
+      "end": 18.059
+    },
+    {
+      "w": "just",
+      "start": 18.139,
+      "end": 18.219
+    },
+    {
+      "w": "judging",
+      "start": 18.34,
+      "end": 18.559
+    },
+    {
+      "w": "the",
+      "start": 18.6,
+      "end": 18.68
+    },
+    {
+      "w": "building",
+      "start": 18.739,
+      "end": 18.979
+    },
+    {
+      "w": "as",
+      "start": 19.02,
+      "end": 19.139
+    },
+    {
+      "w": "one",
+      "start": 19.199,
+      "end": 19.319
+    },
+    {
+      "w": "lump.",
+      "start": 19.42,
+      "end": 19.699
+    },
+    {
+      "w": "Second,",
+      "start": 21.159,
+      "end": 21.439
+    },
+    {
+      "w": "it's",
+      "start": 21.52,
+      "end": 21.699
+    },
+    {
+      "w": "general.",
+      "start": 21.76,
+      "end": 22.099
+    },
+    {
+      "w": "Most",
+      "start": 22.459,
+      "end": 22.619
+    },
+    {
+      "w": "of",
+      "start": 22.68,
+      "end": 22.719
+    },
+    {
+      "w": "these",
+      "start": 22.76,
+      "end": 22.879
+    },
+    {
+      "w": "models",
+      "start": 22.979,
+      "end": 23.219
+    },
+    {
+      "w": "are",
+      "start": 23.279,
+      "end": 23.379
+    },
+    {
+      "w": "trained",
+      "start": 23.439,
+      "end": 23.659
+    },
+    {
+      "w": "for",
+      "start": 23.699,
+      "end": 23.84
+    },
+    {
+      "w": "one",
+      "start": 23.899,
+      "end": 24.079
+    },
+    {
+      "w": "fixed",
+      "start": 24.139,
+      "end": 24.379
+    },
+    {
+      "w": "building",
+      "start": 24.439,
+      "end": 24.699
+    },
+    {
+      "w": "type.",
+      "start": 24.76,
+      "end": 25.019
+    },
+    {
+      "w": "We",
+      "start": 25.319,
+      "end": 25.419
+    },
+    {
+      "w": "trained",
+      "start": 25.479,
+      "end": 25.699
+    },
+    {
+      "w": "ours",
+      "start": 25.76,
+      "end": 25.899
+    },
+    {
+      "w": "on",
+      "start": 25.939,
+      "end": 26.059
+    },
+    {
+      "w": "hundret",
+      "start": 26.099,
+      "end": 26.379
+    },
+    {
+      "w": "thousands",
+      "start": 26.42,
+      "end": 26.76
+    },
+    {
+      "w": "of",
+      "start": 26.799,
+      "end": 26.879
+    },
+    {
+      "w": "randomly",
+      "start": 26.939,
+      "end": 27.359
+    },
+    {
+      "w": "generated",
+      "start": 27.399,
+      "end": 27.779
+    },
+    {
+      "w": "layouts,",
+      "start": 27.879,
+      "end": 28.339
+    },
+    {
+      "w": "so",
+      "start": 28.659,
+      "end": 28.719
+    },
+    {
+      "w": "it",
+      "start": 28.76,
+      "end": 28.84
+    },
+    {
+      "w": "works",
+      "start": 28.899,
+      "end": 29.139
+    },
+    {
+      "w": "as",
+      "start": 29.179,
+      "end": 29.279
+    },
+    {
+      "w": "the",
+      "start": 29.319,
+      "end": 29.419
+    },
+    {
+      "w": "structural",
+      "start": 29.459,
+      "end": 29.959
+    },
+    {
+      "w": "scorer",
+      "start": 30.019,
+      "end": 30.399
+    },
+    {
+      "w": "for",
+      "start": 30.459,
+      "end": 30.579
+    },
+    {
+      "w": "pretty",
+      "start": 30.639,
+      "end": 30.799
+    },
+    {
+      "w": "much",
+      "start": 30.84,
+      "end": 31.019
+    },
+    {
+      "w": "anything",
+      "start": 31.079,
+      "end": 31.399
+    },
+    {
+      "w": "we",
+      "start": 31.439,
+      "end": 31.559
+    },
+    {
+      "w": "throw",
+      "start": 31.599,
+      "end": 31.799
+    },
+    {
+      "w": "at",
+      "start": 31.879,
+      "end": 31.959
+    },
+    {
+      "w": "it",
+      "start": 32.0,
+      "end": 32.059
+    },
+    {
+      "w": "not",
+      "start": 32.419,
+      "end": 32.579
+    },
+    {
+      "w": "just",
+      "start": 32.619,
+      "end": 32.739
+    },
+    {
+      "w": "the",
+      "start": 32.779,
+      "end": 32.88
+    },
+    {
+      "w": "cases",
+      "start": 32.919,
+      "end": 33.219
+    },
+    {
+      "w": "it",
+      "start": 33.279,
+      "end": 33.319
+    },
+    {
+      "w": "was",
+      "start": 33.36,
+      "end": 33.5
+    },
+    {
+      "w": "tuned",
+      "start": 33.559,
+      "end": 33.799
+    },
+    {
+      "w": "on.",
+      "start": 33.86,
+      "end": 33.979
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Two things make our version a bit unusual.",
+      "start": 0.14,
+      "end": 2.2
+    },
+    {
+      "text": "First, it's detailed.",
+      "start": 3.48,
+      "end": 4.579
+    },
+    {
+      "text": "The usual quick estimator squashes the whole building down to a single number one score for the structure.",
+      "start": 4.859,
+      "end": 10.099
+    },
+    {
+      "text": "Ours gives you a result for every individual wall and every slab panel.",
+      "start": 10.439,
+      "end": 14.079
+    },
+    {
+      "text": "And that's what lets us make targeted decisions, instead of just judging the building as one lump.",
+      "start": 15.279,
+      "end": 19.699
+    },
+    {
+      "text": "Second, it's general.",
+      "start": 21.159,
+      "end": 22.099
+    },
+    {
+      "text": "Most of these models are trained for one fixed building type.",
+      "start": 22.459,
+      "end": 25.019
+    },
+    {
+      "text": "We trained ours on hundret thousands of randomly generated layouts, so it works as the structural scorer for pretty much anything we throw at it not just the cases it was tuned on.",
+      "start": 25.319,
+      "end": 33.979
+    }
+  ]
+}

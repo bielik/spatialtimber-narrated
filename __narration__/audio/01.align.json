@@ -1,0 +1,366 @@
+{
+  "schema": "spatialtimber.align/1",
+  "slide": 1,
+  "audio": "01.mp3",
+  "cut": "long_15min_v3",
+  "duration": 21.251,
+  "engine": "elevenlabs-forced-alignment",
+  "loss": 0.0659,
+  "language": "en",
+  "generatedAt": "2026-06-23T15:44:57",
+  "text": "Hi, and welcome. This is SpatialTimber. In a sentence: it's a research project about adding new apartments on top of buildings we already have in timber and automating the hard part: the design. We ran it from late 2024 to late 2026, funded through the Zukunft Bau programme. What I want to walk you through today is where we landed and how we got there.",
+  "words": [
+    {
+      "w": "Hi,",
+      "start": 0.099,
+      "end": 0.379
+    },
+    {
+      "w": "and",
+      "start": 0.579,
+      "end": 0.699
+    },
+    {
+      "w": "welcome.",
+      "start": 0.759,
+      "end": 1.179
+    },
+    {
+      "w": "This",
+      "start": 1.939,
+      "end": 2.079
+    },
+    {
+      "w": "is",
+      "start": 2.119,
+      "end": 2.22
+    },
+    {
+      "w": "SpatialTimber.",
+      "start": 2.259,
+      "end": 3.139
+    },
+    {
+      "w": "In",
+      "start": 3.439,
+      "end": 3.519
+    },
+    {
+      "w": "a",
+      "start": 3.559,
+      "end": 3.579
+    },
+    {
+      "w": "sentence:",
+      "start": 3.679,
+      "end": 4.219
+    },
+    {
+      "w": "it's",
+      "start": 4.519,
+      "end": 4.659
+    },
+    {
+      "w": "a",
+      "start": 4.719,
+      "end": 4.759
+    },
+    {
+      "w": "research",
+      "start": 4.819,
+      "end": 5.179
+    },
+    {
+      "w": "project",
+      "start": 5.279,
+      "end": 5.719
+    },
+    {
+      "w": "about",
+      "start": 5.799,
+      "end": 6.0
+    },
+    {
+      "w": "adding",
+      "start": 6.079,
+      "end": 6.299
+    },
+    {
+      "w": "new",
+      "start": 6.379,
+      "end": 6.46
+    },
+    {
+      "w": "apartments",
+      "start": 6.599,
+      "end": 7.099
+    },
+    {
+      "w": "on",
+      "start": 7.139,
+      "end": 7.259
+    },
+    {
+      "w": "top",
+      "start": 7.279,
+      "end": 7.44
+    },
+    {
+      "w": "of",
+      "start": 7.48,
+      "end": 7.599
+    },
+    {
+      "w": "buildings",
+      "start": 7.659,
+      "end": 8.019
+    },
+    {
+      "w": "we",
+      "start": 8.039,
+      "end": 8.199
+    },
+    {
+      "w": "already",
+      "start": 8.279,
+      "end": 8.579
+    },
+    {
+      "w": "have",
+      "start": 8.659,
+      "end": 8.96
+    },
+    {
+      "w": "in",
+      "start": 9.119,
+      "end": 9.26
+    },
+    {
+      "w": "timber",
+      "start": 9.319,
+      "end": 9.659
+    },
+    {
+      "w": "and",
+      "start": 9.899,
+      "end": 10.0
+    },
+    {
+      "w": "automating",
+      "start": 10.099,
+      "end": 10.52
+    },
+    {
+      "w": "the",
+      "start": 10.539,
+      "end": 10.619
+    },
+    {
+      "w": "hard",
+      "start": 10.679,
+      "end": 10.859
+    },
+    {
+      "w": "part:",
+      "start": 10.92,
+      "end": 11.279
+    },
+    {
+      "w": "the",
+      "start": 11.319,
+      "end": 11.38
+    },
+    {
+      "w": "design.",
+      "start": 11.439,
+      "end": 11.939
+    },
+    {
+      "w": "We",
+      "start": 12.0,
+      "end": 12.099
+    },
+    {
+      "w": "ran",
+      "start": 12.139,
+      "end": 12.279
+    },
+    {
+      "w": "it",
+      "start": 12.319,
+      "end": 12.44
+    },
+    {
+      "w": "from",
+      "start": 12.479,
+      "end": 12.619
+    },
+    {
+      "w": "late",
+      "start": 12.659,
+      "end": 12.859
+    },
+    {
+      "w": "2024",
+      "start": 13.039,
+      "end": 13.899
+    },
+    {
+      "w": "to",
+      "start": 13.939,
+      "end": 14.039
+    },
+    {
+      "w": "late",
+      "start": 14.079,
+      "end": 14.259
+    },
+    {
+      "w": "2026,",
+      "start": 14.439,
+      "end": 15.259
+    },
+    {
+      "w": "funded",
+      "start": 15.519,
+      "end": 15.819
+    },
+    {
+      "w": "through",
+      "start": 15.839,
+      "end": 16.0
+    },
+    {
+      "w": "the",
+      "start": 16.02,
+      "end": 16.059
+    },
+    {
+      "w": "Zukunft",
+      "start": 16.159,
+      "end": 16.52
+    },
+    {
+      "w": "Bau",
+      "start": 16.6,
+      "end": 16.819
+    },
+    {
+      "w": "programme.",
+      "start": 16.879,
+      "end": 17.499
+    },
+    {
+      "w": "What",
+      "start": 17.539,
+      "end": 17.62
+    },
+    {
+      "w": "I",
+      "start": 17.68,
+      "end": 17.7
+    },
+    {
+      "w": "want",
+      "start": 17.779,
+      "end": 17.84
+    },
+    {
+      "w": "to",
+      "start": 17.859,
+      "end": 17.94
+    },
+    {
+      "w": "walk",
+      "start": 17.959,
+      "end": 18.139
+    },
+    {
+      "w": "you",
+      "start": 18.18,
+      "end": 18.279
+    },
+    {
+      "w": "through",
+      "start": 18.299,
+      "end": 18.479
+    },
+    {
+      "w": "today",
+      "start": 18.52,
+      "end": 19.0
+    },
+    {
+      "w": "is",
+      "start": 19.02,
+      "end": 19.159
+    },
+    {
+      "w": "where",
+      "start": 19.18,
+      "end": 19.34
+    },
+    {
+      "w": "we",
+      "start": 19.359,
+      "end": 19.459
+    },
+    {
+      "w": "landed",
+      "start": 19.5,
+      "end": 19.899
+    },
+    {
+      "w": "and",
+      "start": 20.239,
+      "end": 20.36
+    },
+    {
+      "w": "how",
+      "start": 20.399,
+      "end": 20.52
+    },
+    {
+      "w": "we",
+      "start": 20.539,
+      "end": 20.659
+    },
+    {
+      "w": "got",
+      "start": 20.699,
+      "end": 20.899
+    },
+    {
+      "w": "there.",
+      "start": 20.939,
+      "end": 21.159
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Hi, and welcome.",
+      "start": 0.099,
+      "end": 1.179
+    },
+    {
+      "text": "This is SpatialTimber.",
+      "start": 1.939,
+      "end": 3.139
+    },
+    {
+      "text": "In a sentence: it's a research project about adding new apartments on top of buildings we already have in timber and automating the hard part: the design.",
+      "start": 3.439,
+      "end": 11.939
+    },
+    {
+      "text": "We ran it from late 2024 to late 2026, funded through the Zukunft Bau programme.",
+      "start": 12.0,
+      "end": 17.499
+    },
+    {
+      "text": "What I want to walk you through today is where we landed and how we got there.",
+      "start": 17.539,
+      "end": 21.159
+    }
+  ]
+}

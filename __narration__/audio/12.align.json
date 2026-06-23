@@ -1,0 +1,1171 @@
+{
+  "schema": "spatialtimber.align/1",
+  "slide": 12,
+  "audio": "12.mp3",
+  "cut": "long_15min_v3",
+  "duration": 70.114,
+  "engine": "elevenlabs-forced-alignment",
+  "loss": 0.0623,
+  "language": "en",
+  "generatedAt": "2026-06-23T15:45:05",
+  "text": "We didn't start from a blank page. There's an earlier project, Neufert 4.0, that handed us a great starting point a big set of Swiss apartment floor plans, and an AI model that had learned from them to draw new ones. And how it learned is going to matter for everything else I tell you. It learned by IMITATION you show it tens of thousands of examples until it can reproduce the pattern. And it left us with two gaps. The first is simple: it only knew single apartments, and we need whole buildings. The second is subtler. Its plans looked like floor plans but looking like one and being a real one are two different things. You can draw something with the right feel rooms, doors, walls roughly in place that still isn't a home at all: no bathroom, say, or a bedroom with no window. And that's basically what we had. The model learned purely by copying, from a dataset that's honestly pretty small for a task this complex so what you get is less an architect and more an architect's six-year-old kid. It's seen thousands of plans and can sketch something that looks like a plan, but ask it for specific programm, modularity or structural efficiency and it will stare at you with mouth wide open.",
+  "words": [
+    {
+      "w": "We",
+      "start": 0.079,
+      "end": 0.159
+    },
+    {
+      "w": "didn't",
+      "start": 0.199,
+      "end": 0.379
+    },
+    {
+      "w": "start",
+      "start": 0.459,
+      "end": 0.699
+    },
+    {
+      "w": "from",
+      "start": 0.799,
+      "end": 0.879
+    },
+    {
+      "w": "a",
+      "start": 0.939,
+      "end": 0.959
+    },
+    {
+      "w": "blank",
+      "start": 1.039,
+      "end": 1.259
+    },
+    {
+      "w": "page.",
+      "start": 1.379,
+      "end": 1.779
+    },
+    {
+      "w": "There's",
+      "start": 3.659,
+      "end": 3.799
+    },
+    {
+      "w": "an",
+      "start": 3.839,
+      "end": 3.899
+    },
+    {
+      "w": "earlier",
+      "start": 3.98,
+      "end": 4.259
+    },
+    {
+      "w": "project,",
+      "start": 4.36,
+      "end": 4.819
+    },
+    {
+      "w": "Neufert",
+      "start": 5.059,
+      "end": 5.48
+    },
+    {
+      "w": "4.0,",
+      "start": 5.659,
+      "end": 6.199
+    },
+    {
+      "w": "that",
+      "start": 6.5,
+      "end": 6.619
+    },
+    {
+      "w": "handed",
+      "start": 6.679,
+      "end": 6.92
+    },
+    {
+      "w": "us",
+      "start": 6.98,
+      "end": 7.079
+    },
+    {
+      "w": "a",
+      "start": 7.139,
+      "end": 7.179
+    },
+    {
+      "w": "great",
+      "start": 7.239,
+      "end": 7.399
+    },
+    {
+      "w": "starting",
+      "start": 7.519,
+      "end": 7.839
+    },
+    {
+      "w": "point",
+      "start": 7.899,
+      "end": 8.079
+    },
+    {
+      "w": "a",
+      "start": 8.42,
+      "end": 8.46
+    },
+    {
+      "w": "big",
+      "start": 8.539,
+      "end": 8.679
+    },
+    {
+      "w": "set",
+      "start": 8.779,
+      "end": 8.899
+    },
+    {
+      "w": "of",
+      "start": 8.939,
+      "end": 9.02
+    },
+    {
+      "w": "Swiss",
+      "start": 9.099,
+      "end": 9.319
+    },
+    {
+      "w": "apartment",
+      "start": 9.359,
+      "end": 9.739
+    },
+    {
+      "w": "floor",
+      "start": 9.84,
+      "end": 10.039
+    },
+    {
+      "w": "plans,",
+      "start": 10.099,
+      "end": 10.5
+    },
+    {
+      "w": "and",
+      "start": 10.699,
+      "end": 10.78
+    },
+    {
+      "w": "an",
+      "start": 10.819,
+      "end": 10.88
+    },
+    {
+      "w": "AI",
+      "start": 10.979,
+      "end": 11.199
+    },
+    {
+      "w": "model",
+      "start": 11.319,
+      "end": 11.759
+    },
+    {
+      "w": "that",
+      "start": 11.8,
+      "end": 11.88
+    },
+    {
+      "w": "had",
+      "start": 11.899,
+      "end": 12.039
+    },
+    {
+      "w": "learned",
+      "start": 12.079,
+      "end": 12.319
+    },
+    {
+      "w": "from",
+      "start": 12.359,
+      "end": 12.5
+    },
+    {
+      "w": "them",
+      "start": 12.559,
+      "end": 12.739
+    },
+    {
+      "w": "to",
+      "start": 12.88,
+      "end": 12.96
+    },
+    {
+      "w": "draw",
+      "start": 13.019,
+      "end": 13.179
+    },
+    {
+      "w": "new",
+      "start": 13.279,
+      "end": 13.38
+    },
+    {
+      "w": "ones.",
+      "start": 13.479,
+      "end": 13.779
+    },
+    {
+      "w": "And",
+      "start": 14.059,
+      "end": 14.159
+    },
+    {
+      "w": "how",
+      "start": 14.279,
+      "end": 14.42
+    },
+    {
+      "w": "it",
+      "start": 14.479,
+      "end": 14.539
+    },
+    {
+      "w": "learned",
+      "start": 14.639,
+      "end": 14.979
+    },
+    {
+      "w": "is",
+      "start": 15.019,
+      "end": 15.119
+    },
+    {
+      "w": "going",
+      "start": 15.179,
+      "end": 15.319
+    },
+    {
+      "w": "to",
+      "start": 15.339,
+      "end": 15.42
+    },
+    {
+      "w": "matter",
+      "start": 15.46,
+      "end": 15.739
+    },
+    {
+      "w": "for",
+      "start": 15.779,
+      "end": 15.859
+    },
+    {
+      "w": "everything",
+      "start": 15.92,
+      "end": 16.219
+    },
+    {
+      "w": "else",
+      "start": 16.279,
+      "end": 16.42
+    },
+    {
+      "w": "I",
+      "start": 16.52,
+      "end": 16.579
+    },
+    {
+      "w": "tell",
+      "start": 16.619,
+      "end": 16.799
+    },
+    {
+      "w": "you.",
+      "start": 16.84,
+      "end": 17.0
+    },
+    {
+      "w": "It",
+      "start": 18.719,
+      "end": 18.799
+    },
+    {
+      "w": "learned",
+      "start": 18.879,
+      "end": 19.159
+    },
+    {
+      "w": "by",
+      "start": 19.219,
+      "end": 19.319
+    },
+    {
+      "w": "IMITATION",
+      "start": 19.399,
+      "end": 20.319
+    },
+    {
+      "w": "you",
+      "start": 20.399,
+      "end": 20.5
+    },
+    {
+      "w": "show",
+      "start": 20.559,
+      "end": 20.659
+    },
+    {
+      "w": "it",
+      "start": 20.699,
+      "end": 20.819
+    },
+    {
+      "w": "tens",
+      "start": 20.879,
+      "end": 21.1
+    },
+    {
+      "w": "of",
+      "start": 21.139,
+      "end": 21.239
+    },
+    {
+      "w": "thousands",
+      "start": 21.279,
+      "end": 21.619
+    },
+    {
+      "w": "of",
+      "start": 21.659,
+      "end": 21.719
+    },
+    {
+      "w": "examples",
+      "start": 21.799,
+      "end": 22.319
+    },
+    {
+      "w": "until",
+      "start": 22.379,
+      "end": 22.579
+    },
+    {
+      "w": "it",
+      "start": 22.619,
+      "end": 22.68
+    },
+    {
+      "w": "can",
+      "start": 22.719,
+      "end": 22.819
+    },
+    {
+      "w": "reproduce",
+      "start": 22.879,
+      "end": 23.299
+    },
+    {
+      "w": "the",
+      "start": 23.359,
+      "end": 23.42
+    },
+    {
+      "w": "pattern.",
+      "start": 23.5,
+      "end": 23.879
+    },
+    {
+      "w": "And",
+      "start": 24.139,
+      "end": 24.219
+    },
+    {
+      "w": "it",
+      "start": 24.239,
+      "end": 24.319
+    },
+    {
+      "w": "left",
+      "start": 24.379,
+      "end": 24.559
+    },
+    {
+      "w": "us",
+      "start": 24.619,
+      "end": 24.699
+    },
+    {
+      "w": "with",
+      "start": 24.76,
+      "end": 24.879
+    },
+    {
+      "w": "two",
+      "start": 24.959,
+      "end": 25.079
+    },
+    {
+      "w": "gaps.",
+      "start": 25.159,
+      "end": 25.599
+    },
+    {
+      "w": "The",
+      "start": 25.879,
+      "end": 25.959
+    },
+    {
+      "w": "first",
+      "start": 26.019,
+      "end": 26.199
+    },
+    {
+      "w": "is",
+      "start": 26.26,
+      "end": 26.34
+    },
+    {
+      "w": "simple:",
+      "start": 26.399,
+      "end": 26.719
+    },
+    {
+      "w": "it",
+      "start": 27.0,
+      "end": 27.079
+    },
+    {
+      "w": "only",
+      "start": 27.139,
+      "end": 27.26
+    },
+    {
+      "w": "knew",
+      "start": 27.319,
+      "end": 27.479
+    },
+    {
+      "w": "single",
+      "start": 27.539,
+      "end": 27.76
+    },
+    {
+      "w": "apartments,",
+      "start": 27.819,
+      "end": 28.379
+    },
+    {
+      "w": "and",
+      "start": 28.559,
+      "end": 28.639
+    },
+    {
+      "w": "we",
+      "start": 28.68,
+      "end": 28.76
+    },
+    {
+      "w": "need",
+      "start": 28.799,
+      "end": 28.92
+    },
+    {
+      "w": "whole",
+      "start": 29.0,
+      "end": 29.159
+    },
+    {
+      "w": "buildings.",
+      "start": 29.219,
+      "end": 29.739
+    },
+    {
+      "w": "The",
+      "start": 30.0,
+      "end": 30.099
+    },
+    {
+      "w": "second",
+      "start": 30.159,
+      "end": 30.519
+    },
+    {
+      "w": "is",
+      "start": 30.619,
+      "end": 30.719
+    },
+    {
+      "w": "subtler.",
+      "start": 30.819,
+      "end": 31.299
+    },
+    {
+      "w": "Its",
+      "start": 32.659,
+      "end": 32.799
+    },
+    {
+      "w": "plans",
+      "start": 32.899,
+      "end": 33.18
+    },
+    {
+      "w": "looked",
+      "start": 33.239,
+      "end": 33.399
+    },
+    {
+      "w": "like",
+      "start": 33.439,
+      "end": 33.559
+    },
+    {
+      "w": "floor",
+      "start": 33.68,
+      "end": 33.88
+    },
+    {
+      "w": "plans",
+      "start": 33.939,
+      "end": 34.36
+    },
+    {
+      "w": "but",
+      "start": 34.599,
+      "end": 34.68
+    },
+    {
+      "w": "looking",
+      "start": 34.739,
+      "end": 34.979
+    },
+    {
+      "w": "like",
+      "start": 35.02,
+      "end": 35.18
+    },
+    {
+      "w": "one",
+      "start": 35.319,
+      "end": 35.54
+    },
+    {
+      "w": "and",
+      "start": 35.7,
+      "end": 35.779
+    },
+    {
+      "w": "being",
+      "start": 35.86,
+      "end": 36.0
+    },
+    {
+      "w": "a",
+      "start": 36.059,
+      "end": 36.119
+    },
+    {
+      "w": "real",
+      "start": 36.18,
+      "end": 36.36
+    },
+    {
+      "w": "one",
+      "start": 36.459,
+      "end": 36.739
+    },
+    {
+      "w": "are",
+      "start": 36.799,
+      "end": 36.919
+    },
+    {
+      "w": "two",
+      "start": 36.959,
+      "end": 37.059
+    },
+    {
+      "w": "different",
+      "start": 37.099,
+      "end": 37.36
+    },
+    {
+      "w": "things.",
+      "start": 37.419,
+      "end": 37.819
+    },
+    {
+      "w": "You",
+      "start": 38.079,
+      "end": 38.139
+    },
+    {
+      "w": "can",
+      "start": 38.18,
+      "end": 38.259
+    },
+    {
+      "w": "draw",
+      "start": 38.319,
+      "end": 38.52
+    },
+    {
+      "w": "something",
+      "start": 38.559,
+      "end": 38.819
+    },
+    {
+      "w": "with",
+      "start": 38.86,
+      "end": 38.959
+    },
+    {
+      "w": "the",
+      "start": 39.0,
+      "end": 39.059
+    },
+    {
+      "w": "right",
+      "start": 39.119,
+      "end": 39.359
+    },
+    {
+      "w": "feel",
+      "start": 39.439,
+      "end": 39.979
+    },
+    {
+      "w": "rooms,",
+      "start": 40.099,
+      "end": 40.479
+    },
+    {
+      "w": "doors,",
+      "start": 40.599,
+      "end": 40.979
+    },
+    {
+      "w": "walls",
+      "start": 41.099,
+      "end": 41.479
+    },
+    {
+      "w": "roughly",
+      "start": 41.559,
+      "end": 41.819
+    },
+    {
+      "w": "in",
+      "start": 41.86,
+      "end": 41.959
+    },
+    {
+      "w": "place",
+      "start": 42.02,
+      "end": 42.619
+    },
+    {
+      "w": "that",
+      "start": 42.68,
+      "end": 42.84
+    },
+    {
+      "w": "still",
+      "start": 42.879,
+      "end": 43.079
+    },
+    {
+      "w": "isn't",
+      "start": 43.119,
+      "end": 43.279
+    },
+    {
+      "w": "a",
+      "start": 43.34,
+      "end": 43.379
+    },
+    {
+      "w": "home",
+      "start": 43.439,
+      "end": 43.599
+    },
+    {
+      "w": "at",
+      "start": 43.659,
+      "end": 43.719
+    },
+    {
+      "w": "all:",
+      "start": 43.799,
+      "end": 44.079
+    },
+    {
+      "w": "no",
+      "start": 45.5,
+      "end": 45.599
+    },
+    {
+      "w": "bathroom,",
+      "start": 45.659,
+      "end": 46.079
+    },
+    {
+      "w": "say,",
+      "start": 46.159,
+      "end": 46.379
+    },
+    {
+      "w": "or",
+      "start": 46.599,
+      "end": 46.659
+    },
+    {
+      "w": "a",
+      "start": 46.7,
+      "end": 46.759
+    },
+    {
+      "w": "bedroom",
+      "start": 46.799,
+      "end": 47.099
+    },
+    {
+      "w": "with",
+      "start": 47.139,
+      "end": 47.259
+    },
+    {
+      "w": "no",
+      "start": 47.299,
+      "end": 47.399
+    },
+    {
+      "w": "window.",
+      "start": 47.439,
+      "end": 47.84
+    },
+    {
+      "w": "And",
+      "start": 48.099,
+      "end": 48.159
+    },
+    {
+      "w": "that's",
+      "start": 48.2,
+      "end": 48.379
+    },
+    {
+      "w": "basically",
+      "start": 48.419,
+      "end": 48.819
+    },
+    {
+      "w": "what",
+      "start": 48.86,
+      "end": 48.959
+    },
+    {
+      "w": "we",
+      "start": 49.0,
+      "end": 49.119
+    },
+    {
+      "w": "had.",
+      "start": 49.219,
+      "end": 49.479
+    },
+    {
+      "w": "The",
+      "start": 49.759,
+      "end": 49.84
+    },
+    {
+      "w": "model",
+      "start": 49.919,
+      "end": 50.139
+    },
+    {
+      "w": "learned",
+      "start": 50.2,
+      "end": 50.439
+    },
+    {
+      "w": "purely",
+      "start": 50.5,
+      "end": 50.779
+    },
+    {
+      "w": "by",
+      "start": 50.84,
+      "end": 50.979
+    },
+    {
+      "w": "copying,",
+      "start": 51.059,
+      "end": 51.539
+    },
+    {
+      "w": "from",
+      "start": 51.699,
+      "end": 51.799
+    },
+    {
+      "w": "a",
+      "start": 51.86,
+      "end": 51.899
+    },
+    {
+      "w": "dataset",
+      "start": 51.959,
+      "end": 52.399
+    },
+    {
+      "w": "that's",
+      "start": 52.439,
+      "end": 52.599
+    },
+    {
+      "w": "honestly",
+      "start": 52.639,
+      "end": 53.039
+    },
+    {
+      "w": "pretty",
+      "start": 53.079,
+      "end": 53.299
+    },
+    {
+      "w": "small",
+      "start": 53.36,
+      "end": 53.659
+    },
+    {
+      "w": "for",
+      "start": 53.719,
+      "end": 53.779
+    },
+    {
+      "w": "a",
+      "start": 53.819,
+      "end": 53.879
+    },
+    {
+      "w": "task",
+      "start": 53.939,
+      "end": 54.219
+    },
+    {
+      "w": "this",
+      "start": 54.259,
+      "end": 54.399
+    },
+    {
+      "w": "complex",
+      "start": 54.459,
+      "end": 55.299
+    },
+    {
+      "w": "so",
+      "start": 55.379,
+      "end": 55.459
+    },
+    {
+      "w": "what",
+      "start": 55.5,
+      "end": 55.599
+    },
+    {
+      "w": "you",
+      "start": 55.639,
+      "end": 55.739
+    },
+    {
+      "w": "get",
+      "start": 55.799,
+      "end": 55.939
+    },
+    {
+      "w": "is",
+      "start": 55.979,
+      "end": 56.079
+    },
+    {
+      "w": "less",
+      "start": 56.139,
+      "end": 56.319
+    },
+    {
+      "w": "an",
+      "start": 56.34,
+      "end": 56.439
+    },
+    {
+      "w": "architect",
+      "start": 56.5,
+      "end": 57.099
+    },
+    {
+      "w": "and",
+      "start": 57.159,
+      "end": 57.239
+    },
+    {
+      "w": "more",
+      "start": 57.279,
+      "end": 57.399
+    },
+    {
+      "w": "an",
+      "start": 57.439,
+      "end": 57.52
+    },
+    {
+      "w": "architect's",
+      "start": 57.579,
+      "end": 58.099
+    },
+    {
+      "w": "six-year-old",
+      "start": 58.119,
+      "end": 58.619
+    },
+    {
+      "w": "kid.",
+      "start": 58.699,
+      "end": 58.979
+    },
+    {
+      "w": "It's",
+      "start": 60.419,
+      "end": 60.579
+    },
+    {
+      "w": "seen",
+      "start": 60.619,
+      "end": 60.819
+    },
+    {
+      "w": "thousands",
+      "start": 60.879,
+      "end": 61.239
+    },
+    {
+      "w": "of",
+      "start": 61.279,
+      "end": 61.379
+    },
+    {
+      "w": "plans",
+      "start": 61.439,
+      "end": 61.779
+    },
+    {
+      "w": "and",
+      "start": 61.819,
+      "end": 61.899
+    },
+    {
+      "w": "can",
+      "start": 61.939,
+      "end": 62.079
+    },
+    {
+      "w": "sketch",
+      "start": 62.139,
+      "end": 62.379
+    },
+    {
+      "w": "something",
+      "start": 62.419,
+      "end": 62.659
+    },
+    {
+      "w": "that",
+      "start": 62.699,
+      "end": 62.819
+    },
+    {
+      "w": "looks",
+      "start": 62.859,
+      "end": 63.02
+    },
+    {
+      "w": "like",
+      "start": 63.059,
+      "end": 63.159
+    },
+    {
+      "w": "a",
+      "start": 63.219,
+      "end": 63.279
+    },
+    {
+      "w": "plan,",
+      "start": 63.34,
+      "end": 63.819
+    },
+    {
+      "w": "but",
+      "start": 63.879,
+      "end": 63.979
+    },
+    {
+      "w": "ask",
+      "start": 64.059,
+      "end": 64.26
+    },
+    {
+      "w": "it",
+      "start": 64.279,
+      "end": 64.359
+    },
+    {
+      "w": "for",
+      "start": 64.4,
+      "end": 64.479
+    },
+    {
+      "w": "specific",
+      "start": 64.559,
+      "end": 65.019
+    },
+    {
+      "w": "programm,",
+      "start": 65.099,
+      "end": 65.579
+    },
+    {
+      "w": "modularity",
+      "start": 65.839,
+      "end": 66.599
+    },
+    {
+      "w": "or",
+      "start": 66.659,
+      "end": 66.779
+    },
+    {
+      "w": "structural",
+      "start": 66.819,
+      "end": 67.22
+    },
+    {
+      "w": "efficiency",
+      "start": 67.26,
+      "end": 67.879
+    },
+    {
+      "w": "and",
+      "start": 68.099,
+      "end": 68.159
+    },
+    {
+      "w": "it",
+      "start": 68.199,
+      "end": 68.259
+    },
+    {
+      "w": "will",
+      "start": 68.299,
+      "end": 68.439
+    },
+    {
+      "w": "stare",
+      "start": 68.479,
+      "end": 68.699
+    },
+    {
+      "w": "at",
+      "start": 68.739,
+      "end": 68.819
+    },
+    {
+      "w": "you",
+      "start": 68.86,
+      "end": 68.939
+    },
+    {
+      "w": "with",
+      "start": 68.979,
+      "end": 69.099
+    },
+    {
+      "w": "mouth",
+      "start": 69.199,
+      "end": 69.459
+    },
+    {
+      "w": "wide",
+      "start": 69.519,
+      "end": 69.72
+    },
+    {
+      "w": "open.",
+      "start": 69.779,
+      "end": 70.04
+    }
+  ],
+  "sentences": [
+    {
+      "text": "We didn't start from a blank page.",
+      "start": 0.079,
+      "end": 1.779
+    },
+    {
+      "text": "There's an earlier project, Neufert 4.0, that handed us a great starting point a big set of Swiss apartment floor plans, and an AI model that had learned from them to draw new ones.",
+      "start": 3.659,
+      "end": 13.779
+    },
+    {
+      "text": "And how it learned is going to matter for everything else I tell you.",
+      "start": 14.059,
+      "end": 17.0
+    },
+    {
+      "text": "It learned by IMITATION you show it tens of thousands of examples until it can reproduce the pattern.",
+      "start": 18.719,
+      "end": 23.879
+    },
+    {
+      "text": "And it left us with two gaps.",
+      "start": 24.139,
+      "end": 25.599
+    },
+    {
+      "text": "The first is simple: it only knew single apartments, and we need whole buildings.",
+      "start": 25.879,
+      "end": 29.739
+    },
+    {
+      "text": "The second is subtler.",
+      "start": 30.0,
+      "end": 31.299
+    },
+    {
+      "text": "Its plans looked like floor plans but looking like one and being a real one are two different things.",
+      "start": 32.659,
+      "end": 37.819
+    },
+    {
+      "text": "You can draw something with the right feel rooms, doors, walls roughly in place that still isn't a home at all: no bathroom, say, or a bedroom with no window.",
+      "start": 38.079,
+      "end": 47.84
+    },
+    {
+      "text": "And that's basically what we had.",
+      "start": 48.099,
+      "end": 49.479
+    },
+    {
+      "text": "The model learned purely by copying, from a dataset that's honestly pretty small for a task this complex so what you get is less an architect and more an architect's six-year-old kid.",
+      "start": 49.759,
+      "end": 58.979
+    },
+    {
+      "text": "It's seen thousands of plans and can sketch something that looks like a plan, but ask it for specific programm, modularity or structural efficiency and it will stare at you with mouth wide open.",
+      "start": 60.419,
+      "end": 70.04
+    }
+  ]
+}

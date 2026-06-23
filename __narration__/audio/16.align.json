@@ -1,0 +1,966 @@
+{
+  "schema": "spatialtimber.align/1",
+  "slide": 16,
+  "audio": "16.mp3",
+  "cut": "long_15min_v3",
+  "duration": 58.119,
+  "engine": "elevenlabs-forced-alignment",
+  "loss": 0.1003,
+  "language": "en",
+  "generatedAt": "2026-06-23T15:45:08",
+  "text": "The second thing adapters give us is, honestly, the bigger deal. Some qualities have no dataset to copy at all. Those Swiss apartments teach the model what a floor plan looks like they don't teach it what makes one good. There's no library of \"good\" lying around to copy. But here's the key insight: even when we can't show the model the right answer, we can SCORE the answer it gives us. So instead of \"copy this,\" the adapter learns from feedback here's the task, here's how you did, try again. And because it's an adapter, what it picks up that way combines with everything the imitation adapters already know. We score five things: does the room mix match the brief, do the rooms get daylight, is the circulation tight, does the furniture actually fit, and are the loads carried efficiently. One catch this loop runs millions of times, so every score has to come back in MILLISECONDS. If an evaluator's too slow, we make it fast. Which is exactly what we had to do for the structural check.",
+  "words": [
+    {
+      "w": "The",
+      "start": 0.079,
+      "end": 0.199
+    },
+    {
+      "w": "second",
+      "start": 0.239,
+      "end": 0.479
+    },
+    {
+      "w": "thing",
+      "start": 0.56,
+      "end": 0.639
+    },
+    {
+      "w": "adapters",
+      "start": 0.719,
+      "end": 1.1
+    },
+    {
+      "w": "give",
+      "start": 1.159,
+      "end": 1.279
+    },
+    {
+      "w": "us",
+      "start": 1.36,
+      "end": 1.519
+    },
+    {
+      "w": "is,",
+      "start": 1.679,
+      "end": 1.919
+    },
+    {
+      "w": "honestly,",
+      "start": 2.22,
+      "end": 2.659
+    },
+    {
+      "w": "the",
+      "start": 2.96,
+      "end": 3.019
+    },
+    {
+      "w": "bigger",
+      "start": 3.099,
+      "end": 3.319
+    },
+    {
+      "w": "deal.",
+      "start": 3.379,
+      "end": 3.619
+    },
+    {
+      "w": "Some",
+      "start": 5.179,
+      "end": 5.279
+    },
+    {
+      "w": "qualities",
+      "start": 5.38,
+      "end": 5.759
+    },
+    {
+      "w": "have",
+      "start": 5.819,
+      "end": 5.94
+    },
+    {
+      "w": "no",
+      "start": 5.98,
+      "end": 6.039
+    },
+    {
+      "w": "dataset",
+      "start": 6.139,
+      "end": 6.5
+    },
+    {
+      "w": "to",
+      "start": 6.539,
+      "end": 6.619
+    },
+    {
+      "w": "copy",
+      "start": 6.679,
+      "end": 6.899
+    },
+    {
+      "w": "at",
+      "start": 6.94,
+      "end": 7.0
+    },
+    {
+      "w": "all.",
+      "start": 7.079,
+      "end": 7.259
+    },
+    {
+      "w": "Those",
+      "start": 7.599,
+      "end": 7.759
+    },
+    {
+      "w": "Swiss",
+      "start": 7.799,
+      "end": 7.98
+    },
+    {
+      "w": "apartments",
+      "start": 8.059,
+      "end": 8.46
+    },
+    {
+      "w": "teach",
+      "start": 8.559,
+      "end": 8.72
+    },
+    {
+      "w": "the",
+      "start": 8.779,
+      "end": 8.84
+    },
+    {
+      "w": "model",
+      "start": 8.899,
+      "end": 9.099
+    },
+    {
+      "w": "what",
+      "start": 9.159,
+      "end": 9.24
+    },
+    {
+      "w": "a",
+      "start": 9.26,
+      "end": 9.319
+    },
+    {
+      "w": "floor",
+      "start": 9.399,
+      "end": 9.579
+    },
+    {
+      "w": "plan",
+      "start": 9.639,
+      "end": 9.819
+    },
+    {
+      "w": "looks",
+      "start": 9.88,
+      "end": 10.079
+    },
+    {
+      "w": "like",
+      "start": 10.139,
+      "end": 10.34
+    },
+    {
+      "w": "they",
+      "start": 10.739,
+      "end": 10.819
+    },
+    {
+      "w": "don't",
+      "start": 10.859,
+      "end": 11.019
+    },
+    {
+      "w": "teach",
+      "start": 11.059,
+      "end": 11.219
+    },
+    {
+      "w": "it",
+      "start": 11.259,
+      "end": 11.319
+    },
+    {
+      "w": "what",
+      "start": 11.38,
+      "end": 11.5
+    },
+    {
+      "w": "makes",
+      "start": 11.559,
+      "end": 11.759
+    },
+    {
+      "w": "one",
+      "start": 11.84,
+      "end": 11.939
+    },
+    {
+      "w": "good.",
+      "start": 12.079,
+      "end": 12.34
+    },
+    {
+      "w": "There's",
+      "start": 12.679,
+      "end": 12.84
+    },
+    {
+      "w": "no",
+      "start": 12.88,
+      "end": 12.96
+    },
+    {
+      "w": "library",
+      "start": 13.059,
+      "end": 13.46
+    },
+    {
+      "w": "of",
+      "start": 13.5,
+      "end": 13.579
+    },
+    {
+      "w": "\"good\"",
+      "start": 13.639,
+      "end": 13.819
+    },
+    {
+      "w": "lying",
+      "start": 13.92,
+      "end": 14.099
+    },
+    {
+      "w": "around",
+      "start": 14.159,
+      "end": 14.34
+    },
+    {
+      "w": "to",
+      "start": 14.399,
+      "end": 14.479
+    },
+    {
+      "w": "copy.",
+      "start": 14.559,
+      "end": 14.96
+    },
+    {
+      "w": "But",
+      "start": 16.359,
+      "end": 16.42
+    },
+    {
+      "w": "here's",
+      "start": 16.459,
+      "end": 16.619
+    },
+    {
+      "w": "the",
+      "start": 16.659,
+      "end": 16.719
+    },
+    {
+      "w": "key",
+      "start": 16.799,
+      "end": 16.92
+    },
+    {
+      "w": "insight:",
+      "start": 16.979,
+      "end": 17.459
+    },
+    {
+      "w": "even",
+      "start": 17.799,
+      "end": 17.959
+    },
+    {
+      "w": "when",
+      "start": 18.0,
+      "end": 18.1
+    },
+    {
+      "w": "we",
+      "start": 18.139,
+      "end": 18.26
+    },
+    {
+      "w": "can't",
+      "start": 18.299,
+      "end": 18.479
+    },
+    {
+      "w": "show",
+      "start": 18.559,
+      "end": 18.659
+    },
+    {
+      "w": "the",
+      "start": 18.719,
+      "end": 18.779
+    },
+    {
+      "w": "model",
+      "start": 18.84,
+      "end": 19.059
+    },
+    {
+      "w": "the",
+      "start": 19.1,
+      "end": 19.159
+    },
+    {
+      "w": "right",
+      "start": 19.219,
+      "end": 19.359
+    },
+    {
+      "w": "answer,",
+      "start": 19.439,
+      "end": 19.819
+    },
+    {
+      "w": "we",
+      "start": 20.18,
+      "end": 20.26
+    },
+    {
+      "w": "can",
+      "start": 20.299,
+      "end": 20.399
+    },
+    {
+      "w": "SCORE",
+      "start": 20.539,
+      "end": 20.819
+    },
+    {
+      "w": "the",
+      "start": 20.879,
+      "end": 20.94
+    },
+    {
+      "w": "answer",
+      "start": 21.02,
+      "end": 21.239
+    },
+    {
+      "w": "it",
+      "start": 21.299,
+      "end": 21.379
+    },
+    {
+      "w": "gives",
+      "start": 21.439,
+      "end": 21.639
+    },
+    {
+      "w": "us.",
+      "start": 21.739,
+      "end": 22.0
+    },
+    {
+      "w": "So",
+      "start": 22.399,
+      "end": 22.459
+    },
+    {
+      "w": "instead",
+      "start": 22.5,
+      "end": 22.78
+    },
+    {
+      "w": "of",
+      "start": 22.799,
+      "end": 22.879
+    },
+    {
+      "w": "\"copy",
+      "start": 22.939,
+      "end": 23.299
+    },
+    {
+      "w": "this,\"",
+      "start": 23.359,
+      "end": 23.6
+    },
+    {
+      "w": "the",
+      "start": 24.0,
+      "end": 24.04
+    },
+    {
+      "w": "adapter",
+      "start": 24.139,
+      "end": 24.5
+    },
+    {
+      "w": "learns",
+      "start": 24.559,
+      "end": 24.799
+    },
+    {
+      "w": "from",
+      "start": 24.859,
+      "end": 25.019
+    },
+    {
+      "w": "feedback",
+      "start": 25.079,
+      "end": 25.539
+    },
+    {
+      "w": "here's",
+      "start": 25.939,
+      "end": 26.099
+    },
+    {
+      "w": "the",
+      "start": 26.139,
+      "end": 26.239
+    },
+    {
+      "w": "task,",
+      "start": 26.319,
+      "end": 26.719
+    },
+    {
+      "w": "here's",
+      "start": 27.0,
+      "end": 27.159
+    },
+    {
+      "w": "how",
+      "start": 27.219,
+      "end": 27.319
+    },
+    {
+      "w": "you",
+      "start": 27.359,
+      "end": 27.459
+    },
+    {
+      "w": "did,",
+      "start": 27.519,
+      "end": 27.76
+    },
+    {
+      "w": "try",
+      "start": 28.099,
+      "end": 28.26
+    },
+    {
+      "w": "again.",
+      "start": 28.319,
+      "end": 28.679
+    },
+    {
+      "w": "And",
+      "start": 29.099,
+      "end": 29.179
+    },
+    {
+      "w": "because",
+      "start": 29.219,
+      "end": 29.459
+    },
+    {
+      "w": "it's",
+      "start": 29.5,
+      "end": 29.639
+    },
+    {
+      "w": "an",
+      "start": 29.659,
+      "end": 29.699
+    },
+    {
+      "w": "adapter,",
+      "start": 29.76,
+      "end": 30.26
+    },
+    {
+      "w": "what",
+      "start": 30.599,
+      "end": 30.699
+    },
+    {
+      "w": "it",
+      "start": 30.719,
+      "end": 30.819
+    },
+    {
+      "w": "picks",
+      "start": 30.859,
+      "end": 31.059
+    },
+    {
+      "w": "up",
+      "start": 31.119,
+      "end": 31.219
+    },
+    {
+      "w": "that",
+      "start": 31.26,
+      "end": 31.399
+    },
+    {
+      "w": "way",
+      "start": 31.459,
+      "end": 31.619
+    },
+    {
+      "w": "combines",
+      "start": 31.679,
+      "end": 32.02
+    },
+    {
+      "w": "with",
+      "start": 32.059,
+      "end": 32.18
+    },
+    {
+      "w": "everything",
+      "start": 32.279,
+      "end": 32.619
+    },
+    {
+      "w": "the",
+      "start": 32.659,
+      "end": 32.739
+    },
+    {
+      "w": "imitation",
+      "start": 32.799,
+      "end": 33.259
+    },
+    {
+      "w": "adapters",
+      "start": 33.34,
+      "end": 33.739
+    },
+    {
+      "w": "already",
+      "start": 33.819,
+      "end": 34.099
+    },
+    {
+      "w": "know.",
+      "start": 34.159,
+      "end": 34.419
+    },
+    {
+      "w": "We",
+      "start": 35.84,
+      "end": 35.939
+    },
+    {
+      "w": "score",
+      "start": 35.979,
+      "end": 36.2
+    },
+    {
+      "w": "five",
+      "start": 36.279,
+      "end": 36.519
+    },
+    {
+      "w": "things:",
+      "start": 36.559,
+      "end": 37.219
+    },
+    {
+      "w": "does",
+      "start": 37.279,
+      "end": 37.399
+    },
+    {
+      "w": "the",
+      "start": 37.419,
+      "end": 37.52
+    },
+    {
+      "w": "room",
+      "start": 37.579,
+      "end": 37.719
+    },
+    {
+      "w": "mix",
+      "start": 37.779,
+      "end": 38.0
+    },
+    {
+      "w": "match",
+      "start": 38.059,
+      "end": 38.279
+    },
+    {
+      "w": "the",
+      "start": 38.319,
+      "end": 38.399
+    },
+    {
+      "w": "brief,",
+      "start": 38.439,
+      "end": 38.939
+    },
+    {
+      "w": "do",
+      "start": 39.02,
+      "end": 39.099
+    },
+    {
+      "w": "the",
+      "start": 39.119,
+      "end": 39.2
+    },
+    {
+      "w": "rooms",
+      "start": 39.259,
+      "end": 39.479
+    },
+    {
+      "w": "get",
+      "start": 39.54,
+      "end": 39.659
+    },
+    {
+      "w": "daylight,",
+      "start": 39.719,
+      "end": 40.099
+    },
+    {
+      "w": "is",
+      "start": 40.419,
+      "end": 40.5
+    },
+    {
+      "w": "the",
+      "start": 40.54,
+      "end": 40.619
+    },
+    {
+      "w": "circulation",
+      "start": 40.68,
+      "end": 41.219
+    },
+    {
+      "w": "tight,",
+      "start": 41.279,
+      "end": 41.54
+    },
+    {
+      "w": "does",
+      "start": 41.86,
+      "end": 41.959
+    },
+    {
+      "w": "the",
+      "start": 42.0,
+      "end": 42.079
+    },
+    {
+      "w": "furniture",
+      "start": 42.139,
+      "end": 42.459
+    },
+    {
+      "w": "actually",
+      "start": 42.54,
+      "end": 42.879
+    },
+    {
+      "w": "fit,",
+      "start": 42.959,
+      "end": 43.159
+    },
+    {
+      "w": "and",
+      "start": 43.559,
+      "end": 43.619
+    },
+    {
+      "w": "are",
+      "start": 43.659,
+      "end": 43.739
+    },
+    {
+      "w": "the",
+      "start": 43.779,
+      "end": 43.86
+    },
+    {
+      "w": "loads",
+      "start": 43.919,
+      "end": 44.219
+    },
+    {
+      "w": "carried",
+      "start": 44.259,
+      "end": 44.479
+    },
+    {
+      "w": "efficiently.",
+      "start": 44.52,
+      "end": 45.079
+    },
+    {
+      "w": "One",
+      "start": 46.479,
+      "end": 46.599
+    },
+    {
+      "w": "catch",
+      "start": 46.659,
+      "end": 47.299
+    },
+    {
+      "w": "this",
+      "start": 47.36,
+      "end": 47.52
+    },
+    {
+      "w": "loop",
+      "start": 47.579,
+      "end": 47.739
+    },
+    {
+      "w": "runs",
+      "start": 47.799,
+      "end": 47.979
+    },
+    {
+      "w": "millions",
+      "start": 48.079,
+      "end": 48.36
+    },
+    {
+      "w": "of",
+      "start": 48.399,
+      "end": 48.5
+    },
+    {
+      "w": "times,",
+      "start": 48.559,
+      "end": 48.959
+    },
+    {
+      "w": "so",
+      "start": 49.259,
+      "end": 49.379
+    },
+    {
+      "w": "every",
+      "start": 49.439,
+      "end": 49.599
+    },
+    {
+      "w": "score",
+      "start": 49.7,
+      "end": 49.939
+    },
+    {
+      "w": "has",
+      "start": 49.979,
+      "end": 50.099
+    },
+    {
+      "w": "to",
+      "start": 50.139,
+      "end": 50.2
+    },
+    {
+      "w": "come",
+      "start": 50.239,
+      "end": 50.36
+    },
+    {
+      "w": "back",
+      "start": 50.399,
+      "end": 50.559
+    },
+    {
+      "w": "in",
+      "start": 50.619,
+      "end": 50.7
+    },
+    {
+      "w": "MILLISECONDS.",
+      "start": 50.919,
+      "end": 51.879
+    },
+    {
+      "w": "If",
+      "start": 51.939,
+      "end": 52.02
+    },
+    {
+      "w": "an",
+      "start": 52.059,
+      "end": 52.099
+    },
+    {
+      "w": "evaluator's",
+      "start": 52.18,
+      "end": 52.739
+    },
+    {
+      "w": "too",
+      "start": 52.779,
+      "end": 52.939
+    },
+    {
+      "w": "slow,",
+      "start": 53.0,
+      "end": 53.319
+    },
+    {
+      "w": "we",
+      "start": 53.599,
+      "end": 53.68
+    },
+    {
+      "w": "make",
+      "start": 53.739,
+      "end": 53.84
+    },
+    {
+      "w": "it",
+      "start": 53.879,
+      "end": 53.979
+    },
+    {
+      "w": "fast.",
+      "start": 54.059,
+      "end": 54.519
+    },
+    {
+      "w": "Which",
+      "start": 55.819,
+      "end": 55.919
+    },
+    {
+      "w": "is",
+      "start": 55.959,
+      "end": 56.02
+    },
+    {
+      "w": "exactly",
+      "start": 56.099,
+      "end": 56.479
+    },
+    {
+      "w": "what",
+      "start": 56.52,
+      "end": 56.599
+    },
+    {
+      "w": "we",
+      "start": 56.659,
+      "end": 56.739
+    },
+    {
+      "w": "had",
+      "start": 56.779,
+      "end": 56.879
+    },
+    {
+      "w": "to",
+      "start": 56.919,
+      "end": 56.979
+    },
+    {
+      "w": "do",
+      "start": 57.039,
+      "end": 57.099
+    },
+    {
+      "w": "for",
+      "start": 57.18,
+      "end": 57.239
+    },
+    {
+      "w": "the",
+      "start": 57.259,
+      "end": 57.319
+    },
+    {
+      "w": "structural",
+      "start": 57.399,
+      "end": 57.819
+    },
+    {
+      "w": "check.",
+      "start": 57.86,
+      "end": 58.059
+    }
+  ],
+  "sentences": [
+    {
+      "text": "The second thing adapters give us is, honestly, the bigger deal.",
+      "start": 0.079,
+      "end": 3.619
+    },
+    {
+      "text": "Some qualities have no dataset to copy at all.",
+      "start": 5.179,
+      "end": 7.259
+    },
+    {
+      "text": "Those Swiss apartments teach the model what a floor plan looks like they don't teach it what makes one good.",
+      "start": 7.599,
+      "end": 12.34
+    },
+    {
+      "text": "There's no library of \"good\" lying around to copy.",
+      "start": 12.679,
+      "end": 14.96
+    },
+    {
+      "text": "But here's the key insight: even when we can't show the model the right answer, we can SCORE the answer it gives us.",
+      "start": 16.359,
+      "end": 22.0
+    },
+    {
+      "text": "So instead of \"copy this,\" the adapter learns from feedback here's the task, here's how you did, try again.",
+      "start": 22.399,
+      "end": 28.679
+    },
+    {
+      "text": "And because it's an adapter, what it picks up that way combines with everything the imitation adapters already know.",
+      "start": 29.099,
+      "end": 34.419
+    },
+    {
+      "text": "We score five things: does the room mix match the brief, do the rooms get daylight, is the circulation tight, does the furniture actually fit, and are the loads carried efficiently.",
+      "start": 35.84,
+      "end": 45.079
+    },
+    {
+      "text": "One catch this loop runs millions of times, so every score has to come back in MILLISECONDS.",
+      "start": 46.479,
+      "end": 51.879
+    },
+    {
+      "text": "If an evaluator's too slow, we make it fast.",
+      "start": 51.939,
+      "end": 54.519
+    },
+    {
+      "text": "Which is exactly what we had to do for the structural check.",
+      "start": 55.819,
+      "end": 58.059
+    }
+  ]
+}

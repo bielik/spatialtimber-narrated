@@ -1,0 +1,56 @@
+{
+  "schema": "spatialtimber.align/1",
+  "slide": 25,
+  "audio": "25.mp3",
+  "cut": "long_15min_v3",
+  "duration": 2.042,
+  "engine": "elevenlabs-forced-alignment",
+  "loss": 0.1713,
+  "language": "en",
+  "generatedAt": "2026-06-23T15:45:15",
+  "text": "Last part where this goes from here.",
+  "words": [
+    {
+      "w": "Last",
+      "start": 0.079,
+      "end": 0.299
+    },
+    {
+      "w": "part",
+      "start": 0.399,
+      "end": 0.68
+    },
+    {
+      "w": "where",
+      "start": 0.959,
+      "end": 1.139
+    },
+    {
+      "w": "this",
+      "start": 1.179,
+      "end": 1.279
+    },
+    {
+      "w": "goes",
+      "start": 1.379,
+      "end": 1.599
+    },
+    {
+      "w": "from",
+      "start": 1.639,
+      "end": 1.779
+    },
+    {
+      "w": "here.",
+      "start": 1.839,
+      "end": 1.979
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Last part where this goes from here.",
+      "start": 0.079,
+      "end": 1.979
+    }
+  ]
+}

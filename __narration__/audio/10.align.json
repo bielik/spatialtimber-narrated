@@ -1,0 +1,421 @@
+{
+  "schema": "spatialtimber.align/1",
+  "slide": 10,
+  "audio": "10.mp3",
+  "cut": "long_15min_v3",
+  "duration": 28.435,
+  "engine": "elevenlabs-forced-alignment",
+  "loss": 0.1004,
+  "language": "en",
+  "generatedAt": "2026-06-23T15:45:03",
+  "text": "And this is what we built to actually do it we call it the SpatialTimber Aufstockung Assistent. It works in three moves. You set up the job which roof, where the existing supports are, how many floors, what goes in them. It generates designs the solver delivers layouts that work both architecturally and structurally. And then you review them, across the things you'd actually care about architecture, structure, cost, environment. So that's what it does.",
+  "words": [
+    {
+      "w": "And",
+      "start": 0.079,
+      "end": 0.199
+    },
+    {
+      "w": "this",
+      "start": 0.239,
+      "end": 0.359
+    },
+    {
+      "w": "is",
+      "start": 0.439,
+      "end": 0.5
+    },
+    {
+      "w": "what",
+      "start": 0.579,
+      "end": 0.699
+    },
+    {
+      "w": "we",
+      "start": 0.719,
+      "end": 0.879
+    },
+    {
+      "w": "built",
+      "start": 0.919,
+      "end": 1.199
+    },
+    {
+      "w": "to",
+      "start": 1.379,
+      "end": 1.459
+    },
+    {
+      "w": "actually",
+      "start": 1.539,
+      "end": 1.879
+    },
+    {
+      "w": "do",
+      "start": 1.959,
+      "end": 2.039
+    },
+    {
+      "w": "it",
+      "start": 2.119,
+      "end": 2.22
+    },
+    {
+      "w": "we",
+      "start": 2.5,
+      "end": 2.599
+    },
+    {
+      "w": "call",
+      "start": 2.659,
+      "end": 2.799
+    },
+    {
+      "w": "it",
+      "start": 2.839,
+      "end": 2.939
+    },
+    {
+      "w": "the",
+      "start": 2.96,
+      "end": 3.039
+    },
+    {
+      "w": "SpatialTimber",
+      "start": 3.139,
+      "end": 3.919
+    },
+    {
+      "w": "Aufstockung",
+      "start": 4.039,
+      "end": 4.659
+    },
+    {
+      "w": "Assistent.",
+      "start": 4.739,
+      "end": 5.299
+    },
+    {
+      "w": "It",
+      "start": 6.839,
+      "end": 6.92
+    },
+    {
+      "w": "works",
+      "start": 6.98,
+      "end": 7.179
+    },
+    {
+      "w": "in",
+      "start": 7.219,
+      "end": 7.299
+    },
+    {
+      "w": "three",
+      "start": 7.359,
+      "end": 7.539
+    },
+    {
+      "w": "moves.",
+      "start": 7.599,
+      "end": 7.96
+    },
+    {
+      "w": "You",
+      "start": 8.26,
+      "end": 8.359
+    },
+    {
+      "w": "set",
+      "start": 8.399,
+      "end": 8.5
+    },
+    {
+      "w": "up",
+      "start": 8.539,
+      "end": 8.619
+    },
+    {
+      "w": "the",
+      "start": 8.679,
+      "end": 8.739
+    },
+    {
+      "w": "job",
+      "start": 8.8,
+      "end": 9.099
+    },
+    {
+      "w": "which",
+      "start": 9.38,
+      "end": 9.559
+    },
+    {
+      "w": "roof,",
+      "start": 9.679,
+      "end": 9.979
+    },
+    {
+      "w": "where",
+      "start": 10.179,
+      "end": 10.3
+    },
+    {
+      "w": "the",
+      "start": 10.359,
+      "end": 10.4
+    },
+    {
+      "w": "existing",
+      "start": 10.5,
+      "end": 10.88
+    },
+    {
+      "w": "supports",
+      "start": 10.96,
+      "end": 11.359
+    },
+    {
+      "w": "are,",
+      "start": 11.439,
+      "end": 11.599
+    },
+    {
+      "w": "how",
+      "start": 11.84,
+      "end": 11.92
+    },
+    {
+      "w": "many",
+      "start": 11.96,
+      "end": 12.1
+    },
+    {
+      "w": "floors,",
+      "start": 12.219,
+      "end": 12.639
+    },
+    {
+      "w": "what",
+      "start": 12.799,
+      "end": 12.92
+    },
+    {
+      "w": "goes",
+      "start": 12.979,
+      "end": 13.139
+    },
+    {
+      "w": "in",
+      "start": 13.179,
+      "end": 13.279
+    },
+    {
+      "w": "them.",
+      "start": 13.319,
+      "end": 13.5
+    },
+    {
+      "w": "It",
+      "start": 13.859,
+      "end": 13.96
+    },
+    {
+      "w": "generates",
+      "start": 14.0,
+      "end": 14.42
+    },
+    {
+      "w": "designs",
+      "start": 14.5,
+      "end": 15.079
+    },
+    {
+      "w": "the",
+      "start": 15.359,
+      "end": 15.46
+    },
+    {
+      "w": "solver",
+      "start": 15.539,
+      "end": 15.819
+    },
+    {
+      "w": "delivers",
+      "start": 15.859,
+      "end": 16.18
+    },
+    {
+      "w": "layouts",
+      "start": 16.279,
+      "end": 16.659
+    },
+    {
+      "w": "that",
+      "start": 16.719,
+      "end": 16.819
+    },
+    {
+      "w": "work",
+      "start": 16.859,
+      "end": 17.039
+    },
+    {
+      "w": "both",
+      "start": 17.079,
+      "end": 17.26
+    },
+    {
+      "w": "architecturally",
+      "start": 17.319,
+      "end": 18.18
+    },
+    {
+      "w": "and",
+      "start": 18.26,
+      "end": 18.36
+    },
+    {
+      "w": "structurally.",
+      "start": 18.479,
+      "end": 19.039
+    },
+    {
+      "w": "And",
+      "start": 19.34,
+      "end": 19.42
+    },
+    {
+      "w": "then",
+      "start": 19.459,
+      "end": 19.559
+    },
+    {
+      "w": "you",
+      "start": 19.619,
+      "end": 19.68
+    },
+    {
+      "w": "review",
+      "start": 19.739,
+      "end": 20.039
+    },
+    {
+      "w": "them,",
+      "start": 20.1,
+      "end": 20.439
+    },
+    {
+      "w": "across",
+      "start": 20.559,
+      "end": 20.84
+    },
+    {
+      "w": "the",
+      "start": 20.879,
+      "end": 20.959
+    },
+    {
+      "w": "things",
+      "start": 21.0,
+      "end": 21.219
+    },
+    {
+      "w": "you'd",
+      "start": 21.26,
+      "end": 21.379
+    },
+    {
+      "w": "actually",
+      "start": 21.439,
+      "end": 21.76
+    },
+    {
+      "w": "care",
+      "start": 21.799,
+      "end": 21.959
+    },
+    {
+      "w": "about",
+      "start": 22.039,
+      "end": 22.279
+    },
+    {
+      "w": "architecture,",
+      "start": 22.6,
+      "end": 23.239
+    },
+    {
+      "w": "structure,",
+      "start": 23.5,
+      "end": 23.979
+    },
+    {
+      "w": "cost,",
+      "start": 24.279,
+      "end": 24.719
+    },
+    {
+      "w": "environment.",
+      "start": 24.939,
+      "end": 25.599
+    },
+    {
+      "w": "So",
+      "start": 27.26,
+      "end": 27.34
+    },
+    {
+      "w": "that's",
+      "start": 27.379,
+      "end": 27.559
+    },
+    {
+      "w": "what",
+      "start": 27.579,
+      "end": 27.659
+    },
+    {
+      "w": "it",
+      "start": 27.68,
+      "end": 27.799
+    },
+    {
+      "w": "does.",
+      "start": 27.819,
+      "end": 28.199
+    }
+  ],
+  "sentences": [
+    {
+      "text": "And this is what we built to actually do it we call it the SpatialTimber Aufstockung Assistent.",
+      "start": 0.079,
+      "end": 5.299
+    },
+    {
+      "text": "It works in three moves.",
+      "start": 6.839,
+      "end": 7.96
+    },
+    {
+      "text": "You set up the job which roof, where the existing supports are, how many floors, what goes in them.",
+      "start": 8.26,
+      "end": 13.5
+    },
+    {
+      "text": "It generates designs the solver delivers layouts that work both architecturally and structurally.",
+      "start": 13.859,
+      "end": 19.039
+    },
+    {
+      "text": "And then you review them, across the things you'd actually care about architecture, structure, cost, environment.",
+      "start": 19.34,
+      "end": 25.599
+    },
+    {
+      "text": "So that's what it does.",
+      "start": 27.26,
+      "end": 28.199
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schema": "spatialtimber.align/1",
+  "slide": 4,
+  "audio": "04.mp3",
+  "cut": "long_15min_v3",
+  "duration": 1.68,
+  "engine": "elevenlabs-forced-alignment",
+  "loss": 0.1357,
+  "language": "en",
+  "generatedAt": "2026-06-23T15:44:58",
+  "text": "So let's start with the problem.",
+  "words": [
+    {
+      "w": "So",
+      "start": 0.099,
+      "end": 0.56
+    },
+    {
+      "w": "let's",
+      "start": 0.62,
+      "end": 0.799
+    },
+    {
+      "w": "start",
+      "start": 0.819,
+      "end": 1.039
+    },
+    {
+      "w": "with",
+      "start": 1.059,
+      "end": 1.159
+    },
+    {
+      "w": "the",
+      "start": 1.179,
+      "end": 1.279
+    },
+    {
+      "w": "problem.",
+      "start": 1.319,
+      "end": 1.599
+    }
+  ],
+  "sentences": [
+    {
+      "text": "So let's start with the problem.",
+      "start": 0.099,
+      "end": 1.599
+    }
+  ]
+}

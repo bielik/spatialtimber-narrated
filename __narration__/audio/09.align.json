@@ -1,0 +1,321 @@
+{
+  "schema": "spatialtimber.align/1",
+  "slide": 9,
+  "audio": "09.mp3",
+  "cut": "long_15min_v3",
+  "duration": 20.809,
+  "engine": "elevenlabs-forced-alignment",
+  "loss": 0.0953,
+  "language": "en",
+  "generatedAt": "2026-06-23T15:45:02",
+  "text": "To make the project real, we have an actual test case and an industry partner to go with it. It's a series of slab blocks on Gotteszeller Straße in Munich, from 1954, owned by Münchner Wohnen about fifty metres long and nine and a half wide. The job: two more storeys on top, hitting a specific apartment mix.",
+  "words": [
+    {
+      "w": "To",
+      "start": 0.119,
+      "end": 0.219
+    },
+    {
+      "w": "make",
+      "start": 0.259,
+      "end": 0.399
+    },
+    {
+      "w": "the",
+      "start": 0.439,
+      "end": 0.519
+    },
+    {
+      "w": "project",
+      "start": 0.56,
+      "end": 0.919
+    },
+    {
+      "w": "real,",
+      "start": 0.959,
+      "end": 1.279
+    },
+    {
+      "w": "we",
+      "start": 1.459,
+      "end": 1.539
+    },
+    {
+      "w": "have",
+      "start": 1.599,
+      "end": 1.679
+    },
+    {
+      "w": "an",
+      "start": 1.719,
+      "end": 1.799
+    },
+    {
+      "w": "actual",
+      "start": 1.879,
+      "end": 2.24
+    },
+    {
+      "w": "test",
+      "start": 2.299,
+      "end": 2.5
+    },
+    {
+      "w": "case",
+      "start": 2.579,
+      "end": 2.939
+    },
+    {
+      "w": "and",
+      "start": 3.22,
+      "end": 3.299
+    },
+    {
+      "w": "an",
+      "start": 3.339,
+      "end": 3.399
+    },
+    {
+      "w": "industry",
+      "start": 3.48,
+      "end": 3.819
+    },
+    {
+      "w": "partner",
+      "start": 3.919,
+      "end": 4.179
+    },
+    {
+      "w": "to",
+      "start": 4.219,
+      "end": 4.279
+    },
+    {
+      "w": "go",
+      "start": 4.319,
+      "end": 4.42
+    },
+    {
+      "w": "with",
+      "start": 4.46,
+      "end": 4.579
+    },
+    {
+      "w": "it.",
+      "start": 4.639,
+      "end": 4.839
+    },
+    {
+      "w": "It's",
+      "start": 6.679,
+      "end": 6.799
+    },
+    {
+      "w": "a",
+      "start": 6.819,
+      "end": 6.899
+    },
+    {
+      "w": "series",
+      "start": 6.96,
+      "end": 7.219
+    },
+    {
+      "w": "of",
+      "start": 7.259,
+      "end": 7.379
+    },
+    {
+      "w": "slab",
+      "start": 7.44,
+      "end": 7.659
+    },
+    {
+      "w": "blocks",
+      "start": 7.739,
+      "end": 8.039
+    },
+    {
+      "w": "on",
+      "start": 8.099,
+      "end": 8.159
+    },
+    {
+      "w": "Gotteszeller",
+      "start": 8.22,
+      "end": 8.76
+    },
+    {
+      "w": "Straße",
+      "start": 8.819,
+      "end": 9.22
+    },
+    {
+      "w": "in",
+      "start": 9.26,
+      "end": 9.34
+    },
+    {
+      "w": "Munich,",
+      "start": 9.399,
+      "end": 9.719
+    },
+    {
+      "w": "from",
+      "start": 9.939,
+      "end": 10.079
+    },
+    {
+      "w": "1954,",
+      "start": 10.099,
+      "end": 11.019
+    },
+    {
+      "w": "owned",
+      "start": 11.399,
+      "end": 11.619
+    },
+    {
+      "w": "by",
+      "start": 11.659,
+      "end": 11.739
+    },
+    {
+      "w": "Münchner",
+      "start": 11.819,
+      "end": 12.199
+    },
+    {
+      "w": "Wohnen",
+      "start": 12.3,
+      "end": 12.659
+    },
+    {
+      "w": "about",
+      "start": 12.979,
+      "end": 13.199
+    },
+    {
+      "w": "fifty",
+      "start": 13.239,
+      "end": 13.5
+    },
+    {
+      "w": "metres",
+      "start": 13.519,
+      "end": 13.779
+    },
+    {
+      "w": "long",
+      "start": 13.859,
+      "end": 14.139
+    },
+    {
+      "w": "and",
+      "start": 14.239,
+      "end": 14.34
+    },
+    {
+      "w": "nine",
+      "start": 14.42,
+      "end": 14.52
+    },
+    {
+      "w": "and",
+      "start": 14.579,
+      "end": 14.639
+    },
+    {
+      "w": "a",
+      "start": 14.719,
+      "end": 14.739
+    },
+    {
+      "w": "half",
+      "start": 14.799,
+      "end": 15.0
+    },
+    {
+      "w": "wide.",
+      "start": 15.079,
+      "end": 15.38
+    },
+    {
+      "w": "The",
+      "start": 15.799,
+      "end": 15.859
+    },
+    {
+      "w": "job:",
+      "start": 15.939,
+      "end": 16.26
+    },
+    {
+      "w": "two",
+      "start": 17.579,
+      "end": 17.699
+    },
+    {
+      "w": "more",
+      "start": 17.779,
+      "end": 17.939
+    },
+    {
+      "w": "storeys",
+      "start": 18.0,
+      "end": 18.34
+    },
+    {
+      "w": "on",
+      "start": 18.379,
+      "end": 18.46
+    },
+    {
+      "w": "top,",
+      "start": 18.539,
+      "end": 18.799
+    },
+    {
+      "w": "hitting",
+      "start": 19.1,
+      "end": 19.299
+    },
+    {
+      "w": "a",
+      "start": 19.34,
+      "end": 19.359
+    },
+    {
+      "w": "specific",
+      "start": 19.439,
+      "end": 19.879
+    },
+    {
+      "w": "apartment",
+      "start": 19.92,
+      "end": 20.34
+    },
+    {
+      "w": "mix.",
+      "start": 20.379,
+      "end": 20.719
+    }
+  ],
+  "sentences": [
+    {
+      "text": "To make the project real, we have an actual test case and an industry partner to go with it.",
+      "start": 0.119,
+      "end": 4.839
+    },
+    {
+      "text": "It's a series of slab blocks on Gotteszeller Straße in Munich, from 1954, owned by Münchner Wohnen about fifty metres long and nine and a half wide.",
+      "start": 6.679,
+      "end": 15.38
+    },
+    {
+      "text": "The job: two more storeys on top, hitting a specific apartment mix.",
+      "start": 15.799,
+      "end": 20.719
+    }
+  ]
+}

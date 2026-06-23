@@ -1,0 +1,666 @@
+{
+  "schema": "spatialtimber.align/1",
+  "slide": 21,
+  "audio": "21.mp3",
+  "cut": "long_15min_v3",
+  "duration": 41.967,
+  "engine": "elevenlabs-forced-alignment",
+  "loss": 0.0515,
+  "language": "en",
+  "generatedAt": "2026-06-23T15:45:12",
+  "text": "But automating the check is only half the story. We packaged it as what we call an agentic skill basically a tool an AI coding assistant can pick up and use on its own. And that changes what it's good for. Anyone with a coding agent and this skill could build, in an afternoon, a plugin inside Rhino or Revit that gives you live feedback as you draw; or a little stand-alone app where you drop in a plan and get a score; or just bolt a furnishability check onto some product that already exists. And it's all open-source, under Apache 2.0. We genuinely see this as one of the project's big outcomes in its own right completely separate from training our own model.",
+  "words": [
+    {
+      "w": "But",
+      "start": 0.059,
+      "end": 0.159
+    },
+    {
+      "w": "automating",
+      "start": 0.259,
+      "end": 0.659
+    },
+    {
+      "w": "the",
+      "start": 0.699,
+      "end": 0.759
+    },
+    {
+      "w": "check",
+      "start": 0.839,
+      "end": 1.059
+    },
+    {
+      "w": "is",
+      "start": 1.12,
+      "end": 1.199
+    },
+    {
+      "w": "only",
+      "start": 1.259,
+      "end": 1.439
+    },
+    {
+      "w": "half",
+      "start": 1.519,
+      "end": 1.779
+    },
+    {
+      "w": "the",
+      "start": 1.819,
+      "end": 1.879
+    },
+    {
+      "w": "story.",
+      "start": 1.979,
+      "end": 2.339
+    },
+    {
+      "w": "We",
+      "start": 4.219,
+      "end": 4.339
+    },
+    {
+      "w": "packaged",
+      "start": 4.4,
+      "end": 4.799
+    },
+    {
+      "w": "it",
+      "start": 4.859,
+      "end": 4.98
+    },
+    {
+      "w": "as",
+      "start": 5.039,
+      "end": 5.119
+    },
+    {
+      "w": "what",
+      "start": 5.159,
+      "end": 5.259
+    },
+    {
+      "w": "we",
+      "start": 5.299,
+      "end": 5.42
+    },
+    {
+      "w": "call",
+      "start": 5.5,
+      "end": 5.699
+    },
+    {
+      "w": "an",
+      "start": 5.739,
+      "end": 5.779
+    },
+    {
+      "w": "agentic",
+      "start": 5.839,
+      "end": 6.299
+    },
+    {
+      "w": "skill",
+      "start": 6.399,
+      "end": 6.679
+    },
+    {
+      "w": "basically",
+      "start": 7.019,
+      "end": 7.44
+    },
+    {
+      "w": "a",
+      "start": 7.48,
+      "end": 7.559
+    },
+    {
+      "w": "tool",
+      "start": 7.639,
+      "end": 7.899
+    },
+    {
+      "w": "an",
+      "start": 7.94,
+      "end": 8.039
+    },
+    {
+      "w": "AI",
+      "start": 8.139,
+      "end": 8.359
+    },
+    {
+      "w": "coding",
+      "start": 8.479,
+      "end": 8.739
+    },
+    {
+      "w": "assistant",
+      "start": 8.779,
+      "end": 9.22
+    },
+    {
+      "w": "can",
+      "start": 9.279,
+      "end": 9.399
+    },
+    {
+      "w": "pick",
+      "start": 9.46,
+      "end": 9.599
+    },
+    {
+      "w": "up",
+      "start": 9.659,
+      "end": 9.76
+    },
+    {
+      "w": "and",
+      "start": 9.8,
+      "end": 9.899
+    },
+    {
+      "w": "use",
+      "start": 10.019,
+      "end": 10.139
+    },
+    {
+      "w": "on",
+      "start": 10.199,
+      "end": 10.26
+    },
+    {
+      "w": "its",
+      "start": 10.3,
+      "end": 10.439
+    },
+    {
+      "w": "own.",
+      "start": 10.519,
+      "end": 10.719
+    },
+    {
+      "w": "And",
+      "start": 11.099,
+      "end": 11.199
+    },
+    {
+      "w": "that",
+      "start": 11.239,
+      "end": 11.42
+    },
+    {
+      "w": "changes",
+      "start": 11.46,
+      "end": 11.8
+    },
+    {
+      "w": "what",
+      "start": 11.859,
+      "end": 11.939
+    },
+    {
+      "w": "it's",
+      "start": 11.979,
+      "end": 12.14
+    },
+    {
+      "w": "good",
+      "start": 12.159,
+      "end": 12.319
+    },
+    {
+      "w": "for.",
+      "start": 12.38,
+      "end": 12.579
+    },
+    {
+      "w": "Anyone",
+      "start": 14.659,
+      "end": 14.96
+    },
+    {
+      "w": "with",
+      "start": 15.0,
+      "end": 15.1
+    },
+    {
+      "w": "a",
+      "start": 15.119,
+      "end": 15.179
+    },
+    {
+      "w": "coding",
+      "start": 15.239,
+      "end": 15.519
+    },
+    {
+      "w": "agent",
+      "start": 15.619,
+      "end": 15.92
+    },
+    {
+      "w": "and",
+      "start": 15.979,
+      "end": 16.079
+    },
+    {
+      "w": "this",
+      "start": 16.119,
+      "end": 16.26
+    },
+    {
+      "w": "skill",
+      "start": 16.299,
+      "end": 16.739
+    },
+    {
+      "w": "could",
+      "start": 16.799,
+      "end": 16.96
+    },
+    {
+      "w": "build,",
+      "start": 17.0,
+      "end": 17.26
+    },
+    {
+      "w": "in",
+      "start": 17.34,
+      "end": 17.42
+    },
+    {
+      "w": "an",
+      "start": 17.459,
+      "end": 17.52
+    },
+    {
+      "w": "afternoon,",
+      "start": 17.6,
+      "end": 18.119
+    },
+    {
+      "w": "a",
+      "start": 18.559,
+      "end": 18.619
+    },
+    {
+      "w": "plugin",
+      "start": 18.68,
+      "end": 19.079
+    },
+    {
+      "w": "inside",
+      "start": 19.159,
+      "end": 19.5
+    },
+    {
+      "w": "Rhino",
+      "start": 19.579,
+      "end": 19.939
+    },
+    {
+      "w": "or",
+      "start": 20.02,
+      "end": 20.079
+    },
+    {
+      "w": "Revit",
+      "start": 20.18,
+      "end": 20.799
+    },
+    {
+      "w": "that",
+      "start": 20.859,
+      "end": 20.979
+    },
+    {
+      "w": "gives",
+      "start": 21.02,
+      "end": 21.18
+    },
+    {
+      "w": "you",
+      "start": 21.199,
+      "end": 21.299
+    },
+    {
+      "w": "live",
+      "start": 21.359,
+      "end": 21.619
+    },
+    {
+      "w": "feedback",
+      "start": 21.699,
+      "end": 22.139
+    },
+    {
+      "w": "as",
+      "start": 22.199,
+      "end": 22.319
+    },
+    {
+      "w": "you",
+      "start": 22.34,
+      "end": 22.439
+    },
+    {
+      "w": "draw;",
+      "start": 22.5,
+      "end": 22.799
+    },
+    {
+      "w": "or",
+      "start": 23.319,
+      "end": 23.399
+    },
+    {
+      "w": "a",
+      "start": 23.42,
+      "end": 23.459
+    },
+    {
+      "w": "little",
+      "start": 23.5,
+      "end": 23.719
+    },
+    {
+      "w": "stand-alone",
+      "start": 23.76,
+      "end": 24.319
+    },
+    {
+      "w": "app",
+      "start": 24.42,
+      "end": 24.739
+    },
+    {
+      "w": "where",
+      "start": 24.779,
+      "end": 24.879
+    },
+    {
+      "w": "you",
+      "start": 24.899,
+      "end": 25.0
+    },
+    {
+      "w": "drop",
+      "start": 25.059,
+      "end": 25.26
+    },
+    {
+      "w": "in",
+      "start": 25.299,
+      "end": 25.36
+    },
+    {
+      "w": "a",
+      "start": 25.379,
+      "end": 25.459
+    },
+    {
+      "w": "plan",
+      "start": 25.519,
+      "end": 25.779
+    },
+    {
+      "w": "and",
+      "start": 25.819,
+      "end": 25.92
+    },
+    {
+      "w": "get",
+      "start": 25.939,
+      "end": 26.02
+    },
+    {
+      "w": "a",
+      "start": 26.059,
+      "end": 26.119
+    },
+    {
+      "w": "score;",
+      "start": 26.159,
+      "end": 26.559
+    },
+    {
+      "w": "or",
+      "start": 27.099,
+      "end": 27.159
+    },
+    {
+      "w": "just",
+      "start": 27.26,
+      "end": 27.399
+    },
+    {
+      "w": "bolt",
+      "start": 27.459,
+      "end": 27.639
+    },
+    {
+      "w": "a",
+      "start": 27.68,
+      "end": 27.739
+    },
+    {
+      "w": "furnishability",
+      "start": 27.779,
+      "end": 28.459
+    },
+    {
+      "w": "check",
+      "start": 28.519,
+      "end": 28.779
+    },
+    {
+      "w": "onto",
+      "start": 28.819,
+      "end": 28.979
+    },
+    {
+      "w": "some",
+      "start": 29.039,
+      "end": 29.199
+    },
+    {
+      "w": "product",
+      "start": 29.26,
+      "end": 29.579
+    },
+    {
+      "w": "that",
+      "start": 29.619,
+      "end": 29.719
+    },
+    {
+      "w": "already",
+      "start": 29.739,
+      "end": 30.02
+    },
+    {
+      "w": "exists.",
+      "start": 30.039,
+      "end": 30.659
+    },
+    {
+      "w": "And",
+      "start": 32.479,
+      "end": 32.56
+    },
+    {
+      "w": "it's",
+      "start": 32.599,
+      "end": 32.739
+    },
+    {
+      "w": "all",
+      "start": 32.799,
+      "end": 32.939
+    },
+    {
+      "w": "open-source,",
+      "start": 33.02,
+      "end": 33.72
+    },
+    {
+      "w": "under",
+      "start": 33.979,
+      "end": 34.139
+    },
+    {
+      "w": "Apache",
+      "start": 34.259,
+      "end": 34.599
+    },
+    {
+      "w": "2.0.",
+      "start": 34.719,
+      "end": 35.84
+    },
+    {
+      "w": "We",
+      "start": 35.899,
+      "end": 36.04
+    },
+    {
+      "w": "genuinely",
+      "start": 36.099,
+      "end": 36.52
+    },
+    {
+      "w": "see",
+      "start": 36.659,
+      "end": 36.779
+    },
+    {
+      "w": "this",
+      "start": 36.819,
+      "end": 36.979
+    },
+    {
+      "w": "as",
+      "start": 37.02,
+      "end": 37.119
+    },
+    {
+      "w": "one",
+      "start": 37.139,
+      "end": 37.22
+    },
+    {
+      "w": "of",
+      "start": 37.239,
+      "end": 37.299
+    },
+    {
+      "w": "the",
+      "start": 37.319,
+      "end": 37.399
+    },
+    {
+      "w": "project's",
+      "start": 37.459,
+      "end": 37.919
+    },
+    {
+      "w": "big",
+      "start": 37.959,
+      "end": 38.119
+    },
+    {
+      "w": "outcomes",
+      "start": 38.219,
+      "end": 38.619
+    },
+    {
+      "w": "in",
+      "start": 38.639,
+      "end": 38.72
+    },
+    {
+      "w": "its",
+      "start": 38.739,
+      "end": 38.88
+    },
+    {
+      "w": "own",
+      "start": 38.939,
+      "end": 39.06
+    },
+    {
+      "w": "right",
+      "start": 39.139,
+      "end": 39.859
+    },
+    {
+      "w": "completely",
+      "start": 39.899,
+      "end": 40.399
+    },
+    {
+      "w": "separate",
+      "start": 40.439,
+      "end": 40.759
+    },
+    {
+      "w": "from",
+      "start": 40.799,
+      "end": 40.979
+    },
+    {
+      "w": "training",
+      "start": 41.0,
+      "end": 41.299
+    },
+    {
+      "w": "our",
+      "start": 41.319,
+      "end": 41.419
+    },
+    {
+      "w": "own",
+      "start": 41.459,
+      "end": 41.599
+    },
+    {
+      "w": "model.",
+      "start": 41.639,
+      "end": 41.919
+    }
+  ],
+  "sentences": [
+    {
+      "text": "But automating the check is only half the story.",
+      "start": 0.059,
+      "end": 2.339
+    },
+    {
+      "text": "We packaged it as what we call an agentic skill basically a tool an AI coding assistant can pick up and use on its own.",
+      "start": 4.219,
+      "end": 10.719
+    },
+    {
+      "text": "And that changes what it's good for.",
+      "start": 11.099,
+      "end": 12.579
+    },
+    {
+      "text": "Anyone with a coding agent and this skill could build, in an afternoon, a plugin inside Rhino or Revit that gives you live feedback as you draw; or a little stand-alone app where you drop in a plan and get a score; or just bolt a furnishability check onto some product that already exists.",
+      "start": 14.659,
+      "end": 30.659
+    },
+    {
+      "text": "And it's all open-source, under Apache 2.0.",
+      "start": 32.479,
+      "end": 35.84
+    },
+    {
+      "text": "We genuinely see this as one of the project's big outcomes in its own right completely separate from training our own model.",
+      "start": 35.899,
+      "end": 41.919
+    }
+  ]
+}

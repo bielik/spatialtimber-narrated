@@ -1,0 +1,781 @@
+{
+  "schema": "spatialtimber.align/1",
+  "slide": 14,
+  "audio": "14.mp3",
+  "cut": "long_15min_v3",
+  "duration": 45.175,
+  "engine": "elevenlabs-forced-alignment",
+  "loss": 0.0659,
+  "language": "en",
+  "generatedAt": "2026-06-23T15:45:07",
+  "text": "So here's the idea the whole project hangs on. Don't retrain the big model at all. You take a large, pre-trained model that already has a lot of general visual and spatial understanding built in think of it as a brain and you freeze it. You never touch it again. Instead, you bolt on these little add-ons we call adapters. Each one is tiny a fraction of a percent of that brain and each one teaches it exactly ONE thing: this is what an apartment layout is; this is what an architectural programme is; this is what makes a layout efficient. They're small, so each one is quick and cheap to train. They're modular one skill apiece. And they combine you just stack the ones a project needs. Stack the right adapters, and a general-purpose model turns into an architect for timber extensions.",
+  "words": [
+    {
+      "w": "So",
+      "start": 0.119,
+      "end": 0.259
+    },
+    {
+      "w": "here's",
+      "start": 0.299,
+      "end": 0.5
+    },
+    {
+      "w": "the",
+      "start": 0.56,
+      "end": 0.599
+    },
+    {
+      "w": "idea",
+      "start": 0.68,
+      "end": 0.899
+    },
+    {
+      "w": "the",
+      "start": 0.979,
+      "end": 1.059
+    },
+    {
+      "w": "whole",
+      "start": 1.1,
+      "end": 1.259
+    },
+    {
+      "w": "project",
+      "start": 1.319,
+      "end": 1.699
+    },
+    {
+      "w": "hangs",
+      "start": 1.779,
+      "end": 2.0
+    },
+    {
+      "w": "on.",
+      "start": 2.099,
+      "end": 2.279
+    },
+    {
+      "w": "Don't",
+      "start": 3.439,
+      "end": 3.639
+    },
+    {
+      "w": "retrain",
+      "start": 3.699,
+      "end": 4.119
+    },
+    {
+      "w": "the",
+      "start": 4.159,
+      "end": 4.219
+    },
+    {
+      "w": "big",
+      "start": 4.299,
+      "end": 4.42
+    },
+    {
+      "w": "model",
+      "start": 4.519,
+      "end": 4.859
+    },
+    {
+      "w": "at",
+      "start": 4.92,
+      "end": 5.0
+    },
+    {
+      "w": "all.",
+      "start": 5.099,
+      "end": 5.299
+    },
+    {
+      "w": "You",
+      "start": 5.619,
+      "end": 5.699
+    },
+    {
+      "w": "take",
+      "start": 5.759,
+      "end": 5.879
+    },
+    {
+      "w": "a",
+      "start": 5.94,
+      "end": 5.98
+    },
+    {
+      "w": "large,",
+      "start": 6.039,
+      "end": 6.299
+    },
+    {
+      "w": "pre-trained",
+      "start": 6.42,
+      "end": 6.859
+    },
+    {
+      "w": "model",
+      "start": 6.96,
+      "end": 7.219
+    },
+    {
+      "w": "that",
+      "start": 7.379,
+      "end": 7.46
+    },
+    {
+      "w": "already",
+      "start": 7.519,
+      "end": 7.739
+    },
+    {
+      "w": "has",
+      "start": 7.799,
+      "end": 7.899
+    },
+    {
+      "w": "a",
+      "start": 7.919,
+      "end": 7.96
+    },
+    {
+      "w": "lot",
+      "start": 8.019,
+      "end": 8.119
+    },
+    {
+      "w": "of",
+      "start": 8.159,
+      "end": 8.26
+    },
+    {
+      "w": "general",
+      "start": 8.34,
+      "end": 8.599
+    },
+    {
+      "w": "visual",
+      "start": 8.739,
+      "end": 9.079
+    },
+    {
+      "w": "and",
+      "start": 9.139,
+      "end": 9.22
+    },
+    {
+      "w": "spatial",
+      "start": 9.3,
+      "end": 9.639
+    },
+    {
+      "w": "understanding",
+      "start": 9.699,
+      "end": 10.239
+    },
+    {
+      "w": "built",
+      "start": 10.3,
+      "end": 10.5
+    },
+    {
+      "w": "in",
+      "start": 10.599,
+      "end": 10.739
+    },
+    {
+      "w": "think",
+      "start": 11.119,
+      "end": 11.219
+    },
+    {
+      "w": "of",
+      "start": 11.279,
+      "end": 11.34
+    },
+    {
+      "w": "it",
+      "start": 11.359,
+      "end": 11.42
+    },
+    {
+      "w": "as",
+      "start": 11.46,
+      "end": 11.56
+    },
+    {
+      "w": "a",
+      "start": 11.599,
+      "end": 11.639
+    },
+    {
+      "w": "brain",
+      "start": 11.719,
+      "end": 12.139
+    },
+    {
+      "w": "and",
+      "start": 12.46,
+      "end": 12.56
+    },
+    {
+      "w": "you",
+      "start": 12.599,
+      "end": 12.719
+    },
+    {
+      "w": "freeze",
+      "start": 12.779,
+      "end": 13.019
+    },
+    {
+      "w": "it.",
+      "start": 13.099,
+      "end": 13.239
+    },
+    {
+      "w": "You",
+      "start": 14.079,
+      "end": 14.159
+    },
+    {
+      "w": "never",
+      "start": 14.199,
+      "end": 14.36
+    },
+    {
+      "w": "touch",
+      "start": 14.439,
+      "end": 14.599
+    },
+    {
+      "w": "it",
+      "start": 14.639,
+      "end": 14.679
+    },
+    {
+      "w": "again.",
+      "start": 14.759,
+      "end": 15.079
+    },
+    {
+      "w": "Instead,",
+      "start": 15.359,
+      "end": 15.739
+    },
+    {
+      "w": "you",
+      "start": 15.779,
+      "end": 15.88
+    },
+    {
+      "w": "bolt",
+      "start": 15.939,
+      "end": 16.139
+    },
+    {
+      "w": "on",
+      "start": 16.199,
+      "end": 16.279
+    },
+    {
+      "w": "these",
+      "start": 16.319,
+      "end": 16.44
+    },
+    {
+      "w": "little",
+      "start": 16.479,
+      "end": 16.659
+    },
+    {
+      "w": "add-ons",
+      "start": 16.76,
+      "end": 17.159
+    },
+    {
+      "w": "we",
+      "start": 17.219,
+      "end": 17.319
+    },
+    {
+      "w": "call",
+      "start": 17.379,
+      "end": 17.579
+    },
+    {
+      "w": "adapters.",
+      "start": 17.659,
+      "end": 18.34
+    },
+    {
+      "w": "Each",
+      "start": 18.84,
+      "end": 18.979
+    },
+    {
+      "w": "one",
+      "start": 19.059,
+      "end": 19.139
+    },
+    {
+      "w": "is",
+      "start": 19.18,
+      "end": 19.319
+    },
+    {
+      "w": "tiny",
+      "start": 19.399,
+      "end": 19.999
+    },
+    {
+      "w": "a",
+      "start": 20.079,
+      "end": 20.159
+    },
+    {
+      "w": "fraction",
+      "start": 20.239,
+      "end": 20.579
+    },
+    {
+      "w": "of",
+      "start": 20.619,
+      "end": 20.68
+    },
+    {
+      "w": "a",
+      "start": 20.719,
+      "end": 20.779
+    },
+    {
+      "w": "percent",
+      "start": 20.84,
+      "end": 21.139
+    },
+    {
+      "w": "of",
+      "start": 21.18,
+      "end": 21.26
+    },
+    {
+      "w": "that",
+      "start": 21.299,
+      "end": 21.439
+    },
+    {
+      "w": "brain",
+      "start": 21.52,
+      "end": 21.84
+    },
+    {
+      "w": "and",
+      "start": 22.359,
+      "end": 22.42
+    },
+    {
+      "w": "each",
+      "start": 22.479,
+      "end": 22.619
+    },
+    {
+      "w": "one",
+      "start": 22.68,
+      "end": 22.799
+    },
+    {
+      "w": "teaches",
+      "start": 22.879,
+      "end": 23.139
+    },
+    {
+      "w": "it",
+      "start": 23.18,
+      "end": 23.26
+    },
+    {
+      "w": "exactly",
+      "start": 23.319,
+      "end": 23.739
+    },
+    {
+      "w": "ONE",
+      "start": 23.899,
+      "end": 24.1
+    },
+    {
+      "w": "thing:",
+      "start": 24.239,
+      "end": 24.539
+    },
+    {
+      "w": "this",
+      "start": 25.1,
+      "end": 25.199
+    },
+    {
+      "w": "is",
+      "start": 25.26,
+      "end": 25.34
+    },
+    {
+      "w": "what",
+      "start": 25.399,
+      "end": 25.479
+    },
+    {
+      "w": "an",
+      "start": 25.519,
+      "end": 25.579
+    },
+    {
+      "w": "apartment",
+      "start": 25.639,
+      "end": 26.019
+    },
+    {
+      "w": "layout",
+      "start": 26.079,
+      "end": 26.359
+    },
+    {
+      "w": "is;",
+      "start": 26.42,
+      "end": 26.659
+    },
+    {
+      "w": "this",
+      "start": 27.019,
+      "end": 27.119
+    },
+    {
+      "w": "is",
+      "start": 27.159,
+      "end": 27.239
+    },
+    {
+      "w": "what",
+      "start": 27.279,
+      "end": 27.379
+    },
+    {
+      "w": "an",
+      "start": 27.42,
+      "end": 27.479
+    },
+    {
+      "w": "architectural",
+      "start": 27.539,
+      "end": 28.099
+    },
+    {
+      "w": "programme",
+      "start": 28.159,
+      "end": 28.539
+    },
+    {
+      "w": "is;",
+      "start": 28.599,
+      "end": 28.839
+    },
+    {
+      "w": "this",
+      "start": 29.26,
+      "end": 29.359
+    },
+    {
+      "w": "is",
+      "start": 29.399,
+      "end": 29.479
+    },
+    {
+      "w": "what",
+      "start": 29.519,
+      "end": 29.619
+    },
+    {
+      "w": "makes",
+      "start": 29.679,
+      "end": 29.859
+    },
+    {
+      "w": "a",
+      "start": 29.92,
+      "end": 29.939
+    },
+    {
+      "w": "layout",
+      "start": 30.019,
+      "end": 30.299
+    },
+    {
+      "w": "efficient.",
+      "start": 30.34,
+      "end": 30.84
+    },
+    {
+      "w": "They're",
+      "start": 31.659,
+      "end": 31.819
+    },
+    {
+      "w": "small,",
+      "start": 31.879,
+      "end": 32.259
+    },
+    {
+      "w": "so",
+      "start": 32.439,
+      "end": 32.54
+    },
+    {
+      "w": "each",
+      "start": 32.599,
+      "end": 32.719
+    },
+    {
+      "w": "one",
+      "start": 32.799,
+      "end": 32.86
+    },
+    {
+      "w": "is",
+      "start": 32.899,
+      "end": 33.04
+    },
+    {
+      "w": "quick",
+      "start": 33.119,
+      "end": 33.319
+    },
+    {
+      "w": "and",
+      "start": 33.36,
+      "end": 33.479
+    },
+    {
+      "w": "cheap",
+      "start": 33.52,
+      "end": 33.719
+    },
+    {
+      "w": "to",
+      "start": 33.759,
+      "end": 33.86
+    },
+    {
+      "w": "train.",
+      "start": 33.919,
+      "end": 34.279
+    },
+    {
+      "w": "They're",
+      "start": 34.619,
+      "end": 34.779
+    },
+    {
+      "w": "modular",
+      "start": 34.819,
+      "end": 35.519
+    },
+    {
+      "w": "one",
+      "start": 35.639,
+      "end": 35.799
+    },
+    {
+      "w": "skill",
+      "start": 35.86,
+      "end": 36.059
+    },
+    {
+      "w": "apiece.",
+      "start": 36.119,
+      "end": 36.679
+    },
+    {
+      "w": "And",
+      "start": 37.079,
+      "end": 37.159
+    },
+    {
+      "w": "they",
+      "start": 37.2,
+      "end": 37.319
+    },
+    {
+      "w": "combine",
+      "start": 37.36,
+      "end": 38.099
+    },
+    {
+      "w": "you",
+      "start": 38.18,
+      "end": 38.239
+    },
+    {
+      "w": "just",
+      "start": 38.299,
+      "end": 38.419
+    },
+    {
+      "w": "stack",
+      "start": 38.459,
+      "end": 38.7
+    },
+    {
+      "w": "the",
+      "start": 38.739,
+      "end": 38.799
+    },
+    {
+      "w": "ones",
+      "start": 38.86,
+      "end": 38.979
+    },
+    {
+      "w": "a",
+      "start": 39.04,
+      "end": 39.079
+    },
+    {
+      "w": "project",
+      "start": 39.139,
+      "end": 39.5
+    },
+    {
+      "w": "needs.",
+      "start": 39.559,
+      "end": 39.959
+    },
+    {
+      "w": "Stack",
+      "start": 40.459,
+      "end": 40.7
+    },
+    {
+      "w": "the",
+      "start": 40.739,
+      "end": 40.779
+    },
+    {
+      "w": "right",
+      "start": 40.84,
+      "end": 40.959
+    },
+    {
+      "w": "adapters,",
+      "start": 41.04,
+      "end": 41.559
+    },
+    {
+      "w": "and",
+      "start": 41.639,
+      "end": 41.7
+    },
+    {
+      "w": "a",
+      "start": 41.759,
+      "end": 41.819
+    },
+    {
+      "w": "general-purpose",
+      "start": 41.879,
+      "end": 42.52
+    },
+    {
+      "w": "model",
+      "start": 42.579,
+      "end": 42.839
+    },
+    {
+      "w": "turns",
+      "start": 42.899,
+      "end": 43.059
+    },
+    {
+      "w": "into",
+      "start": 43.099,
+      "end": 43.279
+    },
+    {
+      "w": "an",
+      "start": 43.319,
+      "end": 43.399
+    },
+    {
+      "w": "architect",
+      "start": 43.459,
+      "end": 43.919
+    },
+    {
+      "w": "for",
+      "start": 43.959,
+      "end": 44.079
+    },
+    {
+      "w": "timber",
+      "start": 44.119,
+      "end": 44.36
+    },
+    {
+      "w": "extensions.",
+      "start": 44.459,
+      "end": 45.079
+    }
+  ],
+  "sentences": [
+    {
+      "text": "So here's the idea the whole project hangs on.",
+      "start": 0.119,
+      "end": 2.279
+    },
+    {
+      "text": "Don't retrain the big model at all.",
+      "start": 3.439,
+      "end": 5.299
+    },
+    {
+      "text": "You take a large, pre-trained model that already has a lot of general visual and spatial understanding built in think of it as a brain and you freeze it.",
+      "start": 5.619,
+      "end": 13.239
+    },
+    {
+      "text": "You never touch it again.",
+      "start": 14.079,
+      "end": 15.079
+    },
+    {
+      "text": "Instead, you bolt on these little add-ons we call adapters.",
+      "start": 15.359,
+      "end": 18.34
+    },
+    {
+      "text": "Each one is tiny a fraction of a percent of that brain and each one teaches it exactly ONE thing: this is what an apartment layout is; this is what an architectural programme is; this is what makes a layout efficient.",
+      "start": 18.84,
+      "end": 30.84
+    },
+    {
+      "text": "They're small, so each one is quick and cheap to train.",
+      "start": 31.659,
+      "end": 34.279
+    },
+    {
+      "text": "They're modular one skill apiece.",
+      "start": 34.619,
+      "end": 36.679
+    },
+    {
+      "text": "And they combine you just stack the ones a project needs.",
+      "start": 37.079,
+      "end": 39.959
+    },
+    {
+      "text": "Stack the right adapters, and a general-purpose model turns into an architect for timber extensions.",
+      "start": 40.459,
+      "end": 45.079
+    }
+  ]
+}

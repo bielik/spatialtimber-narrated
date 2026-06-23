@@ -1,0 +1,436 @@
+{
+  "schema": "spatialtimber.align/1",
+  "slide": 2,
+  "audio": "02.mp3",
+  "cut": "long_15min_v3",
+  "duration": 31.497,
+  "engine": "elevenlabs-forced-alignment",
+  "loss": 0.1151,
+  "language": "en",
+  "generatedAt": "2026-06-23T15:44:57",
+  "text": "Quick word on who's behind this it takes two chairs, because the project sits right where structure meets computation. From the TU Dresden, the Chair of Structural Design Matthias Beckh, who steers the structural side of the research, and Patrick Schäferling. From the Bauhaus-Universität Weimar, our chair Reinhard König, who steers the computational side, then me, Martin Bielik, running the project day to day, alongside Iuliia Osintseva and Luyang Zhang. You'll meet what each of us built as we go.",
+  "words": [
+    {
+      "w": "Quick",
+      "start": 0.079,
+      "end": 0.239
+    },
+    {
+      "w": "word",
+      "start": 0.34,
+      "end": 0.519
+    },
+    {
+      "w": "on",
+      "start": 0.579,
+      "end": 0.639
+    },
+    {
+      "w": "who's",
+      "start": 0.719,
+      "end": 0.919
+    },
+    {
+      "w": "behind",
+      "start": 0.959,
+      "end": 1.279
+    },
+    {
+      "w": "this",
+      "start": 1.339,
+      "end": 1.639
+    },
+    {
+      "w": "it",
+      "start": 3.159,
+      "end": 3.259
+    },
+    {
+      "w": "takes",
+      "start": 3.279,
+      "end": 3.559
+    },
+    {
+      "w": "two",
+      "start": 3.619,
+      "end": 3.72
+    },
+    {
+      "w": "chairs,",
+      "start": 3.839,
+      "end": 4.319
+    },
+    {
+      "w": "because",
+      "start": 4.539,
+      "end": 4.779
+    },
+    {
+      "w": "the",
+      "start": 4.819,
+      "end": 4.92
+    },
+    {
+      "w": "project",
+      "start": 4.96,
+      "end": 5.359
+    },
+    {
+      "w": "sits",
+      "start": 5.42,
+      "end": 5.659
+    },
+    {
+      "w": "right",
+      "start": 5.739,
+      "end": 5.92
+    },
+    {
+      "w": "where",
+      "start": 5.96,
+      "end": 6.059
+    },
+    {
+      "w": "structure",
+      "start": 6.159,
+      "end": 6.5
+    },
+    {
+      "w": "meets",
+      "start": 6.579,
+      "end": 6.759
+    },
+    {
+      "w": "computation.",
+      "start": 6.839,
+      "end": 7.539
+    },
+    {
+      "w": "From",
+      "start": 7.899,
+      "end": 8.0
+    },
+    {
+      "w": "the",
+      "start": 8.039,
+      "end": 8.099
+    },
+    {
+      "w": "TU",
+      "start": 8.199,
+      "end": 8.439
+    },
+    {
+      "w": "Dresden,",
+      "start": 8.519,
+      "end": 9.039
+    },
+    {
+      "w": "the",
+      "start": 9.26,
+      "end": 9.319
+    },
+    {
+      "w": "Chair",
+      "start": 9.399,
+      "end": 9.579
+    },
+    {
+      "w": "of",
+      "start": 9.619,
+      "end": 9.679
+    },
+    {
+      "w": "Structural",
+      "start": 9.76,
+      "end": 10.119
+    },
+    {
+      "w": "Design",
+      "start": 10.199,
+      "end": 10.679
+    },
+    {
+      "w": "Matthias",
+      "start": 11.019,
+      "end": 11.399
+    },
+    {
+      "w": "Beckh,",
+      "start": 11.479,
+      "end": 11.779
+    },
+    {
+      "w": "who",
+      "start": 12.059,
+      "end": 12.199
+    },
+    {
+      "w": "steers",
+      "start": 12.259,
+      "end": 12.559
+    },
+    {
+      "w": "the",
+      "start": 12.599,
+      "end": 12.679
+    },
+    {
+      "w": "structural",
+      "start": 12.739,
+      "end": 13.179
+    },
+    {
+      "w": "side",
+      "start": 13.239,
+      "end": 13.399
+    },
+    {
+      "w": "of",
+      "start": 13.439,
+      "end": 13.5
+    },
+    {
+      "w": "the",
+      "start": 13.519,
+      "end": 13.579
+    },
+    {
+      "w": "research,",
+      "start": 13.639,
+      "end": 14.139
+    },
+    {
+      "w": "and",
+      "start": 14.399,
+      "end": 14.479
+    },
+    {
+      "w": "Patrick",
+      "start": 14.579,
+      "end": 14.92
+    },
+    {
+      "w": "Schäferling.",
+      "start": 14.979,
+      "end": 15.519
+    },
+    {
+      "w": "From",
+      "start": 15.839,
+      "end": 15.96
+    },
+    {
+      "w": "the",
+      "start": 15.979,
+      "end": 16.059
+    },
+    {
+      "w": "Bauhaus-Universität",
+      "start": 16.1,
+      "end": 17.359
+    },
+    {
+      "w": "Weimar,",
+      "start": 17.42,
+      "end": 17.859
+    },
+    {
+      "w": "our",
+      "start": 18.159,
+      "end": 18.319
+    },
+    {
+      "w": "chair",
+      "start": 18.379,
+      "end": 18.719
+    },
+    {
+      "w": "Reinhard",
+      "start": 19.059,
+      "end": 19.459
+    },
+    {
+      "w": "König,",
+      "start": 19.52,
+      "end": 19.899
+    },
+    {
+      "w": "who",
+      "start": 20.159,
+      "end": 20.299
+    },
+    {
+      "w": "steers",
+      "start": 20.359,
+      "end": 20.639
+    },
+    {
+      "w": "the",
+      "start": 20.659,
+      "end": 20.739
+    },
+    {
+      "w": "computational",
+      "start": 20.799,
+      "end": 21.5
+    },
+    {
+      "w": "side,",
+      "start": 21.559,
+      "end": 21.879
+    },
+    {
+      "w": "then",
+      "start": 22.18,
+      "end": 22.359
+    },
+    {
+      "w": "me,",
+      "start": 22.439,
+      "end": 22.68
+    },
+    {
+      "w": "Martin",
+      "start": 22.939,
+      "end": 23.18
+    },
+    {
+      "w": "Bielik,",
+      "start": 23.26,
+      "end": 23.639
+    },
+    {
+      "w": "running",
+      "start": 23.979,
+      "end": 24.18
+    },
+    {
+      "w": "the",
+      "start": 24.199,
+      "end": 24.299
+    },
+    {
+      "w": "project",
+      "start": 24.34,
+      "end": 24.719
+    },
+    {
+      "w": "day",
+      "start": 24.76,
+      "end": 24.859
+    },
+    {
+      "w": "to",
+      "start": 24.899,
+      "end": 25.0
+    },
+    {
+      "w": "day,",
+      "start": 25.039,
+      "end": 25.319
+    },
+    {
+      "w": "alongside",
+      "start": 25.639,
+      "end": 26.119
+    },
+    {
+      "w": "Iuliia",
+      "start": 26.239,
+      "end": 26.539
+    },
+    {
+      "w": "Osintseva",
+      "start": 26.619,
+      "end": 27.239
+    },
+    {
+      "w": "and",
+      "start": 27.5,
+      "end": 27.579
+    },
+    {
+      "w": "Luyang",
+      "start": 27.639,
+      "end": 28.0
+    },
+    {
+      "w": "Zhang.",
+      "start": 28.079,
+      "end": 28.459
+    },
+    {
+      "w": "You'll",
+      "start": 29.76,
+      "end": 29.899
+    },
+    {
+      "w": "meet",
+      "start": 29.939,
+      "end": 30.099
+    },
+    {
+      "w": "what",
+      "start": 30.139,
+      "end": 30.26
+    },
+    {
+      "w": "each",
+      "start": 30.319,
+      "end": 30.439
+    },
+    {
+      "w": "of",
+      "start": 30.459,
+      "end": 30.519
+    },
+    {
+      "w": "us",
+      "start": 30.579,
+      "end": 30.679
+    },
+    {
+      "w": "built",
+      "start": 30.76,
+      "end": 30.979
+    },
+    {
+      "w": "as",
+      "start": 31.019,
+      "end": 31.119
+    },
+    {
+      "w": "we",
+      "start": 31.159,
+      "end": 31.259
+    },
+    {
+      "w": "go.",
+      "start": 31.299,
+      "end": 31.42
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Quick word on who's behind this it takes two chairs, because the project sits right where structure meets computation.",
+      "start": 0.079,
+      "end": 7.539
+    },
+    {
+      "text": "From the TU Dresden, the Chair of Structural Design Matthias Beckh, who steers the structural side of the research, and Patrick Schäferling.",
+      "start": 7.899,
+      "end": 15.519
+    },
+    {
+      "text": "From the Bauhaus-Universität Weimar, our chair Reinhard König, who steers the computational side, then me, Martin Bielik, running the project day to day, alongside Iuliia Osintseva and Luyang Zhang.",
+      "start": 15.839,
+      "end": 28.459
+    },
+    {
+      "text": "You'll meet what each of us built as we go.",
+      "start": 29.76,
+      "end": 31.42
+    }
+  ]
+}

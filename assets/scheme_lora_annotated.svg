@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  SVG version of scheme_lora_annotated_v7.png.
+  Geometry calibrated against the v7 PNG (1200 × 896) by automated pixel
+  measurement of the card outlines, text rows, and arrow positions.
+
+  All positions and sizes are in the 1200 × 896 coordinate system.
+
+  === ANIMATION (CSS-only, looping like a GIF) ===
+  12-second cycle, infinite. Only ONE pictogram frame is visible at any moment —
+  consecutive frames CROSSFADE (the previous fades out as the next fades in).
+  Per cycle, in order:
+    0.0 s  — frame 1 (head only) visible
+    0.3 s  — BASE MODEL shaft draws (0.4 s)
+    0.7 s  — BASE MODEL arrowhead draws (0.2 s)
+    0.9 s  — BASE MODEL card + text fade in (0.5 s)
+    1.8 s  — frame 1 → frame 2 crossfade (head + green plate added)
+    2.6 s  — frame 2 → frame 3 crossfade (+ blue plate)
+    3.4 s  — frame 3 → frame 4 crossfade (+ terracotta plate, full stack)
+    3.8 s  — "+" sign between cards fades in (0.4 s) — just before second arrow
+    4.2 s  — ADAPTERS shaft draws (0.4 s)
+    4.6 s  — ADAPTERS arrowhead draws (0.2 s)
+    4.8 s  — ADAPTERS card + text fade in (0.5 s)
+    6.5 s  — dashed wrapper box around both cards fades in (0.5 s)
+    7.0 s  — "Layout generator" label above wrapper fades in (0.5 s)
+    7.5 s  — FINAL FRAME fully assembled
+    7.5 → 10.5 s — HOLD final frame fixed (3 seconds)
+   10.5 s  — fade out all annotations (incl. wrapper, "+", label)
+   11.4 s  — frame 4 → frame 1 crossfade (back to just the head, cycle restarts)
+   12  s   — loop boundary
+
+  Both arrows stop at x=614, with a 20 px gap to the dashed wrapper's
+  left edge (x=634), so the arrowheads never cross the outline.
+  See § 5 of styleguide/scheme/svg-from-png-workflow.md for the pattern.
+-->
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 1200 896"
+     width="1200" height="896"
+     role="img"
+     aria-labelledby="title desc">
+
+  <title id="title">LoRA mechanism — annotated scheme</title>
+  <desc id="desc">Animated watercolor pictogram of a head with brain. The scheme reveals the BASE MODEL annotation (arrow then card) pointing at the brain, then the pictogram progressively grows three stacked LoRA adapter plates above the head (green, then blue, then terracotta), and finally the ADAPTERS annotation reveals (arrow then card) pointing at the plate stack. The cycle then resets.</desc>
+
+  <defs>
+    <style type="text/css">
+      @import url('../fonts.css');  /* self-hosted Inter (SVG lives in assets/, fonts.css at root) */
+
+      /* Static styling — palette refreshed May 2026:
+           page bg      #FAF9F5  (slightly warm off-white)
+           card fill    #F0EEE6
+           card stroke  #9C9A92  (same colour shared with arrows)
+           arrow        #9C9A92
+           text         #5E5D59  (single neutral grey; title differs by weight only) */
+      .label-title  { font-family: 'Söhne', 'Sohne', 'Inter', 'Helvetica Neue', Arial, sans-serif; font-weight: 600; fill: #5E5D59; }
+      .label-body   { font-family: 'Söhne', 'Sohne', 'Inter', 'Helvetica Neue', Arial, sans-serif; font-weight: 400; fill: #5E5D59; }
+      .card         { fill: #F0EEE6; stroke: #9C9A92; stroke-width: 6; }
+      .card-frozen  { fill: #C2C0B7; stroke: #9C9A92; stroke-width: 6; }   /* "frozen" — base model is not updated during fine-tuning */
+      .arrow-shaft,
+      .arrow-head   { stroke: #9C9A92; stroke-width: 6;   fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .plus-sign    { stroke: #9C9A92; stroke-width: 6;   fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .dashed-frame { fill: #F0EEE6; stroke: #9C9A92; stroke-width: 4;
+                      stroke-dasharray: 12 8; stroke-linecap: butt; stroke-linejoin: round; }
+      .outer-label  { font-family: 'Söhne', 'Sohne', 'Inter', 'Helvetica Neue', Arial, sans-serif; font-weight: 600; fill: #5E5D59; }
+
+      /* Initial state — annotations invisible. Pictogram frame 1 always visible;
+         frames 2/3/4 start hidden and fade in at their scheduled moments.
+         Shaft dasharray = 144 — shaft length after trimming the tip to x=614
+         (20 px clear of the dashed wrapper's left edge at x=634). */
+      .arrow-shaft  { stroke-dasharray: 144; stroke-dashoffset: 144; }
+      .arrow-head   { stroke-dasharray: 50;  stroke-dashoffset: 50;  }
+      .card-content { opacity: 0; }
+      .plus-sign    { opacity: 0; }
+      .dashed-frame { opacity: 0; }
+      .outer-label  { opacity: 0; }
+      #pic-1        { opacity: 1; }
+      #pic-2, #pic-3, #pic-4 { opacity: 0; }
+
+      /* ---- click-driven build: 2 clicks, each plays a timed sequence ---- */
+      svg { cursor: pointer; }
+      /* the click/keyboard cue stays visible the whole time (JS rewrites its
+         text per step: progress while building, a done state once built). */
+      #cue { opacity: 1; transition: opacity .4s ease, fill .3s ease; }
+      /* keep arrows fully hidden until they draw — otherwise the round line-cap renders a
+         stray dot at each shaft/head start point while it's "empty" (dashoffset = length). */
+      .arrow-shaft, .arrow-head { opacity: 0; }
+
+      @keyframes drawShaft  { 0% { stroke-dashoffset: 144; opacity: 0; } 2% { opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 1; } }
+      @keyframes drawHead   { 0% { stroke-dashoffset: 50;  opacity: 0; } 2% { opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 1; } }
+      @keyframes fadeIn     { from { opacity: 0; } to { opacity: 1; } }
+
+      /* ===== click 1 — Base model: arrow shaft, THEN head, THEN the box ===== */
+      .p1 #annotation-base-model .arrow-shaft  { animation: drawShaft .45s ease 0s   both; }
+      .p1 #annotation-base-model .arrow-head   { animation: drawHead  .25s ease .45s both; }
+      .p1 #annotation-base-model .card-content { animation: fadeIn    .5s  ease .75s both; }
+
+      /* ===== click 2 — plates in sequence, then adapters box, then outline + label ===== */
+      /* plates STACK on (fade in, each stays visible) — never fade a frame out, so the head +
+         already-shown plates stay fully opaque and nothing dims/blinks between frames. pic-1
+         (head) stays visible underneath the whole time. */
+      .p2 #pic-2 { animation: fadeIn .5s ease 0s   both; }   /* + green plate */
+      .p2 #pic-3 { animation: fadeIn .5s ease .8s  both; }   /* + blue plate  */
+      .p2 #pic-4 { animation: fadeIn .5s ease 1.6s both; }   /* + terracotta (full stack) */
+      .p2 #plus-sign-group .plus-sign        { animation: fadeIn   .35s ease 2.0s  both; }
+      .p2 #annotation-adapters .arrow-shaft  { animation: drawShaft .45s ease 2.2s  both; }
+      .p2 #annotation-adapters .arrow-head   { animation: drawHead  .25s ease 2.65s both; }
+      .p2 #annotation-adapters .card-content { animation: fadeIn    .5s  ease 2.9s  both; }
+      .p2 #dashed-wrapper .dashed-frame      { animation: fadeIn    .5s  ease 3.5s  both; }
+      .p2 #dashed-wrapper .outer-label       { animation: fadeIn    .5s  ease 4.0s  both; }
+    </style>
+  </defs>
+
+  <!-- Page background — solid warm off-white (#FAF9F5), the scheme's intended page colour. -->
+  <rect width="1200" height="896" fill="#FAF9F5"/>
+
+  <text id="cue" x="600" y="872" text-anchor="middle" font-size="28"
+        font-family="'Söhne','Sohne','Inter','Helvetica Neue',Arial,sans-serif" fill="#9C9A92">Click to build the diagram  →</text>
+
+  <!-- ===================================================================
+       Pictogram stack — 4 frames at the same position.
+       Frame 1 (head only) is always visible.
+       Frames 2/3/4 fade in at scheduled times, then fade out at end-of-loop
+       to re-expose frame 1 for the next cycle.
+       =================================================================== -->
+  <g id="pictogram-stack">
+    <image id="pic-1"
+           href="pictogram_lora_anim_01_head_v1.png"
+           xlink:href="pictogram_lora_anim_01_head_v1.png"
+           x="60" y="30" width="500" height="820"
+           preserveAspectRatio="xMidYMid meet"/>
+    <image id="pic-2"
+           href="pictogram_lora_anim_02_green_v1.png"
+           xlink:href="pictogram_lora_anim_02_green_v1.png"
+           x="60" y="30" width="500" height="820"
+           preserveAspectRatio="xMidYMid meet"/>
+    <image id="pic-3"
+           href="pictogram_lora_anim_03_green_blue_v1.png"
+           xlink:href="pictogram_lora_anim_03_green_blue_v1.png"
+           x="60" y="30" width="500" height="820"
+           preserveAspectRatio="xMidYMid meet"/>
+    <image id="pic-4"
+           href="pictogram_lora_anim_04_all_v1.png"
+           xlink:href="pictogram_lora_anim_04_all_v1.png"
+           x="60" y="30" width="500" height="820"
+           preserveAspectRatio="xMidYMid meet"/>
+  </g>
+
+  <!-- ===================================================================
+       Dashed wrapper around both annotation cards + "Layout generator"
+       label above. Uniform 24 px offset from card edges, matching the
+       offset and style used in scheme_typology_annotated_inline.svg:
+         cards bounding box: x=658..1098, y=122..772
+         dashed frame      : x=634, y=98, w=488, h=698, rx=32
+       Label style (font-weight 600, size 32, 25 px above frame) matches
+       the "Generator" / "Evaluators" headings in
+       scheme_rl_feedback_annotated.svg.
+       Painted BEFORE the cards so its cream fill (#F0EEE6) reads as
+       background — the cards (and the frozen-grey base-model card) sit
+       on top, and so do the "+" and the two arrows.
+       Reveals last in the cycle: dashed frame in by 7.0 s, label in by
+       7.5 s — both held until the 10.5 s fade-out.
+       =================================================================== -->
+  <g id="dashed-wrapper">
+    <rect class="dashed-frame"
+          x="634" y="98" width="488" height="698" rx="32" ry="32"/>
+    <text class="outer-label" x="878" y="73" text-anchor="middle" font-size="32">Layout generator</text>
+  </g>
+
+  <!-- ===================================================================
+       Upper annotation: ADAPTERS (points at the three stacked plates).
+       Revealed LAST in the cycle (after all 3 plates have appeared).
+       =================================================================== -->
+  <g id="annotation-adapters" class="annotation">
+
+    <g class="card-content">
+      <rect class="card" x="658" y="122" width="440" height="257" rx="32" ry="32"/>
+      <text class="label-title" x="878" y="200" text-anchor="middle" font-size="40">Adapters</text>
+      <text class="label-body"  x="878" y="255" text-anchor="middle" font-size="30">task-specific</text>
+      <text class="label-body"  x="878" y="295" text-anchor="middle" font-size="30">small &amp; trainable</text>
+      <text class="label-body"  x="878" y="335" text-anchor="middle" font-size="30">layer of weights</text>
+    </g>
+
+    <path class="arrow-shaft" d="M 470 190 L 614 190"/>
+    <path class="arrow-head"  d="M 596 175 L 614 190 L 596 205"/>
+
+  </g>
+
+  <!-- ===================================================================
+       Lower annotation: BASE MODEL (points at the brain region).
+       Revealed FIRST in the cycle. The card uses .card-frozen (grey
+       #C2C0B7) to signal that this part of the model is NOT trained
+       during fine-tuning — only the adapters above are.
+       =================================================================== -->
+  <g id="annotation-base-model" class="annotation">
+
+    <g class="card-content">
+      <rect class="card-frozen" x="658" y="516" width="440" height="256" rx="32" ry="32"/>
+      <text class="label-title" x="878" y="594" text-anchor="middle" font-size="40">Base model</text>
+      <text class="label-body"  x="878" y="649" text-anchor="middle" font-size="30">general purpose</text>
+      <text class="label-body"  x="878" y="689" text-anchor="middle" font-size="30">pre-trained large</text>
+      <text class="label-body"  x="878" y="729" text-anchor="middle" font-size="30">Neural Network</text>
+    </g>
+
+    <path class="arrow-shaft" d="M 470 644 L 614 644"/>
+    <path class="arrow-head"  d="M 596 629 L 614 644 L 596 659"/>
+
+  </g>
+
+  <!-- ===================================================================
+       "+" sign sitting in the gap between the ADAPTERS card (bottom y=379)
+       and the BASE MODEL card (top y=516). Same colour and stroke-width
+       as the arrows (#9C9A92, sw 6, round caps). Card horizontal centre
+       is x=878 (cards at x=658..1098). Vertical midpoint is y=447.5.
+       Plus glyph spans 50×50 (i.e. each arm extends 25 px from centre).
+       Revealed just before the second arrow (in by 4.2 s) and held
+       through the rest of the cycle.
+       =================================================================== -->
+  <g id="plus-sign-group">
+    <path class="plus-sign" d="M 853 447.5 L 903 447.5"/>
+    <path class="plus-sign" d="M 878 422.5 L 878 472.5"/>
+  </g>
+
+  <script type="text/javascript"><![CDATA[
+    (function(){
+      var TOTAL = 2;                                  // clicks to fully build
+      var root = document.documentElement;           // the <svg> element
+      var step = 0;
+      function updateCue(){
+        var cue = document.getElementById('cue');
+        if (!cue) return;
+        if (step >= TOTAL){ cue.textContent = '✓ Built — press → for next slide'; cue.setAttribute('fill', '#D97757'); }
+        else { cue.textContent = 'Click or press → to build  (' + step + ' / ' + TOTAL + ')'; cue.setAttribute('fill', '#9C9A92'); }
+      }
+      function paint(){
+        var c = [];
+        for (var i = 1; i <= step; i++) c.push('p' + i);
+        root.setAttribute('class', c.join(' '));
+        updateCue();
+      }
+      // Advance one phase. Returns false (does NOT loop) when fully built, so
+      // the keyboard can fall through to "next slide".
+      function forward(){ if (step >= TOTAL) return false; step += 1; paint(); return true; }
+      function restart(){ step = 0; paint(); }
+      // Click builds the next phase; clicking a fully-built scheme restarts it.
+      root.addEventListener('click', function(){
+        if (step >= TOTAL) restart(); else forward();
+        try { window.parent.focus(); } catch (e) {}                 // keep keyboard nav on the deck
+      });
+      // Keyboard when focus is inside this embed: ->/Space build; once built ->
+      // asks the parent deck for the next slide; <- always goes to prev slide.
+      document.addEventListener('keydown', function(e){
+        if (e.metaKey || e.ctrlKey || e.altKey) return;
+        var k = e.key;
+        if (k === 'ArrowRight' || k === 'PageDown' || k === ' ' || k === 'Spacebar'){ e.preventDefault(); if (!forward()) nav(1); }
+        else if (k === 'ArrowLeft' || k === 'PageUp'){ e.preventDefault(); nav(-1); }
+      });
+      function nav(dir){ try { var p = window.parent; if (dir > 0 && p.__deckNext) p.__deckNext(); else if (dir < 0 && p.__deckPrev) p.__deckPrev(); p.focus(); } catch (e) {} }
+      // Exposed so the parent (deck-controls.js) can drive the build when focus
+      // is on the deck rather than inside this embed.
+      window.__scheme = { total: TOTAL, built: function(){ return step >= TOTAL; }, forward: forward, restart: restart };
+      paint();
+    })();
+  ]]></script>
+</svg>

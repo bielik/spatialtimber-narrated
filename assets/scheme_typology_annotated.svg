@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  SVG version of scheme_typology_annotated_v7.png.
+  Geometry calibrated against the v7 PNG (1200 x 896) by automated pixel
+  measurement. The "System architecture" page title in the v7 PNG is
+  intentionally dropped here — the slide title carries the meaning.
+
+  Three rows (apartment / floor / building), two-column layout:
+    LEFT column   : pictogram (uniform 0.45 scale of source crop) + bold
+                    count + unit subtitle
+    MIDDLE column : horizontal "imitation" arrow per row (shifted left so
+                    the arrowhead stops at the outer dashed container edge,
+                    no crossing)
+    RIGHT column  : three adapter cards inside nested dashed containers
+                    (inner wraps Adapter 1+2; outer wraps all 3, both rx=32
+                    to match the cards)
+    Between cards : two vertical "transfer" arrows
+
+  === ANIMATION (CSS-only, looping, 12 s cycle, infinite) ===
+  12 steps with two short breaks between rows. Within each row the imitation
+  arrow and the preceding transfer arrow draw SIMULTANEOUSLY (rows 2 + 3).
+  The dashed boxes fade in AFTER all their contained cards are visible.
+
+    0.0 s  step 1   apartment pictogram + 47,156 / apartments fade in
+    0.6 s  step 2   imitation arrow 1 (shaft, then head) + label
+    1.2 s  step 3   Adapter 1 card fades in
+    1.7 s  ======== short break (everything from row 1 visible)
+    2.1 s  step 4   floor pictogram + 13,806 / floors fade in
+    2.7 s  step 5   imitation arrow 2 + transfer arrow 1 draw simultaneously
+    3.3 s  step 6   Adapter 2 card fades in
+    3.8 s  step 7   inner dashed container fades in (rx=32, cream fill)
+    4.3 s  ======== short break
+    4.7 s  step 8   building pictogram + 3,183 / buildings fade in
+    5.3 s  step 9   imitation arrow 3 + transfer arrow 2 draw simultaneously
+    5.9 s  step 10  Adapter 3 card fades in
+    6.4 s  ======== HOLD (full scheme visible)
+    9.5 s  step 11  fade everything out
+    11.0 s          fully invisible
+    11.0..12.0 s    reset stroke-dashoffsets while invisible
+    12.0 s          loop boundary
+  See § 5 of styleguide/scheme/svg-from-png-workflow.md for the pattern.
+-->
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 1200 896"
+     width="1200" height="896"
+     role="img"
+     aria-labelledby="title desc">
+
+  <title id="title">System architecture - three adapter levels</title>
+  <desc id="desc">Three-row diagram. Each row pairs a watercolor voxel pictogram (apartment, floor, building) with a chunky data count (47,156 apartments, 13,806 floors, 3,183 buildings) and a horizontal "imitation" arrow pointing into an adapter card on the right (Adapter 1 - apartment layouts, Adapter 2 - floor layouts, Adapter 3 - building layouts). The three cards are wrapped in two nested dashed containers: an inner one around Adapters 1 and 2, an outer one around all three. Two vertical "transfer" arrows connect the adapter cards top-to-bottom.</desc>
+
+  <defs>
+    <style type="text/css">
+      @import url('../fonts.css');  /* self-hosted Inter (SVG lives in assets/, fonts.css at root) */
+
+      /* === Static palette — May 2026 refresh === */
+      .label-title    { font-family: 'Söhne', 'Sohne', 'Inter', 'Helvetica Neue', Arial, sans-serif; font-weight: 600; fill: #5E5D59; }
+      .label-body     { font-family: 'Söhne', 'Sohne', 'Inter', 'Helvetica Neue', Arial, sans-serif; font-weight: 400; fill: #5E5D59; }
+      .label-mid      { font-family: 'Söhne', 'Sohne', 'Inter', 'Helvetica Neue', Arial, sans-serif; font-weight: 400; fill: #5E5D59; }
+      .count-bold     { font-family: 'Söhne', 'Sohne', 'Inter', 'Helvetica Neue', Arial, sans-serif; font-weight: 700; fill: #5E5D59; }
+      .count-unit     { font-family: 'Söhne', 'Sohne', 'Inter', 'Helvetica Neue', Arial, sans-serif; font-weight: 400; fill: #7A766A; }
+      .card           { fill: #F0EEE6; stroke: #9C9A92; stroke-width: 6; }
+      .arrow-shaft,
+      .arrow-head     { stroke: #9C9A92; stroke-width: 6; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .dashed-frame   { fill: none; stroke: #9C9A92; stroke-width: 4;
+                        stroke-dasharray: 12 8; stroke-linecap: butt; stroke-linejoin: round; }
+      .dashed-inner-fill { fill: #F0EEE6; }
+
+      /* === Initial state — everything invisible === */
+      .row-pic-content   { opacity: 0; }
+      .card-content      { opacity: 0; }
+      .dashed-frame      { opacity: 0; }
+      .imit-label-wrap   { opacity: 0; }
+      .xfer-label-wrap   { opacity: 0; }
+      /* Arrow shafts: dasharray = path length, dashoffset = path length -> invisible */
+      .imit-shaft        { stroke-dasharray: 160; stroke-dashoffset: 160; }
+      .imit-head         { stroke-dasharray: 42;  stroke-dashoffset: 42;  }
+      .xfer1-shaft       { stroke-dasharray: 69;  stroke-dashoffset: 69;  }
+      .xfer1-head        { stroke-dasharray: 42;  stroke-dashoffset: 42;  }
+      .xfer2-shaft       { stroke-dasharray: 75;  stroke-dashoffset: 75;  }
+      .xfer2-head        { stroke-dasharray: 42;  stroke-dashoffset: 42;  }
+
+      /* ---- click-driven build: 3 clicks, each row drawn element-by-element ---- */
+      svg { cursor: pointer; }
+      /* the click/keyboard cue stays visible the whole time (JS rewrites its
+         text per step: progress while building, a done state once built). */
+      #cue { opacity: 1; transition: opacity .4s ease, fill .3s ease; }
+      /* keep arrows fully hidden until they draw — otherwise the round line-cap renders a
+         stray dot at each shaft/head start point while it's "empty" (dashoffset = length). */
+      .arrow-shaft, .arrow-head { opacity: 0; }
+
+      @keyframes drawImit  { 0% { stroke-dashoffset: 160; opacity: 0; } 2% { opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 1; } }
+      @keyframes drawXfer1 { 0% { stroke-dashoffset: 69;  opacity: 0; } 2% { opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 1; } }
+      @keyframes drawXfer2 { 0% { stroke-dashoffset: 75;  opacity: 0; } 2% { opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 1; } }
+      @keyframes drawHead  { 0% { stroke-dashoffset: 42;  opacity: 0; } 2% { opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 1; } }
+      @keyframes fadeIn    { from { opacity: 0; } to { opacity: 1; } }
+
+      /* ===== click 1 — apartment row, in sequence: pic → arrow(shaft→head) → label → card ===== */
+      .p1 #row-1 .row-pic-content { animation: fadeIn   .45s ease 0s   both; }
+      .p1 #row-1 .imit-shaft      { animation: drawImit .45s ease .5s  both; }
+      .p1 #row-1 .imit-head       { animation: drawHead .22s ease .95s both; }
+      .p1 #row-1 .imit-label-wrap { animation: fadeIn   .35s ease .95s both; }
+      .p1 #row-1 .card-content    { animation: fadeIn   .5s  ease 1.3s both; }
+
+      /* ===== click 2 — floor row: pic → ALL arrows (imitation, then transfer) → THEN boxes (card, inner) ===== */
+      .p2 #row-2 .row-pic-content { animation: fadeIn   .45s ease 0s   both; }
+      .p2 #row-2 .imit-shaft      { animation: drawImit .45s ease .5s  both; }
+      .p2 #row-2 .imit-head       { animation: drawHead .22s ease .95s both; }
+      .p2 #row-2 .imit-label-wrap { animation: fadeIn   .35s ease .95s both; }
+      .p2 #xfer-1 .xfer1-shaft     { animation: drawXfer1 .4s  ease 1.3s  both; }
+      .p2 #xfer-1 .xfer1-head      { animation: drawHead  .22s ease 1.75s both; }
+      .p2 #xfer-1 .xfer-label-wrap { animation: fadeIn    .35s ease 1.75s both; }
+      .p2 #row-2 .card-content    { animation: fadeIn   .5s  ease 2.1s both; }
+      .p2 #dashed-inner            { animation: fadeIn    .5s  ease 2.6s both; }
+
+      /* ===== click 3 — building row: pic → ALL arrows (imitation, then transfer) → THEN box (card) ===== */
+      .p3 #row-3 .row-pic-content { animation: fadeIn   .45s ease 0s   both; }
+      .p3 #row-3 .imit-shaft      { animation: drawImit .45s ease .5s  both; }
+      .p3 #row-3 .imit-head       { animation: drawHead .22s ease .95s both; }
+      .p3 #row-3 .imit-label-wrap { animation: fadeIn   .35s ease .95s both; }
+      .p3 #xfer-2 .xfer2-shaft     { animation: drawXfer2 .4s  ease 1.3s  both; }
+      .p3 #xfer-2 .xfer2-head      { animation: drawHead  .22s ease 1.75s both; }
+      .p3 #xfer-2 .xfer-label-wrap { animation: fadeIn    .35s ease 1.75s both; }
+      .p3 #row-3 .card-content    { animation: fadeIn   .5s  ease 2.1s both; }
+    </style>
+  </defs>
+
+  <!-- Page background -->
+  <rect width="1200" height="896" fill="#FAF9F5"/>
+
+  <text id="cue" x="600" y="72" text-anchor="middle" font-size="28"
+        font-family="'Söhne','Sohne','Inter','Helvetica Neue',Arial,sans-serif" fill="#9C9A92">Click to build the diagram  →</text>
+
+  <!-- ===================================================================
+       Dashed container — single inner box wrapping Adapter 1 + Adapter 2
+       with uniform 24 px padding (cards span x=722..1070, y=144..519).
+       Cream fill (#F0EEE6) so the two contained adapters share a visible
+       background. rx=32 matches the card corners.
+       =================================================================== -->
+  <rect id="dashed-inner" class="dashed-frame dashed-inner-fill"
+        x="698" y="120" width="396" height="423" rx="32" ry="32"/>
+
+  <!-- ===================================================================
+       ROW 1 — apartment
+       Pictogram: source 235x263, scale 0.45 -> 106x118, center (145, 215).
+       =================================================================== -->
+  <g id="row-1">
+    <g class="row-pic-content">
+      <image href="pictogram_typology_apartment.png"
+             xlink:href="pictogram_typology_apartment.png"
+             x="92" y="156" width="106" height="118"
+             preserveAspectRatio="xMidYMid meet"/>
+      <text class="count-bold" x="290" y="208" font-size="42">47,156</text>
+      <text class="count-unit" x="290" y="246" font-size="30">apartments</text>
+    </g>
+
+    <path class="arrow-shaft imit-shaft" d="M 500 215 L 660 215"/>
+    <path class="arrow-head  imit-head"  d="M 645 200 L 660 215 L 645 230"/>
+    <g class="imit-label-wrap">
+      <text class="label-mid" x="580" y="200" text-anchor="middle" font-size="28">imitation</text>
+    </g>
+
+    <g class="card-content">
+      <rect class="card" x="722" y="144" width="348" height="142" rx="32" ry="32"/>
+      <text class="label-title" x="896" y="207" text-anchor="middle" font-size="40">Adapter 1</text>
+      <text class="label-body"  x="896" y="252" text-anchor="middle" font-size="28">(apartment layouts)</text>
+    </g>
+  </g>
+
+  <!-- ===================================================================
+       Transfer arrow 1 (Adapter 1 -> Adapter 2)
+       =================================================================== -->
+  <g id="xfer-1">
+    <path class="arrow-shaft xfer1-shaft" d="M 897 291 L 897 360"/>
+    <path class="arrow-head  xfer1-head"  d="M 882 345 L 897 360 L 912 345"/>
+    <g class="xfer-label-wrap">
+      <text class="label-mid" x="930" y="333" text-anchor="start" font-size="28">transfer</text>
+    </g>
+  </g>
+
+  <!-- ===================================================================
+       ROW 2 — floor
+       Pictogram: source 532x447, scale 0.45 -> 239x201, center (145, 448).
+       =================================================================== -->
+  <g id="row-2">
+    <g class="row-pic-content">
+      <image href="pictogram_typology_floor.png"
+             xlink:href="pictogram_typology_floor.png"
+             x="26" y="348" width="239" height="201"
+             preserveAspectRatio="xMidYMid meet"/>
+      <text class="count-bold" x="290" y="441" font-size="42">13,806</text>
+      <text class="count-unit" x="290" y="479" font-size="30">floors</text>
+    </g>
+
+    <path class="arrow-shaft imit-shaft" d="M 500 448 L 660 448"/>
+    <path class="arrow-head  imit-head"  d="M 645 433 L 660 448 L 645 463"/>
+    <g class="imit-label-wrap">
+      <text class="label-mid" x="580" y="433" text-anchor="middle" font-size="28">imitation</text>
+    </g>
+
+    <g class="card-content">
+      <rect class="card" x="722" y="377" width="348" height="142" rx="32" ry="32"/>
+      <text class="label-title" x="896" y="440" text-anchor="middle" font-size="40">Adapter 2</text>
+      <text class="label-body"  x="896" y="485" text-anchor="middle" font-size="28">(floor layouts)</text>
+    </g>
+  </g>
+
+  <!-- ===================================================================
+       Transfer arrow 2 (Adapter 2 -> Adapter 3)
+       =================================================================== -->
+  <g id="xfer-2">
+    <!-- Starts from BELOW the inner dashed bottom edge (y=543 + 8 = 551),
+         not from Adapter 2 bottom — so it visually crosses from "inner group"
+         to Adapter 3 outside the inner dashed. -->
+    <path class="arrow-shaft xfer2-shaft" d="M 897 551 L 897 626"/>
+    <path class="arrow-head  xfer2-head"  d="M 882 611 L 897 626 L 912 611"/>
+    <g class="xfer-label-wrap">
+      <text class="label-mid" x="930" y="595" text-anchor="start" font-size="28">transfer</text>
+    </g>
+  </g>
+
+  <!-- ===================================================================
+       ROW 3 — building
+       Pictogram: source 532x548, scale 0.45 -> 239x247, center (145, 716).
+       =================================================================== -->
+  <g id="row-3">
+    <g class="row-pic-content">
+      <image href="pictogram_typology_building.png"
+             xlink:href="pictogram_typology_building.png"
+             x="26" y="593" width="239" height="247"
+             preserveAspectRatio="xMidYMid meet"/>
+      <text class="count-bold" x="290" y="709" font-size="42">3,183</text>
+      <text class="count-unit" x="290" y="747" font-size="30">buildings</text>
+    </g>
+
+    <path class="arrow-shaft imit-shaft" d="M 500 716 L 660 716"/>
+    <path class="arrow-head  imit-head"  d="M 645 701 L 660 716 L 645 731"/>
+    <g class="imit-label-wrap">
+      <text class="label-mid" x="580" y="701" text-anchor="middle" font-size="28">imitation</text>
+    </g>
+
+    <g class="card-content">
+      <rect class="card" x="722" y="645" width="348" height="142" rx="32" ry="32"/>
+      <text class="label-title" x="896" y="708" text-anchor="middle" font-size="40">Adapter 3</text>
+      <text class="label-body"  x="896" y="753" text-anchor="middle" font-size="28">(building layouts)</text>
+    </g>
+  </g>
+
+  <script type="text/javascript"><![CDATA[
+    (function(){
+      var TOTAL = 3;                                  // clicks to fully build
+      var root = document.documentElement;           // the <svg> element
+      var step = 0;
+      function updateCue(){
+        var cue = document.getElementById('cue');
+        if (!cue) return;
+        if (step >= TOTAL){ cue.textContent = '✓ Built — press → for next slide'; cue.setAttribute('fill', '#D97757'); }
+        else { cue.textContent = 'Click or press → to build  (' + step + ' / ' + TOTAL + ')'; cue.setAttribute('fill', '#9C9A92'); }
+      }
+      function paint(){
+        var c = [];
+        for (var i = 1; i <= step; i++) c.push('p' + i);
+        root.setAttribute('class', c.join(' '));
+        updateCue();
+      }
+      // Advance one phase. Returns false (does NOT loop) when fully built, so
+      // the keyboard can fall through to "next slide".
+      function forward(){ if (step >= TOTAL) return false; step += 1; paint(); return true; }
+      function restart(){ step = 0; paint(); }
+      // Click builds the next phase; clicking a fully-built scheme restarts it.
+      root.addEventListener('click', function(){
+        if (step >= TOTAL) restart(); else forward();
+        try { window.parent.focus(); } catch (e) {}                 // keep keyboard nav on the deck
+      });
+      // Keyboard when focus is inside this embed: ->/Space build; once built ->
+      // asks the parent deck for the next slide; <- always goes to prev slide.
+      document.addEventListener('keydown', function(e){
+        if (e.metaKey || e.ctrlKey || e.altKey) return;
+        var k = e.key;
+        if (k === 'ArrowRight' || k === 'PageDown' || k === ' ' || k === 'Spacebar'){ e.preventDefault(); if (!forward()) nav(1); }
+        else if (k === 'ArrowLeft' || k === 'PageUp'){ e.preventDefault(); nav(-1); }
+      });
+      function nav(dir){ try { var p = window.parent; if (dir > 0 && p.__deckNext) p.__deckNext(); else if (dir < 0 && p.__deckPrev) p.__deckPrev(); p.focus(); } catch (e) {} }
+      // Exposed so the parent (deck-controls.js) can drive the build when focus
+      // is on the deck rather than inside this embed.
+      window.__scheme = { total: TOTAL, built: function(){ return step >= TOTAL; }, forward: forward, restart: restart };
+      paint();
+    })();
+  ]]></script>
+</svg>

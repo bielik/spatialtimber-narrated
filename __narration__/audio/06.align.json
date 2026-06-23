@@ -1,0 +1,501 @@
+{
+  "schema": "spatialtimber.align/1",
+  "slide": 6,
+  "audio": "06.mp3",
+  "cut": "long_15min_v3",
+  "duration": 29.182,
+  "engine": "elevenlabs-forced-alignment",
+  "loss": 0.0483,
+  "language": "en",
+  "generatedAt": "2026-06-23T15:45:00",
+  "text": "So how do people add floors today? Mostly the blunt way you stack a new structure on the old one, drop in a slab, and copy the same flat straight up. And that runs into trouble fast. It's heavy, because you need a whole extra layer just to carry the new loads down to the existing supports. It's rigid, because lining everything up vertically forces every new floor to repeat the old apartment mix. And that load-carrying layer eats into your height which bumps you straight up against the building-height limits.",
+  "words": [
+    {
+      "w": "So",
+      "start": 0.14,
+      "end": 0.219
+    },
+    {
+      "w": "how",
+      "start": 0.28,
+      "end": 0.359
+    },
+    {
+      "w": "do",
+      "start": 0.419,
+      "end": 0.459
+    },
+    {
+      "w": "people",
+      "start": 0.539,
+      "end": 0.74
+    },
+    {
+      "w": "add",
+      "start": 0.819,
+      "end": 0.959
+    },
+    {
+      "w": "floors",
+      "start": 1.039,
+      "end": 1.319
+    },
+    {
+      "w": "today?",
+      "start": 1.36,
+      "end": 1.74
+    },
+    {
+      "w": "Mostly",
+      "start": 3.539,
+      "end": 3.859
+    },
+    {
+      "w": "the",
+      "start": 3.899,
+      "end": 3.959
+    },
+    {
+      "w": "blunt",
+      "start": 4.019,
+      "end": 4.239
+    },
+    {
+      "w": "way",
+      "start": 4.299,
+      "end": 4.5
+    },
+    {
+      "w": "you",
+      "start": 4.779,
+      "end": 4.859
+    },
+    {
+      "w": "stack",
+      "start": 4.92,
+      "end": 5.159
+    },
+    {
+      "w": "a",
+      "start": 5.199,
+      "end": 5.219
+    },
+    {
+      "w": "new",
+      "start": 5.259,
+      "end": 5.359
+    },
+    {
+      "w": "structure",
+      "start": 5.44,
+      "end": 5.799
+    },
+    {
+      "w": "on",
+      "start": 5.839,
+      "end": 5.92
+    },
+    {
+      "w": "the",
+      "start": 5.94,
+      "end": 6.0
+    },
+    {
+      "w": "old",
+      "start": 6.079,
+      "end": 6.219
+    },
+    {
+      "w": "one,",
+      "start": 6.279,
+      "end": 6.44
+    },
+    {
+      "w": "drop",
+      "start": 6.639,
+      "end": 6.839
+    },
+    {
+      "w": "in",
+      "start": 6.879,
+      "end": 6.94
+    },
+    {
+      "w": "a",
+      "start": 6.96,
+      "end": 7.039
+    },
+    {
+      "w": "slab,",
+      "start": 7.099,
+      "end": 7.459
+    },
+    {
+      "w": "and",
+      "start": 7.639,
+      "end": 7.739
+    },
+    {
+      "w": "copy",
+      "start": 7.799,
+      "end": 8.079
+    },
+    {
+      "w": "the",
+      "start": 8.099,
+      "end": 8.22
+    },
+    {
+      "w": "same",
+      "start": 8.279,
+      "end": 8.46
+    },
+    {
+      "w": "flat",
+      "start": 8.559,
+      "end": 8.859
+    },
+    {
+      "w": "straight",
+      "start": 8.92,
+      "end": 9.179
+    },
+    {
+      "w": "up.",
+      "start": 9.239,
+      "end": 9.399
+    },
+    {
+      "w": "And",
+      "start": 9.679,
+      "end": 9.76
+    },
+    {
+      "w": "that",
+      "start": 9.8,
+      "end": 9.96
+    },
+    {
+      "w": "runs",
+      "start": 10.019,
+      "end": 10.179
+    },
+    {
+      "w": "into",
+      "start": 10.219,
+      "end": 10.399
+    },
+    {
+      "w": "trouble",
+      "start": 10.46,
+      "end": 10.739
+    },
+    {
+      "w": "fast.",
+      "start": 10.8,
+      "end": 11.319
+    },
+    {
+      "w": "It's",
+      "start": 12.84,
+      "end": 12.979
+    },
+    {
+      "w": "heavy,",
+      "start": 13.039,
+      "end": 13.279
+    },
+    {
+      "w": "because",
+      "start": 13.399,
+      "end": 13.619
+    },
+    {
+      "w": "you",
+      "start": 13.679,
+      "end": 13.739
+    },
+    {
+      "w": "need",
+      "start": 13.779,
+      "end": 13.88
+    },
+    {
+      "w": "a",
+      "start": 13.939,
+      "end": 14.0
+    },
+    {
+      "w": "whole",
+      "start": 14.059,
+      "end": 14.239
+    },
+    {
+      "w": "extra",
+      "start": 14.319,
+      "end": 14.559
+    },
+    {
+      "w": "layer",
+      "start": 14.659,
+      "end": 14.859
+    },
+    {
+      "w": "just",
+      "start": 14.979,
+      "end": 15.099
+    },
+    {
+      "w": "to",
+      "start": 15.119,
+      "end": 15.219
+    },
+    {
+      "w": "carry",
+      "start": 15.279,
+      "end": 15.5
+    },
+    {
+      "w": "the",
+      "start": 15.539,
+      "end": 15.6
+    },
+    {
+      "w": "new",
+      "start": 15.679,
+      "end": 15.759
+    },
+    {
+      "w": "loads",
+      "start": 15.839,
+      "end": 16.119
+    },
+    {
+      "w": "down",
+      "start": 16.18,
+      "end": 16.319
+    },
+    {
+      "w": "to",
+      "start": 16.379,
+      "end": 16.46
+    },
+    {
+      "w": "the",
+      "start": 16.479,
+      "end": 16.539
+    },
+    {
+      "w": "existing",
+      "start": 16.619,
+      "end": 16.959
+    },
+    {
+      "w": "supports.",
+      "start": 17.059,
+      "end": 17.579
+    },
+    {
+      "w": "It's",
+      "start": 18.18,
+      "end": 18.319
+    },
+    {
+      "w": "rigid,",
+      "start": 18.399,
+      "end": 18.719
+    },
+    {
+      "w": "because",
+      "start": 18.84,
+      "end": 19.079
+    },
+    {
+      "w": "lining",
+      "start": 19.18,
+      "end": 19.44
+    },
+    {
+      "w": "everything",
+      "start": 19.479,
+      "end": 19.819
+    },
+    {
+      "w": "up",
+      "start": 19.859,
+      "end": 19.959
+    },
+    {
+      "w": "vertically",
+      "start": 20.059,
+      "end": 20.559
+    },
+    {
+      "w": "forces",
+      "start": 20.619,
+      "end": 21.0
+    },
+    {
+      "w": "every",
+      "start": 21.079,
+      "end": 21.239
+    },
+    {
+      "w": "new",
+      "start": 21.34,
+      "end": 21.479
+    },
+    {
+      "w": "floor",
+      "start": 21.539,
+      "end": 21.939
+    },
+    {
+      "w": "to",
+      "start": 21.979,
+      "end": 22.059
+    },
+    {
+      "w": "repeat",
+      "start": 22.1,
+      "end": 22.42
+    },
+    {
+      "w": "the",
+      "start": 22.459,
+      "end": 22.519
+    },
+    {
+      "w": "old",
+      "start": 22.6,
+      "end": 22.719
+    },
+    {
+      "w": "apartment",
+      "start": 22.819,
+      "end": 23.119
+    },
+    {
+      "w": "mix.",
+      "start": 23.219,
+      "end": 23.519
+    },
+    {
+      "w": "And",
+      "start": 24.079,
+      "end": 24.159
+    },
+    {
+      "w": "that",
+      "start": 24.199,
+      "end": 24.319
+    },
+    {
+      "w": "load-carrying",
+      "start": 24.42,
+      "end": 25.019
+    },
+    {
+      "w": "layer",
+      "start": 25.079,
+      "end": 25.34
+    },
+    {
+      "w": "eats",
+      "start": 25.399,
+      "end": 25.579
+    },
+    {
+      "w": "into",
+      "start": 25.619,
+      "end": 25.799
+    },
+    {
+      "w": "your",
+      "start": 25.84,
+      "end": 25.959
+    },
+    {
+      "w": "height",
+      "start": 26.019,
+      "end": 26.299
+    },
+    {
+      "w": "which",
+      "start": 26.719,
+      "end": 26.84
+    },
+    {
+      "w": "bumps",
+      "start": 26.939,
+      "end": 27.139
+    },
+    {
+      "w": "you",
+      "start": 27.199,
+      "end": 27.319
+    },
+    {
+      "w": "straight",
+      "start": 27.379,
+      "end": 27.579
+    },
+    {
+      "w": "up",
+      "start": 27.619,
+      "end": 27.719
+    },
+    {
+      "w": "against",
+      "start": 27.799,
+      "end": 28.019
+    },
+    {
+      "w": "the",
+      "start": 28.079,
+      "end": 28.139
+    },
+    {
+      "w": "building-height",
+      "start": 28.199,
+      "end": 28.68
+    },
+    {
+      "w": "limits.",
+      "start": 28.739,
+      "end": 29.119
+    }
+  ],
+  "sentences": [
+    {
+      "text": "So how do people add floors today?",
+      "start": 0.14,
+      "end": 1.74
+    },
+    {
+      "text": "Mostly the blunt way you stack a new structure on the old one, drop in a slab, and copy the same flat straight up.",
+      "start": 3.539,
+      "end": 9.399
+    },
+    {
+      "text": "And that runs into trouble fast.",
+      "start": 9.679,
+      "end": 11.319
+    },
+    {
+      "text": "It's heavy, because you need a whole extra layer just to carry the new loads down to the existing supports.",
+      "start": 12.84,
+      "end": 17.579
+    },
+    {
+      "text": "It's rigid, because lining everything up vertically forces every new floor to repeat the old apartment mix.",
+      "start": 18.18,
+      "end": 23.519
+    },
+    {
+      "text": "And that load-carrying layer eats into your height which bumps you straight up against the building-height limits.",
+      "start": 24.079,
+      "end": 29.119
+    }
+  ]
+}

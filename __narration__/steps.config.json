@@ -1,0 +1,19 @@
+{
+  "total": 29,
+  "audioPattern": "__narration__/audio/{nn}.mp3",
+  "alignPattern": "__narration__/audio/{nn}.align.json",
+  "marksPattern": "__narration__/audio/{nn}.marks.json",
+  "_note": "Per-slide auto-step recipe for narrated mode. Mirrors STEPS/SCHEME/FURNISHER in tools/record_sequences.py (kept in lockstep by tests/test_serve_presentation.py). Slides NOT listed here are single CSS entry reveals that auto-play on [data-deck-active] — the controller just plays audio and holds. kind: 'key' = the slide reveals an internal block/video on ArrowRight; 'click' = click 'sel' to reveal; 'scheme' = drive the SVG __scheme.forward() once per phase (count read live from __scheme.total); 'furnisher' = self-driving machine, no steps. Optional per-step 'via'/'domAction' override how a 'key' step is fired once verified in-browser. Optional per-step 'at' = fraction (0..1) of the narration audio's duration at which to fire the step instead of right after entry (e.g. 0.5 = midpoint), for reveals timed to the voice-over. 'narratedOnly': true marks a slide that exists ONLY in this web presentation (not in the video's record_sequences tables) — exempt from the lockstep parity test.",
+  "slides": {
+    "7":  { "kind": "key",   "steps": [{ "t": "key" }] },
+    "16": { "kind": "key",   "steps": [{ "t": "key", "video": true }] },
+    "23": { "kind": "key",   "steps": [{ "t": "key" }] },
+    "28": { "kind": "key",   "steps": [{ "t": "key", "video": true, "cap_s": 9 }] },
+    "29": { "kind": "key",   "narratedOnly": true, "steps": [{ "t": "key", "at": 0.5 }] },
+    "19": { "kind": "click", "steps": [{ "t": "click", "sel": "#demo-media-stage" }] },
+    "14": { "kind": "scheme" },
+    "15": { "kind": "scheme" },
+    "18": { "kind": "scheme" },
+    "21": { "kind": "furnisher" }
+  }
+}

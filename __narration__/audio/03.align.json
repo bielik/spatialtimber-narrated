@@ -1,0 +1,261 @@
+{
+  "schema": "spatialtimber.align/1",
+  "slide": 3,
+  "audio": "03.mp3",
+  "cut": "long_15min_v3",
+  "duration": 13.618,
+  "engine": "elevenlabs-forced-alignment",
+  "loss": 0.0247,
+  "language": "en",
+  "generatedAt": "2026-06-23T15:44:58",
+  "text": "Let me just give you the quick map of where we're headed. I'll start with the problem we're trying to crack, then take you through our approach, then show you what the thing can actually do today, and finish with where we want to take it next.",
+  "words": [
+    {
+      "w": "Let",
+      "start": 0.14,
+      "end": 0.219
+    },
+    {
+      "w": "me",
+      "start": 0.259,
+      "end": 0.299
+    },
+    {
+      "w": "just",
+      "start": 0.399,
+      "end": 0.559
+    },
+    {
+      "w": "give",
+      "start": 0.579,
+      "end": 0.68
+    },
+    {
+      "w": "you",
+      "start": 0.719,
+      "end": 0.779
+    },
+    {
+      "w": "the",
+      "start": 0.819,
+      "end": 0.919
+    },
+    {
+      "w": "quick",
+      "start": 0.979,
+      "end": 1.139
+    },
+    {
+      "w": "map",
+      "start": 1.22,
+      "end": 1.419
+    },
+    {
+      "w": "of",
+      "start": 1.459,
+      "end": 1.559
+    },
+    {
+      "w": "where",
+      "start": 1.599,
+      "end": 1.759
+    },
+    {
+      "w": "we're",
+      "start": 1.779,
+      "end": 1.899
+    },
+    {
+      "w": "headed.",
+      "start": 1.939,
+      "end": 2.24
+    },
+    {
+      "w": "I'll",
+      "start": 4.139,
+      "end": 4.239
+    },
+    {
+      "w": "start",
+      "start": 4.299,
+      "end": 4.46
+    },
+    {
+      "w": "with",
+      "start": 4.5,
+      "end": 4.579
+    },
+    {
+      "w": "the",
+      "start": 4.619,
+      "end": 4.699
+    },
+    {
+      "w": "problem",
+      "start": 4.759,
+      "end": 5.039
+    },
+    {
+      "w": "we're",
+      "start": 5.079,
+      "end": 5.199
+    },
+    {
+      "w": "trying",
+      "start": 5.239,
+      "end": 5.44
+    },
+    {
+      "w": "to",
+      "start": 5.441,
+      "end": 5.539
+    },
+    {
+      "w": "crack,",
+      "start": 5.599,
+      "end": 5.9
+    },
+    {
+      "w": "then",
+      "start": 6.199,
+      "end": 6.339
+    },
+    {
+      "w": "take",
+      "start": 6.359,
+      "end": 6.559
+    },
+    {
+      "w": "you",
+      "start": 6.599,
+      "end": 6.699
+    },
+    {
+      "w": "through",
+      "start": 6.719,
+      "end": 6.879
+    },
+    {
+      "w": "our",
+      "start": 6.94,
+      "end": 7.019
+    },
+    {
+      "w": "approach,",
+      "start": 7.039,
+      "end": 7.519
+    },
+    {
+      "w": "then",
+      "start": 7.859,
+      "end": 7.96
+    },
+    {
+      "w": "show",
+      "start": 8.099,
+      "end": 8.22
+    },
+    {
+      "w": "you",
+      "start": 8.26,
+      "end": 8.319
+    },
+    {
+      "w": "what",
+      "start": 8.359,
+      "end": 8.48
+    },
+    {
+      "w": "the",
+      "start": 8.5,
+      "end": 8.56
+    },
+    {
+      "w": "thing",
+      "start": 8.659,
+      "end": 8.8
+    },
+    {
+      "w": "can",
+      "start": 8.84,
+      "end": 8.939
+    },
+    {
+      "w": "actually",
+      "start": 9.0,
+      "end": 9.319
+    },
+    {
+      "w": "do",
+      "start": 9.38,
+      "end": 9.5
+    },
+    {
+      "w": "today,",
+      "start": 9.539,
+      "end": 9.92
+    },
+    {
+      "w": "and",
+      "start": 11.5,
+      "end": 11.6
+    },
+    {
+      "w": "finish",
+      "start": 11.719,
+      "end": 11.939
+    },
+    {
+      "w": "with",
+      "start": 12.0,
+      "end": 12.119
+    },
+    {
+      "w": "where",
+      "start": 12.179,
+      "end": 12.3
+    },
+    {
+      "w": "we",
+      "start": 12.34,
+      "end": 12.46
+    },
+    {
+      "w": "want",
+      "start": 12.5,
+      "end": 12.619
+    },
+    {
+      "w": "to",
+      "start": 12.659,
+      "end": 12.759
+    },
+    {
+      "w": "take",
+      "start": 12.819,
+      "end": 12.96
+    },
+    {
+      "w": "it",
+      "start": 13.0,
+      "end": 13.119
+    },
+    {
+      "w": "next.",
+      "start": 13.159,
+      "end": 13.539
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Let me just give you the quick map of where we're headed.",
+      "start": 0.14,
+      "end": 2.24
+    },
+    {
+      "text": "I'll start with the problem we're trying to crack, then take you through our approach, then show you what the thing can actually do today, and finish with where we want to take it next.",
+      "start": 4.139,
+      "end": 13.539
+    }
+  ]
+}

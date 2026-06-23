@@ -1,0 +1,561 @@
+{
+  "schema": "spatialtimber.align/1",
+  "slide": 7,
+  "audio": "07.mp3",
+  "cut": "long_15min_v3",
+  "duration": 29.177,
+  "engine": "elevenlabs-forced-alignment",
+  "loss": 0.0545,
+  "language": "en",
+  "generatedAt": "2026-06-23T23:26:40",
+  "text": "Here's a nicer idea: let the walls do the heavy lifting. Instead of that extra distribution layer, you use the walls themselves to carry the load basically turn them into beams. Wall-beams. There's a catch, of course: once a wall is carrying load, you can't just punch a big opening in it wherever you feel like it. So you have to think about the walls together, floor by floor line up the openings and the load paths. And the moment you do that, layout and structure stop being two separate problems. They're locked together. You can't design one without the other.",
+  "words": [
+    {
+      "w": "Here's",
+      "start": 0.099,
+      "end": 0.239
+    },
+    {
+      "w": "a",
+      "start": 0.299,
+      "end": 0.34
+    },
+    {
+      "w": "nicer",
+      "start": 0.379,
+      "end": 0.699
+    },
+    {
+      "w": "idea:",
+      "start": 0.799,
+      "end": 1.12
+    },
+    {
+      "w": "let",
+      "start": 1.559,
+      "end": 1.679
+    },
+    {
+      "w": "the",
+      "start": 1.719,
+      "end": 1.759
+    },
+    {
+      "w": "walls",
+      "start": 1.86,
+      "end": 2.119
+    },
+    {
+      "w": "do",
+      "start": 2.2,
+      "end": 2.279
+    },
+    {
+      "w": "the",
+      "start": 2.339,
+      "end": 2.399
+    },
+    {
+      "w": "heavy",
+      "start": 2.46,
+      "end": 2.619
+    },
+    {
+      "w": "lifting.",
+      "start": 2.72,
+      "end": 3.139
+    },
+    {
+      "w": "Instead",
+      "start": 3.419,
+      "end": 3.699
+    },
+    {
+      "w": "of",
+      "start": 3.74,
+      "end": 3.839
+    },
+    {
+      "w": "that",
+      "start": 3.879,
+      "end": 4.0
+    },
+    {
+      "w": "extra",
+      "start": 4.079,
+      "end": 4.299
+    },
+    {
+      "w": "distribution",
+      "start": 4.38,
+      "end": 4.96
+    },
+    {
+      "w": "layer,",
+      "start": 5.039,
+      "end": 5.319
+    },
+    {
+      "w": "you",
+      "start": 5.699,
+      "end": 5.759
+    },
+    {
+      "w": "use",
+      "start": 5.839,
+      "end": 5.96
+    },
+    {
+      "w": "the",
+      "start": 6.019,
+      "end": 6.059
+    },
+    {
+      "w": "walls",
+      "start": 6.139,
+      "end": 6.379
+    },
+    {
+      "w": "themselves",
+      "start": 6.42,
+      "end": 6.94
+    },
+    {
+      "w": "to",
+      "start": 6.98,
+      "end": 7.079
+    },
+    {
+      "w": "carry",
+      "start": 7.099,
+      "end": 7.319
+    },
+    {
+      "w": "the",
+      "start": 7.359,
+      "end": 7.44
+    },
+    {
+      "w": "load",
+      "start": 7.48,
+      "end": 7.759
+    },
+    {
+      "w": "basically",
+      "start": 8.119,
+      "end": 8.56
+    },
+    {
+      "w": "turn",
+      "start": 8.599,
+      "end": 8.739
+    },
+    {
+      "w": "them",
+      "start": 8.779,
+      "end": 8.88
+    },
+    {
+      "w": "into",
+      "start": 8.899,
+      "end": 9.14
+    },
+    {
+      "w": "beams.",
+      "start": 9.179,
+      "end": 9.619
+    },
+    {
+      "w": "Wall-beams.",
+      "start": 9.939,
+      "end": 10.599
+    },
+    {
+      "w": "There's",
+      "start": 10.96,
+      "end": 11.1
+    },
+    {
+      "w": "a",
+      "start": 11.179,
+      "end": 11.199
+    },
+    {
+      "w": "catch,",
+      "start": 11.239,
+      "end": 11.439
+    },
+    {
+      "w": "of",
+      "start": 11.519,
+      "end": 11.6
+    },
+    {
+      "w": "course:",
+      "start": 11.619,
+      "end": 11.96
+    },
+    {
+      "w": "once",
+      "start": 12.319,
+      "end": 12.48
+    },
+    {
+      "w": "a",
+      "start": 12.519,
+      "end": 12.559
+    },
+    {
+      "w": "wall",
+      "start": 12.619,
+      "end": 12.779
+    },
+    {
+      "w": "is",
+      "start": 12.819,
+      "end": 12.96
+    },
+    {
+      "w": "carrying",
+      "start": 13.0,
+      "end": 13.279
+    },
+    {
+      "w": "load,",
+      "start": 13.34,
+      "end": 13.92
+    },
+    {
+      "w": "you",
+      "start": 13.979,
+      "end": 14.039
+    },
+    {
+      "w": "can't",
+      "start": 14.099,
+      "end": 14.26
+    },
+    {
+      "w": "just",
+      "start": 14.319,
+      "end": 14.46
+    },
+    {
+      "w": "punch",
+      "start": 14.479,
+      "end": 14.659
+    },
+    {
+      "w": "a",
+      "start": 14.739,
+      "end": 14.76
+    },
+    {
+      "w": "big",
+      "start": 14.799,
+      "end": 14.92
+    },
+    {
+      "w": "opening",
+      "start": 15.0,
+      "end": 15.279
+    },
+    {
+      "w": "in",
+      "start": 15.319,
+      "end": 15.38
+    },
+    {
+      "w": "it",
+      "start": 15.399,
+      "end": 15.52
+    },
+    {
+      "w": "wherever",
+      "start": 15.539,
+      "end": 15.819
+    },
+    {
+      "w": "you",
+      "start": 15.859,
+      "end": 15.979
+    },
+    {
+      "w": "feel",
+      "start": 16.02,
+      "end": 16.18
+    },
+    {
+      "w": "like",
+      "start": 16.219,
+      "end": 16.379
+    },
+    {
+      "w": "it.",
+      "start": 16.44,
+      "end": 16.799
+    },
+    {
+      "w": "So",
+      "start": 16.879,
+      "end": 16.96
+    },
+    {
+      "w": "you",
+      "start": 16.979,
+      "end": 17.039
+    },
+    {
+      "w": "have",
+      "start": 17.079,
+      "end": 17.2
+    },
+    {
+      "w": "to",
+      "start": 17.219,
+      "end": 17.319
+    },
+    {
+      "w": "think",
+      "start": 17.34,
+      "end": 17.479
+    },
+    {
+      "w": "about",
+      "start": 17.52,
+      "end": 17.7
+    },
+    {
+      "w": "the",
+      "start": 17.719,
+      "end": 17.799
+    },
+    {
+      "w": "walls",
+      "start": 17.84,
+      "end": 18.1
+    },
+    {
+      "w": "together,",
+      "start": 18.119,
+      "end": 18.559
+    },
+    {
+      "w": "floor",
+      "start": 18.819,
+      "end": 19.02
+    },
+    {
+      "w": "by",
+      "start": 19.079,
+      "end": 19.239
+    },
+    {
+      "w": "floor",
+      "start": 19.279,
+      "end": 19.579
+    },
+    {
+      "w": "line",
+      "start": 19.939,
+      "end": 20.079
+    },
+    {
+      "w": "up",
+      "start": 20.119,
+      "end": 20.219
+    },
+    {
+      "w": "the",
+      "start": 20.239,
+      "end": 20.299
+    },
+    {
+      "w": "openings",
+      "start": 20.399,
+      "end": 20.78
+    },
+    {
+      "w": "and",
+      "start": 20.799,
+      "end": 20.879
+    },
+    {
+      "w": "the",
+      "start": 20.899,
+      "end": 20.979
+    },
+    {
+      "w": "load",
+      "start": 21.039,
+      "end": 21.239
+    },
+    {
+      "w": "paths.",
+      "start": 21.279,
+      "end": 21.959
+    },
+    {
+      "w": "And",
+      "start": 22.0,
+      "end": 22.1
+    },
+    {
+      "w": "the",
+      "start": 22.119,
+      "end": 22.18
+    },
+    {
+      "w": "moment",
+      "start": 22.239,
+      "end": 22.459
+    },
+    {
+      "w": "you",
+      "start": 22.519,
+      "end": 22.6
+    },
+    {
+      "w": "do",
+      "start": 22.639,
+      "end": 22.76
+    },
+    {
+      "w": "that,",
+      "start": 22.799,
+      "end": 23.019
+    },
+    {
+      "w": "layout",
+      "start": 23.379,
+      "end": 23.639
+    },
+    {
+      "w": "and",
+      "start": 23.68,
+      "end": 23.799
+    },
+    {
+      "w": "structure",
+      "start": 23.819,
+      "end": 24.26
+    },
+    {
+      "w": "stop",
+      "start": 24.34,
+      "end": 24.539
+    },
+    {
+      "w": "being",
+      "start": 24.579,
+      "end": 24.819
+    },
+    {
+      "w": "two",
+      "start": 24.84,
+      "end": 24.94
+    },
+    {
+      "w": "separate",
+      "start": 25.059,
+      "end": 25.36
+    },
+    {
+      "w": "problems.",
+      "start": 25.399,
+      "end": 26.239
+    },
+    {
+      "w": "They're",
+      "start": 26.299,
+      "end": 26.459
+    },
+    {
+      "w": "locked",
+      "start": 26.479,
+      "end": 26.719
+    },
+    {
+      "w": "together.",
+      "start": 26.739,
+      "end": 27.439
+    },
+    {
+      "w": "You",
+      "start": 27.479,
+      "end": 27.579
+    },
+    {
+      "w": "can't",
+      "start": 27.619,
+      "end": 27.799
+    },
+    {
+      "w": "design",
+      "start": 27.819,
+      "end": 28.159
+    },
+    {
+      "w": "one",
+      "start": 28.219,
+      "end": 28.34
+    },
+    {
+      "w": "without",
+      "start": 28.379,
+      "end": 28.68
+    },
+    {
+      "w": "the",
+      "start": 28.699,
+      "end": 28.76
+    },
+    {
+      "w": "other.",
+      "start": 28.84,
+      "end": 29.099
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Here's a nicer idea: let the walls do the heavy lifting.",
+      "start": 0.099,
+      "end": 3.139
+    },
+    {
+      "text": "Instead of that extra distribution layer, you use the walls themselves to carry the load basically turn them into beams.",
+      "start": 3.419,
+      "end": 9.619
+    },
+    {
+      "text": "Wall-beams.",
+      "start": 9.939,
+      "end": 10.599
+    },
+    {
+      "text": "There's a catch, of course: once a wall is carrying load, you can't just punch a big opening in it wherever you feel like it.",
+      "start": 10.96,
+      "end": 16.799
+    },
+    {
+      "text": "So you have to think about the walls together, floor by floor line up the openings and the load paths.",
+      "start": 16.879,
+      "end": 21.959
+    },
+    {
+      "text": "And the moment you do that, layout and structure stop being two separate problems.",
+      "start": 22.0,
+      "end": 26.239
+    },
+    {
+      "text": "They're locked together.",
+      "start": 26.299,
+      "end": 27.439
+    },
+    {
+      "text": "You can't design one without the other.",
+      "start": 27.479,
+      "end": 29.099
+    }
+  ]
+}

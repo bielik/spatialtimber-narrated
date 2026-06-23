@@ -1,0 +1,716 @@
+{
+  "schema": "spatialtimber.align/1",
+  "slide": 13,
+  "audio": "13.mp3",
+  "cut": "long_15min_v3",
+  "duration": 44.369,
+  "engine": "elevenlabs-forced-alignment",
+  "loss": 0.0517,
+  "language": "en",
+  "generatedAt": "2026-06-23T15:45:06",
+  "text": "So the obvious move is: just feed it more, right? Show it whole buildings until it can imitate those too. Except that falls apart here, for two reasons. One the data simply isn't there. Imitation needs lots of examples, and in our world they barely exist. Every project has its own site, its own regulations, often its own construction system and its own client, so almost every real job is one where there's basically nothing to copy. Building-scale timber plans aren't just lying around on the internet. And two it's too much to swallow at once, especially when imitation is the only learning method you've got. Shape, scale, structure, quality, programme, all tangled together and just copying examples, the model can't get a handle on all of it in one go.",
+  "words": [
+    {
+      "w": "So",
+      "start": 0.099,
+      "end": 0.179
+    },
+    {
+      "w": "the",
+      "start": 0.219,
+      "end": 0.319
+    },
+    {
+      "w": "obvious",
+      "start": 0.379,
+      "end": 0.68
+    },
+    {
+      "w": "move",
+      "start": 0.779,
+      "end": 0.939
+    },
+    {
+      "w": "is:",
+      "start": 0.979,
+      "end": 1.22
+    },
+    {
+      "w": "just",
+      "start": 1.74,
+      "end": 1.86
+    },
+    {
+      "w": "feed",
+      "start": 1.939,
+      "end": 2.079
+    },
+    {
+      "w": "it",
+      "start": 2.099,
+      "end": 2.18
+    },
+    {
+      "w": "more,",
+      "start": 2.24,
+      "end": 2.359
+    },
+    {
+      "w": "right?",
+      "start": 2.46,
+      "end": 2.679
+    },
+    {
+      "w": "Show",
+      "start": 3.779,
+      "end": 3.879
+    },
+    {
+      "w": "it",
+      "start": 3.919,
+      "end": 3.98
+    },
+    {
+      "w": "whole",
+      "start": 4.059,
+      "end": 4.239
+    },
+    {
+      "w": "buildings",
+      "start": 4.319,
+      "end": 4.819
+    },
+    {
+      "w": "until",
+      "start": 4.88,
+      "end": 5.079
+    },
+    {
+      "w": "it",
+      "start": 5.139,
+      "end": 5.179
+    },
+    {
+      "w": "can",
+      "start": 5.239,
+      "end": 5.339
+    },
+    {
+      "w": "imitate",
+      "start": 5.4,
+      "end": 5.779
+    },
+    {
+      "w": "those",
+      "start": 5.819,
+      "end": 6.019
+    },
+    {
+      "w": "too.",
+      "start": 6.099,
+      "end": 6.379
+    },
+    {
+      "w": "Except",
+      "start": 6.819,
+      "end": 7.059
+    },
+    {
+      "w": "that",
+      "start": 7.099,
+      "end": 7.259
+    },
+    {
+      "w": "falls",
+      "start": 7.339,
+      "end": 7.5
+    },
+    {
+      "w": "apart",
+      "start": 7.599,
+      "end": 7.799
+    },
+    {
+      "w": "here,",
+      "start": 7.879,
+      "end": 8.079
+    },
+    {
+      "w": "for",
+      "start": 8.279,
+      "end": 8.38
+    },
+    {
+      "w": "two",
+      "start": 8.46,
+      "end": 8.559
+    },
+    {
+      "w": "reasons.",
+      "start": 8.639,
+      "end": 9.139
+    },
+    {
+      "w": "One",
+      "start": 9.699,
+      "end": 9.979
+    },
+    {
+      "w": "the",
+      "start": 10.34,
+      "end": 10.399
+    },
+    {
+      "w": "data",
+      "start": 10.46,
+      "end": 10.679
+    },
+    {
+      "w": "simply",
+      "start": 10.739,
+      "end": 10.979
+    },
+    {
+      "w": "isn't",
+      "start": 11.039,
+      "end": 11.239
+    },
+    {
+      "w": "there.",
+      "start": 11.26,
+      "end": 11.579
+    },
+    {
+      "w": "Imitation",
+      "start": 12.079,
+      "end": 12.539
+    },
+    {
+      "w": "needs",
+      "start": 12.599,
+      "end": 12.759
+    },
+    {
+      "w": "lots",
+      "start": 12.84,
+      "end": 13.0
+    },
+    {
+      "w": "of",
+      "start": 13.039,
+      "end": 13.1
+    },
+    {
+      "w": "examples,",
+      "start": 13.159,
+      "end": 13.739
+    },
+    {
+      "w": "and",
+      "start": 14.159,
+      "end": 14.239
+    },
+    {
+      "w": "in",
+      "start": 14.259,
+      "end": 14.34
+    },
+    {
+      "w": "our",
+      "start": 14.399,
+      "end": 14.5
+    },
+    {
+      "w": "world",
+      "start": 14.579,
+      "end": 14.759
+    },
+    {
+      "w": "they",
+      "start": 14.799,
+      "end": 14.92
+    },
+    {
+      "w": "barely",
+      "start": 14.96,
+      "end": 15.199
+    },
+    {
+      "w": "exist.",
+      "start": 15.299,
+      "end": 15.779
+    },
+    {
+      "w": "Every",
+      "start": 16.34,
+      "end": 16.539
+    },
+    {
+      "w": "project",
+      "start": 16.619,
+      "end": 17.02
+    },
+    {
+      "w": "has",
+      "start": 17.079,
+      "end": 17.159
+    },
+    {
+      "w": "its",
+      "start": 17.199,
+      "end": 17.319
+    },
+    {
+      "w": "own",
+      "start": 17.379,
+      "end": 17.479
+    },
+    {
+      "w": "site,",
+      "start": 17.619,
+      "end": 17.859
+    },
+    {
+      "w": "its",
+      "start": 18.18,
+      "end": 18.319
+    },
+    {
+      "w": "own",
+      "start": 18.359,
+      "end": 18.459
+    },
+    {
+      "w": "regulations,",
+      "start": 18.5,
+      "end": 19.239
+    },
+    {
+      "w": "often",
+      "start": 19.699,
+      "end": 19.939
+    },
+    {
+      "w": "its",
+      "start": 19.959,
+      "end": 20.079
+    },
+    {
+      "w": "own",
+      "start": 20.119,
+      "end": 20.239
+    },
+    {
+      "w": "construction",
+      "start": 20.279,
+      "end": 20.799
+    },
+    {
+      "w": "system",
+      "start": 20.859,
+      "end": 21.1
+    },
+    {
+      "w": "and",
+      "start": 21.139,
+      "end": 21.2
+    },
+    {
+      "w": "its",
+      "start": 21.219,
+      "end": 21.34
+    },
+    {
+      "w": "own",
+      "start": 21.379,
+      "end": 21.499
+    },
+    {
+      "w": "client,",
+      "start": 21.579,
+      "end": 22.0
+    },
+    {
+      "w": "so",
+      "start": 22.5,
+      "end": 22.559
+    },
+    {
+      "w": "almost",
+      "start": 22.619,
+      "end": 22.879
+    },
+    {
+      "w": "every",
+      "start": 22.959,
+      "end": 23.18
+    },
+    {
+      "w": "real",
+      "start": 23.219,
+      "end": 23.399
+    },
+    {
+      "w": "job",
+      "start": 23.5,
+      "end": 23.739
+    },
+    {
+      "w": "is",
+      "start": 23.779,
+      "end": 23.859
+    },
+    {
+      "w": "one",
+      "start": 23.92,
+      "end": 24.019
+    },
+    {
+      "w": "where",
+      "start": 24.059,
+      "end": 24.139
+    },
+    {
+      "w": "there's",
+      "start": 24.18,
+      "end": 24.359
+    },
+    {
+      "w": "basically",
+      "start": 24.399,
+      "end": 24.799
+    },
+    {
+      "w": "nothing",
+      "start": 24.84,
+      "end": 25.079
+    },
+    {
+      "w": "to",
+      "start": 25.119,
+      "end": 25.199
+    },
+    {
+      "w": "copy.",
+      "start": 25.26,
+      "end": 25.639
+    },
+    {
+      "w": "Building-scale",
+      "start": 26.18,
+      "end": 26.719
+    },
+    {
+      "w": "timber",
+      "start": 26.779,
+      "end": 27.019
+    },
+    {
+      "w": "plans",
+      "start": 27.079,
+      "end": 27.379
+    },
+    {
+      "w": "aren't",
+      "start": 27.439,
+      "end": 27.579
+    },
+    {
+      "w": "just",
+      "start": 27.639,
+      "end": 27.779
+    },
+    {
+      "w": "lying",
+      "start": 27.819,
+      "end": 28.019
+    },
+    {
+      "w": "around",
+      "start": 28.079,
+      "end": 28.299
+    },
+    {
+      "w": "on",
+      "start": 28.34,
+      "end": 28.379
+    },
+    {
+      "w": "the",
+      "start": 28.42,
+      "end": 28.479
+    },
+    {
+      "w": "internet.",
+      "start": 28.519,
+      "end": 28.959
+    },
+    {
+      "w": "And",
+      "start": 29.619,
+      "end": 29.739
+    },
+    {
+      "w": "two",
+      "start": 29.799,
+      "end": 30.119
+    },
+    {
+      "w": "it's",
+      "start": 30.559,
+      "end": 30.699
+    },
+    {
+      "w": "too",
+      "start": 30.76,
+      "end": 30.84
+    },
+    {
+      "w": "much",
+      "start": 30.879,
+      "end": 31.019
+    },
+    {
+      "w": "to",
+      "start": 31.059,
+      "end": 31.159
+    },
+    {
+      "w": "swallow",
+      "start": 31.219,
+      "end": 31.459
+    },
+    {
+      "w": "at",
+      "start": 31.5,
+      "end": 31.599
+    },
+    {
+      "w": "once,",
+      "start": 31.639,
+      "end": 32.059
+    },
+    {
+      "w": "especially",
+      "start": 32.419,
+      "end": 32.819
+    },
+    {
+      "w": "when",
+      "start": 32.86,
+      "end": 32.959
+    },
+    {
+      "w": "imitation",
+      "start": 33.0,
+      "end": 33.52
+    },
+    {
+      "w": "is",
+      "start": 33.54,
+      "end": 33.619
+    },
+    {
+      "w": "the",
+      "start": 33.659,
+      "end": 33.759
+    },
+    {
+      "w": "only",
+      "start": 33.84,
+      "end": 34.059
+    },
+    {
+      "w": "learning",
+      "start": 34.099,
+      "end": 34.34
+    },
+    {
+      "w": "method",
+      "start": 34.399,
+      "end": 34.639
+    },
+    {
+      "w": "you've",
+      "start": 34.68,
+      "end": 34.819
+    },
+    {
+      "w": "got.",
+      "start": 34.899,
+      "end": 35.159
+    },
+    {
+      "w": "Shape,",
+      "start": 35.939,
+      "end": 36.399
+    },
+    {
+      "w": "scale,",
+      "start": 36.5,
+      "end": 36.939
+    },
+    {
+      "w": "structure,",
+      "start": 37.0,
+      "end": 37.599
+    },
+    {
+      "w": "quality,",
+      "start": 37.68,
+      "end": 38.139
+    },
+    {
+      "w": "programme,",
+      "start": 38.259,
+      "end": 38.739
+    },
+    {
+      "w": "all",
+      "start": 38.879,
+      "end": 39.04
+    },
+    {
+      "w": "tangled",
+      "start": 39.099,
+      "end": 39.399
+    },
+    {
+      "w": "together",
+      "start": 39.439,
+      "end": 40.259
+    },
+    {
+      "w": "and",
+      "start": 40.319,
+      "end": 40.379
+    },
+    {
+      "w": "just",
+      "start": 40.459,
+      "end": 40.599
+    },
+    {
+      "w": "copying",
+      "start": 40.659,
+      "end": 41.0
+    },
+    {
+      "w": "examples,",
+      "start": 41.079,
+      "end": 42.099
+    },
+    {
+      "w": "the",
+      "start": 42.139,
+      "end": 42.239
+    },
+    {
+      "w": "model",
+      "start": 42.299,
+      "end": 42.52
+    },
+    {
+      "w": "can't",
+      "start": 42.579,
+      "end": 42.719
+    },
+    {
+      "w": "get",
+      "start": 42.759,
+      "end": 42.819
+    },
+    {
+      "w": "a",
+      "start": 42.879,
+      "end": 42.919
+    },
+    {
+      "w": "handle",
+      "start": 42.959,
+      "end": 43.239
+    },
+    {
+      "w": "on",
+      "start": 43.279,
+      "end": 43.379
+    },
+    {
+      "w": "all",
+      "start": 43.439,
+      "end": 43.52
+    },
+    {
+      "w": "of",
+      "start": 43.559,
+      "end": 43.639
+    },
+    {
+      "w": "it",
+      "start": 43.659,
+      "end": 43.719
+    },
+    {
+      "w": "in",
+      "start": 43.759,
+      "end": 43.86
+    },
+    {
+      "w": "one",
+      "start": 43.919,
+      "end": 44.059
+    },
+    {
+      "w": "go.",
+      "start": 44.119,
+      "end": 44.299
+    }
+  ],
+  "sentences": [
+    {
+      "text": "So the obvious move is: just feed it more, right?",
+      "start": 0.099,
+      "end": 2.679
+    },
+    {
+      "text": "Show it whole buildings until it can imitate those too.",
+      "start": 3.779,
+      "end": 6.379
+    },
+    {
+      "text": "Except that falls apart here, for two reasons.",
+      "start": 6.819,
+      "end": 9.139
+    },
+    {
+      "text": "One the data simply isn't there.",
+      "start": 9.699,
+      "end": 11.579
+    },
+    {
+      "text": "Imitation needs lots of examples, and in our world they barely exist.",
+      "start": 12.079,
+      "end": 15.779
+    },
+    {
+      "text": "Every project has its own site, its own regulations, often its own construction system and its own client, so almost every real job is one where there's basically nothing to copy.",
+      "start": 16.34,
+      "end": 25.639
+    },
+    {
+      "text": "Building-scale timber plans aren't just lying around on the internet.",
+      "start": 26.18,
+      "end": 28.959
+    },
+    {
+      "text": "And two it's too much to swallow at once, especially when imitation is the only learning method you've got.",
+      "start": 29.619,
+      "end": 35.159
+    },
+    {
+      "text": "Shape, scale, structure, quality, programme, all tangled together and just copying examples, the model can't get a handle on all of it in one go.",
+      "start": 35.939,
+      "end": 44.299
+    }
+  ]
+}

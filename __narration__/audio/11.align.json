@@ -1,0 +1,56 @@
+{
+  "schema": "spatialtimber.align/1",
+  "slide": 11,
+  "audio": "11.mp3",
+  "cut": "long_15min_v3",
+  "duration": 2.265,
+  "engine": "elevenlabs-forced-alignment",
+  "loss": 0.1212,
+  "language": "en",
+  "generatedAt": "2026-06-23T15:45:03",
+  "text": "Okay so how does it actually work?",
+  "words": [
+    {
+      "w": "Okay",
+      "start": 0.119,
+      "end": 0.639
+    },
+    {
+      "w": "so",
+      "start": 0.659,
+      "end": 0.979
+    },
+    {
+      "w": "how",
+      "start": 1.019,
+      "end": 1.12
+    },
+    {
+      "w": "does",
+      "start": 1.139,
+      "end": 1.24
+    },
+    {
+      "w": "it",
+      "start": 1.279,
+      "end": 1.36
+    },
+    {
+      "w": "actually",
+      "start": 1.419,
+      "end": 1.839
+    },
+    {
+      "w": "work?",
+      "start": 1.879,
+      "end": 2.159
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Okay so how does it actually work?",
+      "start": 0.119,
+      "end": 2.159
+    }
+  ]
+}

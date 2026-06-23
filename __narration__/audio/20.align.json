@@ -1,0 +1,566 @@
+{
+  "schema": "spatialtimber.align/1",
+  "slide": 20,
+  "audio": "20.mp3",
+  "cut": "long_15min_v3",
+  "duration": 44.516,
+  "engine": "elevenlabs-forced-alignment",
+  "loss": 0.0956,
+  "language": "en",
+  "generatedAt": "2026-06-23T15:45:11",
+  "text": "Take the first of those evaluators furnishability. There's this old, very practical way architects check whether a room actually works: can it hold the furniture it's meant to? Every type of flat, and every room, has a required set and housing associations actually publish catalogues for exactly this. The Berlin association HoWoGe has one. Normally somebody checks it by hand, room by room. Iuliia turned that into an algorithm: for each piece of furniture, can it fit given the walls, the doors, the clearances and in how many ways? And that rolls up into a single score for the room, worked out automatically.",
+  "words": [
+    {
+      "w": "Take",
+      "start": 0.079,
+      "end": 0.259
+    },
+    {
+      "w": "the",
+      "start": 0.299,
+      "end": 0.399
+    },
+    {
+      "w": "first",
+      "start": 0.459,
+      "end": 0.719
+    },
+    {
+      "w": "of",
+      "start": 0.759,
+      "end": 0.839
+    },
+    {
+      "w": "those",
+      "start": 0.879,
+      "end": 1.019
+    },
+    {
+      "w": "evaluators",
+      "start": 1.1,
+      "end": 1.799
+    },
+    {
+      "w": "furnishability.",
+      "start": 2.119,
+      "end": 3.0
+    },
+    {
+      "w": "There's",
+      "start": 5.559,
+      "end": 5.739
+    },
+    {
+      "w": "this",
+      "start": 5.799,
+      "end": 5.98
+    },
+    {
+      "w": "old,",
+      "start": 6.079,
+      "end": 6.279
+    },
+    {
+      "w": "very",
+      "start": 6.399,
+      "end": 6.619
+    },
+    {
+      "w": "practical",
+      "start": 6.679,
+      "end": 7.199
+    },
+    {
+      "w": "way",
+      "start": 7.259,
+      "end": 7.519
+    },
+    {
+      "w": "architects",
+      "start": 8.099,
+      "end": 8.559
+    },
+    {
+      "w": "check",
+      "start": 8.679,
+      "end": 8.92
+    },
+    {
+      "w": "whether",
+      "start": 8.96,
+      "end": 9.159
+    },
+    {
+      "w": "a",
+      "start": 9.239,
+      "end": 9.26
+    },
+    {
+      "w": "room",
+      "start": 9.359,
+      "end": 9.599
+    },
+    {
+      "w": "actually",
+      "start": 9.699,
+      "end": 10.039
+    },
+    {
+      "w": "works:",
+      "start": 10.139,
+      "end": 10.559
+    },
+    {
+      "w": "can",
+      "start": 10.96,
+      "end": 11.059
+    },
+    {
+      "w": "it",
+      "start": 11.079,
+      "end": 11.199
+    },
+    {
+      "w": "hold",
+      "start": 11.239,
+      "end": 11.399
+    },
+    {
+      "w": "the",
+      "start": 11.439,
+      "end": 11.539
+    },
+    {
+      "w": "furniture",
+      "start": 11.599,
+      "end": 11.939
+    },
+    {
+      "w": "it's",
+      "start": 11.979,
+      "end": 12.119
+    },
+    {
+      "w": "meant",
+      "start": 12.159,
+      "end": 12.319
+    },
+    {
+      "w": "to?",
+      "start": 12.38,
+      "end": 12.599
+    },
+    {
+      "w": "Every",
+      "start": 13.38,
+      "end": 13.579
+    },
+    {
+      "w": "type",
+      "start": 13.639,
+      "end": 13.799
+    },
+    {
+      "w": "of",
+      "start": 13.84,
+      "end": 13.939
+    },
+    {
+      "w": "flat,",
+      "start": 14.039,
+      "end": 14.439
+    },
+    {
+      "w": "and",
+      "start": 14.479,
+      "end": 14.559
+    },
+    {
+      "w": "every",
+      "start": 14.639,
+      "end": 14.779
+    },
+    {
+      "w": "room,",
+      "start": 14.92,
+      "end": 15.219
+    },
+    {
+      "w": "has",
+      "start": 15.5,
+      "end": 15.599
+    },
+    {
+      "w": "a",
+      "start": 15.659,
+      "end": 15.68
+    },
+    {
+      "w": "required",
+      "start": 15.739,
+      "end": 16.219
+    },
+    {
+      "w": "set",
+      "start": 16.359,
+      "end": 16.559
+    },
+    {
+      "w": "and",
+      "start": 17.119,
+      "end": 17.219
+    },
+    {
+      "w": "housing",
+      "start": 17.279,
+      "end": 17.579
+    },
+    {
+      "w": "associations",
+      "start": 17.639,
+      "end": 18.42
+    },
+    {
+      "w": "actually",
+      "start": 18.539,
+      "end": 18.799
+    },
+    {
+      "w": "publish",
+      "start": 18.939,
+      "end": 19.279
+    },
+    {
+      "w": "catalogues",
+      "start": 19.34,
+      "end": 19.859
+    },
+    {
+      "w": "for",
+      "start": 19.92,
+      "end": 20.0
+    },
+    {
+      "w": "exactly",
+      "start": 20.079,
+      "end": 20.539
+    },
+    {
+      "w": "this.",
+      "start": 20.6,
+      "end": 20.979
+    },
+    {
+      "w": "The",
+      "start": 21.68,
+      "end": 21.739
+    },
+    {
+      "w": "Berlin",
+      "start": 21.799,
+      "end": 22.059
+    },
+    {
+      "w": "association",
+      "start": 22.159,
+      "end": 22.799
+    },
+    {
+      "w": "HoWoGe",
+      "start": 22.859,
+      "end": 23.359
+    },
+    {
+      "w": "has",
+      "start": 23.399,
+      "end": 23.579
+    },
+    {
+      "w": "one.",
+      "start": 23.699,
+      "end": 23.879
+    },
+    {
+      "w": "Normally",
+      "start": 26.139,
+      "end": 26.539
+    },
+    {
+      "w": "somebody",
+      "start": 26.599,
+      "end": 26.92
+    },
+    {
+      "w": "checks",
+      "start": 26.979,
+      "end": 27.199
+    },
+    {
+      "w": "it",
+      "start": 27.26,
+      "end": 27.359
+    },
+    {
+      "w": "by",
+      "start": 27.42,
+      "end": 27.539
+    },
+    {
+      "w": "hand,",
+      "start": 27.599,
+      "end": 27.959
+    },
+    {
+      "w": "room",
+      "start": 28.199,
+      "end": 28.34
+    },
+    {
+      "w": "by",
+      "start": 28.399,
+      "end": 28.5
+    },
+    {
+      "w": "room.",
+      "start": 28.619,
+      "end": 28.92
+    },
+    {
+      "w": "Iuliia",
+      "start": 29.579,
+      "end": 29.879
+    },
+    {
+      "w": "turned",
+      "start": 29.959,
+      "end": 30.159
+    },
+    {
+      "w": "that",
+      "start": 30.199,
+      "end": 30.34
+    },
+    {
+      "w": "into",
+      "start": 30.379,
+      "end": 30.559
+    },
+    {
+      "w": "an",
+      "start": 30.599,
+      "end": 30.659
+    },
+    {
+      "w": "algorithm:",
+      "start": 30.739,
+      "end": 31.299
+    },
+    {
+      "w": "for",
+      "start": 31.819,
+      "end": 31.92
+    },
+    {
+      "w": "each",
+      "start": 31.979,
+      "end": 32.099
+    },
+    {
+      "w": "piece",
+      "start": 32.18,
+      "end": 32.36
+    },
+    {
+      "w": "of",
+      "start": 32.38,
+      "end": 32.459
+    },
+    {
+      "w": "furniture,",
+      "start": 32.52,
+      "end": 32.959
+    },
+    {
+      "w": "can",
+      "start": 33.2,
+      "end": 33.299
+    },
+    {
+      "w": "it",
+      "start": 33.319,
+      "end": 33.479
+    },
+    {
+      "w": "fit",
+      "start": 33.54,
+      "end": 34.239
+    },
+    {
+      "w": "given",
+      "start": 34.319,
+      "end": 34.5
+    },
+    {
+      "w": "the",
+      "start": 34.54,
+      "end": 34.619
+    },
+    {
+      "w": "walls,",
+      "start": 34.7,
+      "end": 35.18
+    },
+    {
+      "w": "the",
+      "start": 35.36,
+      "end": 35.439
+    },
+    {
+      "w": "doors,",
+      "start": 35.5,
+      "end": 35.979
+    },
+    {
+      "w": "the",
+      "start": 36.159,
+      "end": 36.259
+    },
+    {
+      "w": "clearances",
+      "start": 36.319,
+      "end": 36.979
+    },
+    {
+      "w": "and",
+      "start": 37.52,
+      "end": 37.579
+    },
+    {
+      "w": "in",
+      "start": 37.619,
+      "end": 37.68
+    },
+    {
+      "w": "how",
+      "start": 37.739,
+      "end": 37.84
+    },
+    {
+      "w": "many",
+      "start": 37.879,
+      "end": 38.059
+    },
+    {
+      "w": "ways?",
+      "start": 38.119,
+      "end": 38.54
+    },
+    {
+      "w": "And",
+      "start": 40.659,
+      "end": 40.759
+    },
+    {
+      "w": "that",
+      "start": 40.819,
+      "end": 40.959
+    },
+    {
+      "w": "rolls",
+      "start": 41.02,
+      "end": 41.219
+    },
+    {
+      "w": "up",
+      "start": 41.299,
+      "end": 41.399
+    },
+    {
+      "w": "into",
+      "start": 41.439,
+      "end": 41.639
+    },
+    {
+      "w": "a",
+      "start": 41.7,
+      "end": 41.779
+    },
+    {
+      "w": "single",
+      "start": 41.84,
+      "end": 42.04
+    },
+    {
+      "w": "score",
+      "start": 42.159,
+      "end": 42.419
+    },
+    {
+      "w": "for",
+      "start": 42.459,
+      "end": 42.54
+    },
+    {
+      "w": "the",
+      "start": 42.579,
+      "end": 42.639
+    },
+    {
+      "w": "room,",
+      "start": 42.739,
+      "end": 42.979
+    },
+    {
+      "w": "worked",
+      "start": 43.439,
+      "end": 43.619
+    },
+    {
+      "w": "out",
+      "start": 43.68,
+      "end": 43.779
+    },
+    {
+      "w": "automatically.",
+      "start": 43.84,
+      "end": 44.439
+    }
+  ],
+  "sentences": [
+    {
+      "text": "Take the first of those evaluators furnishability.",
+      "start": 0.079,
+      "end": 3.0
+    },
+    {
+      "text": "There's this old, very practical way architects check whether a room actually works: can it hold the furniture it's meant to?",
+      "start": 5.559,
+      "end": 12.599
+    },
+    {
+      "text": "Every type of flat, and every room, has a required set and housing associations actually publish catalogues for exactly this.",
+      "start": 13.38,
+      "end": 20.979
+    },
+    {
+      "text": "The Berlin association HoWoGe has one.",
+      "start": 21.68,
+      "end": 23.879
+    },
+    {
+      "text": "Normally somebody checks it by hand, room by room.",
+      "start": 26.139,
+      "end": 28.92
+    },
+    {
+      "text": "Iuliia turned that into an algorithm: for each piece of furniture, can it fit given the walls, the doors, the clearances and in how many ways?",
+      "start": 29.579,
+      "end": 38.54
+    },
+    {
+      "text": "And that rolls up into a single score for the room, worked out automatically.",
+      "start": 40.659,
+      "end": 44.439
+    }
+  ]
+}

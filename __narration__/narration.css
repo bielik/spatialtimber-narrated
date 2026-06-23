@@ -1,0 +1,174 @@
+/* SpatialTimber narrated presentation — overlay chrome.
+ *
+ * .deck-modetoggle mirrors the deck's own .deck-navtoggle (deck-controls.js) exactly:
+ * same size/shape, idle-fade, tooltip and print-hide. It is stacked directly ABOVE the
+ * navigator toggle (bottom:62px vs 14px) so the bottom-left cluster stays tidy.
+ *
+ * .st-narr-overlay is the start screen: pick "narrated" (auto-playing voiceover) or
+ * "explore on your own" (the deck exactly as it is today). Styled to the deck palette
+ * (ink #141413, parchment #f5f3ee, accent #D97757).
+ */
+
+/* ── mode toggle (mirrors .deck-navtoggle) ─────────────────────────────── */
+.deck-modetoggle{
+  position:fixed;left:14px;bottom:62px;z-index:2147483600;
+  width:40px;height:40px;display:flex;align-items:center;justify-content:center;
+  border-radius:10px;border:1px solid rgba(255,255,255,.16);background:rgba(20,20,19,.72);
+  color:#f5f3ee;cursor:pointer;padding:0;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);
+  box-shadow:0 2px 10px rgba(0,0,0,.28);
+  transition:opacity .35s ease,background .15s ease,border-color .15s ease,transform .1s ease;
+}
+.deck-modetoggle:hover{background:rgba(42,42,40,.94);border-color:rgba(255,255,255,.32);}
+.deck-modetoggle:active{transform:scale(.93);}
+.deck-modetoggle:focus-visible{outline:2px solid #D97757;outline-offset:2px;}
+.deck-modetoggle svg{width:20px;height:20px;display:block;}
+.deck-modetoggle .wave{transition:opacity .2s ease;}
+/* narrated = waves lit; manual (muted) = waves dimmed + the mute slash shown */
+.deck-modetoggle[data-narrated="false"] .wave{opacity:.28;}
+.deck-modetoggle .slash{opacity:0;transition:opacity .2s ease;}
+.deck-modetoggle[data-narrated="false"] .slash{opacity:.9;}
+.deck-modetoggle[data-idle="true"]{opacity:0;pointer-events:none;}
+.deck-modetoggle[data-idle="false"]{opacity:.9;}
+.deck-modetoggle::after{
+  content:attr(data-tip);position:absolute;left:48px;bottom:50%;
+  transform:translateY(50%);white-space:nowrap;font:500 12px/1 ui-sans-serif,system-ui,sans-serif;
+  letter-spacing:.02em;color:#f5f3ee;background:rgba(20,20,19,.94);padding:6px 9px;border-radius:7px;
+  opacity:0;transition:opacity .15s ease;pointer-events:none;
+}
+.deck-modetoggle:hover::after{opacity:1;}
+@media print{.deck-modetoggle{display:none!important;}}
+
+/* ── start overlay (Claude-design "SpatialTimber Intro") ──────────────────
+ * Ported from the claude.ai/design project file "SpatialTimber Intro.html".
+ * EVERY selector is scoped under .st-narr-overlay so the design's otherwise-generic
+ * rules (h1, h2, p, .opt, .icon, .key, .wrap …) and CSS vars can never leak onto the
+ * live deck this overlay is injected over. The 1920×1080 .st-narr-canvas is scaled to
+ * the viewport by narration.js (fit()), mirroring the deck's own stage geometry.
+ */
+.st-narr-overlay{
+  --paper:#FAF9F5; --accent:#D97757; --accent-soft:#E89A7E; --mute:#9d998f; --mute-2:#6f6c63;
+  --sans:"Söhne","Inter",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"JetBrains Mono","IBM Plex Mono",ui-monospace,Menlo,monospace;
+  position:fixed;inset:0;z-index:2147483640;overflow:hidden;
+  display:flex;align-items:center;justify-content:center;
+  background:#141413 radial-gradient(1700px 1100px at 50% -6%,rgba(217,119,87,0.11),rgba(217,119,87,0.04) 38%,transparent 72%) no-repeat;
+  color:var(--paper);font-family:var(--sans);-webkit-font-smoothing:antialiased;
+  opacity:1;transition:opacity .45s ease;
+}
+.st-narr-overlay[data-hidden="true"]{opacity:0;pointer-events:none;}
+.st-narr-overlay *{box-sizing:border-box;}
+
+.st-narr-overlay .st-narr-canvas{
+  width:1920px;height:1080px;position:relative;transform-origin:center center;overflow:hidden;
+}
+/* faint architectural grid, barely there */
+.st-narr-overlay .st-narr-canvas::after{
+  content:"";position:absolute;inset:0;pointer-events:none;opacity:0.5;
+  background:
+    linear-gradient(rgba(255,255,255,0.018) 1px,transparent 1px) 0 0/100% 96px,
+    linear-gradient(90deg,rgba(255,255,255,0.018) 1px,transparent 1px) 0 0/96px 100%;
+  -webkit-mask-image:radial-gradient(circle at 50% 42%,#000 30%,transparent 78%);
+          mask-image:radial-gradient(circle at 50% 42%,#000 30%,transparent 78%);
+}
+
+.st-narr-overlay .wrap{position:absolute;inset:0;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;padding:96px 130px;z-index:2;}
+
+/* ---- identity ---- */
+.st-narr-overlay .identity{display:flex;align-items:center;gap:22px;margin-bottom:8px;}
+.st-narr-overlay .mark{width:62px;height:62px;}
+.st-narr-overlay .mark svg{width:100%;height:100%;display:block;overflow:visible;}
+.st-narr-overlay .wordmark{font-size:30px;letter-spacing:-0.01em;line-height:1;}
+.st-narr-overlay .wordmark .s-spatial{font-weight:700;}
+.st-narr-overlay .wordmark .s-timber{font-weight:500;color:#E7E3D9;}
+
+.st-narr-overlay .eyebrow{font-family:var(--mono);font-size:16px;letter-spacing:0.34em;
+  text-transform:uppercase;color:var(--accent);margin:46px 0 26px;font-weight:500;}
+
+.st-narr-overlay h1{font-size:74px;line-height:1.04;margin:0;font-weight:500;
+  letter-spacing:-0.025em;text-align:center;max-width:1080px;text-wrap:balance;color:#FCFBF8;}
+.st-narr-overlay h1 .soft{color:#cdc9bf;}
+
+/* ---- cards ---- */
+.st-narr-overlay .options{display:grid;grid-template-columns:1fr 1fr;gap:34px;
+  margin-top:74px;width:100%;max-width:1180px;}
+.st-narr-overlay .opt{
+  appearance:none;font-family:inherit;
+  position:relative;display:flex;flex-direction:column;text-align:left;
+  border-radius:24px;padding:46px 46px 40px;cursor:pointer;text-decoration:none;color:inherit;
+  border:1px solid rgba(236,232,216,0.14);
+  background:linear-gradient(180deg,rgba(236,232,216,0.045),rgba(236,232,216,0.015));
+  transition:transform .42s cubic-bezier(.2,.8,.25,1),border-color .3s ease,background .3s ease,box-shadow .42s ease;
+  min-height:330px;
+}
+.st-narr-overlay .opt:hover,.st-narr-overlay .opt:focus-visible{
+  transform:translateY(-8px);border-color:rgba(236,232,216,0.32);
+  background:linear-gradient(180deg,rgba(236,232,216,0.075),rgba(236,232,216,0.025));
+  box-shadow:0 26px 60px -28px rgba(0,0,0,0.7);outline:none;
+}
+.st-narr-overlay .opt.primary{
+  border-color:rgba(217,119,87,0.55);
+  background:linear-gradient(180deg,rgba(217,119,87,0.14),rgba(217,119,87,0.04));
+}
+.st-narr-overlay .opt.primary:hover,.st-narr-overlay .opt.primary:focus-visible{
+  border-color:var(--accent);
+  background:linear-gradient(180deg,rgba(217,119,87,0.2),rgba(217,119,87,0.06));
+  box-shadow:0 30px 70px -28px rgba(217,119,87,0.45);
+}
+.st-narr-overlay .opt-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:30px;}
+.st-narr-overlay .icon{width:58px;height:58px;border-radius:14px;display:flex;
+  align-items:center;justify-content:center;
+  background:rgba(236,232,216,0.07);border:1px solid rgba(236,232,216,0.12);}
+.st-narr-overlay .icon svg{width:28px;height:28px;}
+.st-narr-overlay .opt.primary .icon{background:rgba(217,119,87,0.16);border-color:rgba(217,119,87,0.4);}
+
+.st-narr-overlay .key{font-family:var(--mono);font-size:13px;letter-spacing:0.06em;
+  color:var(--mute);display:flex;align-items:center;gap:9px;}
+.st-narr-overlay .key kbd{font-family:var(--mono);font-size:14px;line-height:1;color:#E7E3D9;
+  border:1px solid rgba(236,232,216,0.22);border-bottom-width:2px;border-radius:7px;
+  padding:7px 11px;background:rgba(236,232,216,0.04);}
+
+.st-narr-overlay .opt h2{font-size:34px;line-height:1.1;margin:0 0 16px;font-weight:600;
+  letter-spacing:-0.015em;color:#FCFBF8;}
+.st-narr-overlay .opt p{font-size:20px;line-height:1.5;margin:0;color:#b7b3a9;max-width:430px;}
+
+.st-narr-overlay .opt-cta{margin-top:auto;padding-top:30px;display:flex;align-items:center;gap:12px;
+  font-family:var(--mono);font-size:14px;letter-spacing:0.12em;text-transform:uppercase;
+  color:var(--mute);transition:color .3s ease;}
+.st-narr-overlay .opt.primary .opt-cta{color:var(--accent-soft);}
+.st-narr-overlay .opt:hover .opt-cta,.st-narr-overlay .opt:focus-visible .opt-cta{color:#FCFBF8;}
+.st-narr-overlay .opt.primary:hover .opt-cta{color:var(--accent);}
+.st-narr-overlay .opt-cta .arrow{transition:transform .42s cubic-bezier(.2,.8,.25,1);}
+.st-narr-overlay .opt:hover .opt-cta .arrow{transform:translateX(7px);}
+
+/* ---- footer hint + meta ---- */
+.st-narr-overlay .hint{margin-top:56px;font-size:18px;color:var(--mute);text-align:center;letter-spacing:0.01em;}
+.st-narr-overlay .hint kbd{font-family:var(--mono);font-size:14px;color:#E7E3D9;
+  border:1px solid rgba(236,232,216,0.2);border-radius:6px;padding:3px 8px;margin:0 2px;}
+.st-narr-overlay .meta{position:absolute;left:130px;right:130px;bottom:54px;display:flex;
+  justify-content:space-between;align-items:baseline;font-family:var(--mono);font-size:14px;
+  letter-spacing:0.16em;text-transform:uppercase;color:var(--mute-2);z-index:2;}
+
+/* ---- entrance ---- */
+.st-narr-overlay .anim{opacity:0;transform:translateY(18px);}
+.st-narr-overlay .play .anim{animation:st-narr-rise .7s cubic-bezier(.2,.8,.25,1) both;}
+.st-narr-overlay .play .a1{animation-delay:.10s;}
+.st-narr-overlay .play .a2{animation-delay:.24s;}
+.st-narr-overlay .play .a3{animation-delay:.40s;}
+.st-narr-overlay .play .a4{animation-delay:.56s;}
+.st-narr-overlay .play .a5{animation-delay:.70s;}
+.st-narr-overlay .play .a6{animation-delay:.86s;}
+@keyframes st-narr-rise{from{opacity:0;transform:translateY(18px);}to{opacity:1;transform:translateY(0);}}
+
+.st-narr-overlay .play .slab{animation:st-narr-slabIn .58s cubic-bezier(.2,.85,.25,1) both;}
+.st-narr-overlay .play .slab-0{animation-delay:.05s;}
+.st-narr-overlay .play .slab-1{animation-delay:.18s;}
+.st-narr-overlay .play .slab-2{animation:st-narr-slabIn .58s cubic-bezier(.2,.85,.25,1) .32s both,st-narr-float 3s ease-in-out 1.4s infinite;}
+@keyframes st-narr-slabIn{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
+@keyframes st-narr-float{0%,100%{transform:translateY(0);}50%{transform:translateY(-3px);}}
+
+@media (prefers-reduced-motion: reduce){
+  .st-narr-overlay .anim{opacity:1;transform:none;animation:none!important;}
+  .st-narr-overlay .slab{animation:none!important;opacity:1!important;}
+}
+@media print{.st-narr-overlay{display:none!important;}}
